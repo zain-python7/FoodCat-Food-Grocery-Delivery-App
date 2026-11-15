@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844">
+  
+  <defs>
+    <style>
+      .font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .bold { font-weight: 700; }
+      .semibold { font-weight: 600; }
+      .medium { font-weight: 500; }
+      .regular { font-weight: 400; }
+    </style>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="navShadow" x="-10%" y="-20%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="-2" stdDeviation="6" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E21B70"/>
+      <stop offset="100%" stop-color="#FF4791"/>
+    </linearGradient>
+    <linearGradient id="darkCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E3138"/>
+      <stop offset="100%" stop-color="#1A1C20"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="390" height="844" fill="#F7F7F7"/>
+  <rect x="0" y="0" width="390" height="92" fill="#FFFFFF"/>
+  
+  <g id="status-bar">
+    <text x="24" y="28" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">10:16</text>
+    <!-- Signal, Wifi, Battery -->
+    <rect x="315" y="18" width="3" height="10" rx="1" fill="#1A1C20"/>
+    <rect x="320" y="16" width="3" height="12" rx="1" fill="#1A1C20"/>
+    <rect x="325" y="14" width="3" height="14" rx="1" fill="#1A1C20"/>
+    <rect x="330" y="12" width="3" height="16" rx="1" fill="#1A1C20" opacity="0.35"/>
+    <rect x="342" y="16" width="22" height="11" rx="2.5" fill="none" stroke="#1A1C20" stroke-width="1.4"/>
+    <rect x="344" y="18" width="16" height="7" rx="1" fill="#1A1C20"/>
+    <rect x="365" y="19" width="2" height="5" rx="1" fill="#1A1C20"/>
+  </g>
+
+
+  <!-- Top Bar -->
+  <g transform="translate(16, 52)">
+    <text x="0" y="18" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="18" fill="#E21B70">✕</text>
+    <text x="32" y="18" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="17" fill="#1A1C20">Cart</text>
+    <text x="32" y="33" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="11" fill="#70757A">Meow Burgers &amp; Fries</text>
+  </g>
+
+  <!-- Stepper Progress -->
+  <g transform="translate(16, 106)">
+    <rect x="0" y="0" width="358" height="46" rx="10" fill="#FFFFFF"/>
+    <circle cx="34" cy="23" r="10" fill="#E21B70"/>
+    <text x="34" y="27" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#FFFFFF">✓</text>
+    <line x1="48" y1="23" x2="165" y2="23" stroke="#E21B70" stroke-width="2.5"/>
+    <circle cx="179" cy="23" r="10" fill="#E21B70"/>
+    <text x="179" y="27" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#FFFFFF">2</text>
+    <line x1="193" y1="23" x2="310" y2="23" stroke="#E0E0E0" stroke-width="2.5"/>
+    <circle cx="324" cy="23" r="10" fill="#E0E0E0"/>
+    <text x="324" y="27" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#70757A">3</text>
+  </g>
+
+  <!-- Delivery Estimate Card -->
+  <g transform="translate(16, 164)">
+    <rect x="0" y="0" width="358" height="72" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <g transform="translate(36, 36) scale(0.95)">
+      
+  <g id="foodcat-mascot">
+    <circle cx="0" cy="0" r="24" fill="#FFFFFF" stroke="#E21B70" stroke-width="2"/>
+    <!-- Ears -->
+    <polygon points="-14,-8 -16,-20 -5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="14,-8 16,-20 5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="1" rx="16" ry="13" fill="#FAD2E1" stroke="#2E3138" stroke-width="1.5"/>
+    <ellipse cx="0" cy="5" rx="11" ry="8" fill="#FFFFFF"/>
+    <!-- Cap -->
+    <path d="M-8,-11 C-8,-17 8,-17 8,-11 Z" fill="#2E3138"/>
+    <rect x="-10" y="-12" width="20" height="3" rx="1.5" fill="#E21B70"/>
+    <!-- Eyes -->
+    <circle cx="-6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="-6.8" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <circle cx="6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="5.2" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <!-- Nose & Smile -->
+    <polygon points="-2,3 2,3 0,5.5" fill="#E21B70"/>
+    <path d="M-4,6.5 Q-2,9 0,6.5 Q2,9 4,6.5" fill="none" stroke="#2E3138" stroke-width="1.4" stroke-linecap="round"/>
+    <!-- Cheeks -->
+    <ellipse cx="-10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+    <ellipse cx="10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+  </g>
+
+    </g>
+    <text x="74" y="30" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">Estimated delivery</text>
+    <text x="74" y="50" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#1A1C20">Standard (20 – 30 mins)</text>
+  </g>
+
+  <!-- Order Items Card -->
+  <g transform="translate(16, 248)">
+    <rect x="0" y="0" width="358" height="176" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <!-- Item 1 -->
+    <g transform="translate(14, 18)">
+      <rect x="0" y="0" width="28" height="28" rx="6" fill="#FFF0F6" stroke="#E21B70"/>
+      <text x="14" y="19" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#E21B70">2x</text>
+      <text x="40" y="14" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">Double Whisker Smash Burger</text>
+      <text x="40" y="31" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="11" fill="#70757A">+ Extra Cheddar Slice</text>
+      <text x="330" y="16" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">Rs. 2,020</text>
+    </g>
+
+    <line x1="14" y1="68" x2="344" y2="68" stroke="#EFEFEF" stroke-width="1"/>
+
+    <!-- Add More Items -->
+    <text x="14" y="94" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#E21B70">+ Add more items</text>
+
+    <line x1="14" y1="112" x2="344" y2="112" stroke="#EFEFEF" stroke-width="1"/>
+
+    <!-- Voucher Row -->
+    <g transform="translate(14, 128)">
+      <rect x="0" y="0" width="24" height="24" rx="6" fill="#FFF0F6"/>
+      <text x="12" y="16" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#E21B70">%</text>
+      <text x="34" y="17" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#E21B70">Apply a voucher</text>
+      <text x="330" y="17" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="12" fill="#70757A">FOODCAT50 ›</text>
+    </g>
+  </g>
+
+  <!-- Price Breakdown -->
+  <g transform="translate(16, 436)">
+    <rect x="0" y="0" width="358" height="148" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="14" y="28" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="13" fill="#70757A">Subtotal</text>
+    <text x="344" y="28" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="13" fill="#1A1C20">Rs. 2,020</text>
+
+    <text x="14" y="54" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="13" fill="#70757A">Standard delivery</text>
+    <text x="344" y="54" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="13" fill="#1A1C20">Rs. 99</text>
+
+    <text x="14" y="80" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="13" fill="#70757A">Platform fee</text>
+    <text x="344" y="80" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="13" fill="#1A1C20">Rs. 15</text>
+
+    <text x="14" y="106" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="13" fill="#E21B70">Voucher (FOODCAT50)</text>
+    <text x="344" y="106" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#E21B70">- Rs. 300</text>
+
+    <line x1="14" y1="120" x2="344" y2="120" stroke="#EFEFEF" stroke-width="1"/>
+    <text x="14" y="138" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">Total (incl. GST)</text>
+    <text x="344" y="138" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" fill="#1A1C20">Rs. 1,834</text>
+  </g>
+
+  <!-- Sticky Bottom Place Order -->
+  <g transform="translate(0, 742)" filter="url(#navShadow)">
+    <rect x="0" y="0" width="390" height="102" fill="#FFFFFF"/>
+    <text x="16" y="24" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" fill="#1A1C20">Total <tspan font-weight="400" font-size="11" fill="#70757A">(incl. VAT)</tspan></text>
+    <text x="374" y="24" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#1A1C20">Rs. 1,834</text>
+    <rect x="16" y="38" width="358" height="48" rx="10" fill="#E21B70"/>
+    <text x="195" y="67" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" fill="#FFFFFF">Review payment and address</text>
+  </g>
+</svg>

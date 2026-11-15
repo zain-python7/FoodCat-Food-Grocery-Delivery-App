@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844">
+  
+  <defs>
+    <style>
+      .font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .bold { font-weight: 700; }
+      .semibold { font-weight: 600; }
+      .medium { font-weight: 500; }
+      .regular { font-weight: 400; }
+    </style>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="navShadow" x="-10%" y="-20%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="-2" stdDeviation="6" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E21B70"/>
+      <stop offset="100%" stop-color="#FF4791"/>
+    </linearGradient>
+    <linearGradient id="darkCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E3138"/>
+      <stop offset="100%" stop-color="#1A1C20"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="390" height="844" fill="#FFF0F6"/>
+
+  <!-- Live Map Background -->
+  <path d="M-20,160 Q140,120 220,230 T410,300" fill="none" stroke="#FFFFFF" stroke-width="22"/>
+  <path d="M80,0 L160,520" fill="none" stroke="#FFFFFF" stroke-width="18"/>
+  <path d="M310,0 L230,520" fill="none" stroke="#FFFFFF" stroke-width="16"/>
+
+  <!-- Delivery Route Path -->
+  <path d="M115,185 C150,240 225,255 268,345" fill="none" stroke="#E21B70" stroke-width="5" stroke-dasharray="8,6" stroke-linecap="round"/>
+
+  <!-- Restaurant Pin -->
+  <g transform="translate(115, 185)">
+    <circle cx="0" cy="0" r="16" fill="#2E3138"/>
+    <circle cx="0" cy="0" r="6" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Rider Pin with Foodcat -->
+  <g transform="translate(198, 255)">
+    <circle cx="0" cy="0" r="30" fill="#E21B70" opacity="0.18"/>
+    <g transform="scale(0.95)">
+      
+  <g id="foodcat-mascot">
+    <circle cx="0" cy="0" r="24" fill="#FFFFFF" stroke="#E21B70" stroke-width="2"/>
+    <!-- Ears -->
+    <polygon points="-14,-8 -16,-20 -5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="14,-8 16,-20 5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="1" rx="16" ry="13" fill="#FAD2E1" stroke="#2E3138" stroke-width="1.5"/>
+    <ellipse cx="0" cy="5" rx="11" ry="8" fill="#FFFFFF"/>
+    <!-- Cap -->
+    <path d="M-8,-11 C-8,-17 8,-17 8,-11 Z" fill="#2E3138"/>
+    <rect x="-10" y="-12" width="20" height="3" rx="1.5" fill="#E21B70"/>
+    <!-- Eyes -->
+    <circle cx="-6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="-6.8" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <circle cx="6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="5.2" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <!-- Nose & Smile -->
+    <polygon points="-2,3 2,3 0,5.5" fill="#E21B70"/>
+    <path d="M-4,6.5 Q-2,9 0,6.5 Q2,9 4,6.5" fill="none" stroke="#2E3138" stroke-width="1.4" stroke-linecap="round"/>
+    <!-- Cheeks -->
+    <ellipse cx="-10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+    <ellipse cx="10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+  </g>
+
+    </g>
+  </g>
+
+  <!-- Home Destination Pin -->
+  <g transform="translate(268, 345)">
+    <circle cx="0" cy="0" r="18" fill="#E21B70"/>
+    <polygon points="0,-7 -7,0 -4,0 -4,6 4,6 4,0 7,0" fill="#FFFFFF"/>
+  </g>
+
+  
+  <g id="status-bar">
+    <text x="24" y="28" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">10:16</text>
+    <!-- Signal, Wifi, Battery -->
+    <rect x="315" y="18" width="3" height="10" rx="1" fill="#1A1C20"/>
+    <rect x="320" y="16" width="3" height="12" rx="1" fill="#1A1C20"/>
+    <rect x="325" y="14" width="3" height="14" rx="1" fill="#1A1C20"/>
+    <rect x="330" y="12" width="3" height="16" rx="1" fill="#1A1C20" opacity="0.35"/>
+    <rect x="342" y="16" width="22" height="11" rx="2.5" fill="none" stroke="#1A1C20" stroke-width="1.4"/>
+    <rect x="344" y="18" width="16" height="7" rx="1" fill="#1A1C20"/>
+    <rect x="365" y="19" width="2" height="5" rx="1" fill="#1A1C20"/>
+  </g>
+
+
+  <!-- Top Floating Controls -->
+  <g transform="translate(16, 48)">
+    <circle cx="18" cy="18" r="18" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="18" y="23" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">✕</text>
+
+    <rect x="282" y="2" width="76" height="32" rx="16" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="320" y="22" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#E21B70">Help</text>
+  </g>
+
+  <!-- Bottom Tracking Card -->
+  <path d="M0,450 Q0,428 22,428 L368,428 Q390,428 390,450 L390,844 L0,844 Z" fill="#FFFFFF" filter="url(#navShadow)"/>
+  <rect x="175" y="438" width="40" height="4" rx="2" fill="#E0E0E0"/>
+
+  <g transform="translate(20, 462)">
+    <text x="0" y="14" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">Estimated arrival</text>
+    <text x="0" y="44" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="30" fill="#1A1C20">10:34 AM</text>
+    <rect x="258" y="16" width="92" height="28" rx="14" fill="#FFF0F6"/>
+    <text x="304" y="34" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#E21B70">12 mins left</text>
+
+    <!-- 4-Step Progress Bar -->
+    <g transform="translate(0, 64)">
+      <rect x="0" y="0" width="82" height="5" rx="2.5" fill="#E21B70"/>
+      <rect x="90" y="0" width="82" height="5" rx="2.5" fill="#E21B70"/>
+      <rect x="180" y="0" width="82" height="5" rx="2.5" fill="#E21B70"/>
+      <rect x="270" y="0" width="80" height="5" rx="2.5" fill="#EFEFEF"/>
+    </g>
+
+    <text x="0" y="96" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" fill="#1A1C20">Your rider is on the way!</text>
+    <text x="0" y="116" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">Zack has picked up your order from Meow Burgers.</text>
+
+    <line x1="0" y1="136" x2="350" y2="136" stroke="#EFEFEF" stroke-width="1"/>
+
+    <!-- Rider Profile Row -->
+    <g transform="translate(0, 154)">
+      <g transform="translate(24, 24)">
+        
+  <g id="foodcat-mascot">
+    <circle cx="0" cy="0" r="24" fill="#FFFFFF" stroke="#E21B70" stroke-width="2"/>
+    <!-- Ears -->
+    <polygon points="-14,-8 -16,-20 -5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="14,-8 16,-20 5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="1" rx="16" ry="13" fill="#FAD2E1" stroke="#2E3138" stroke-width="1.5"/>
+    <ellipse cx="0" cy="5" rx="11" ry="8" fill="#FFFFFF"/>
+    <!-- Cap -->
+    <path d="M-8,-11 C-8,-17 8,-17 8,-11 Z" fill="#2E3138"/>
+    <rect x="-10" y="-12" width="20" height="3" rx="1.5" fill="#E21B70"/>
+    <!-- Eyes -->
+    <circle cx="-6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="-6.8" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <circle cx="6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="5.2" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <!-- Nose & Smile -->
+    <polygon points="-2,3 2,3 0,5.5" fill="#E21B70"/>
+    <path d="M-4,6.5 Q-2,9 0,6.5 Q2,9 4,6.5" fill="none" stroke="#2E3138" stroke-width="1.4" stroke-linecap="round"/>
+    <!-- Cheeks -->
+    <ellipse cx="-10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+    <ellipse cx="10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+  </g>
+
+      </g>
+      <text x="60" y="18" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" fill="#1A1C20">Hamza Ali</text>
+      <text x="60" y="37" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">★ 4.95 • Honda CD 70 (LEB-4021)</text>
+
+      <!-- Call & Chat Buttons -->
+      <circle cx="286" cy="24" r="20" fill="#FFF0F6"/>
+      <text x="286" y="29" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#E21B70">💬</text>
+      <circle cx="332" cy="24" r="20" fill="#E21B70"/>
+      <text x="332" y="29" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#FFFFFF">📞</text>
+    </g>
+
+    <line x1="0" y1="220" x2="350" y2="220" stroke="#EFEFEF" stroke-width="1"/>
+
+    <!-- Order Details Summary -->
+    <g transform="translate(0, 238)">
+      <text x="0" y="16" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">Order #FC-89412</text>
+      <text x="350" y="16" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#E21B70">View details</text>
+      <text x="0" y="38" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">2x Double Whisker Smash Burger</text>
+    </g>
+  </g>
+</svg>

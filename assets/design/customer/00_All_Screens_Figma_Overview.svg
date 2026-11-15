@@ -1,0 +1,1700 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2710" height="2018" viewBox="0 0 2710 2018">
+  <rect width="2710" height="2018" fill="#1E1E1E"/>
+  <text x="60" y="82" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="42" fill="#FFFFFF">foodcat — Complete Mobile App UI Kit (Figma Vector Artboards)</text>
+  <text x="60" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="20" fill="#A1A1AA">11 Screens • 390×844 iOS Frame Grid • Primary Brand Color: #E21B70 • Drag directly into Figma</text>
+
+  <g transform="translate(60, 180)">
+    <text x="0" y="-16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="18" fill="#E4E4E7">01 • Splash Screen</text>
+    <rect x="-2" y="-2" width="394" height="848" rx="18" fill="none" stroke="#3F3F46" stroke-width="2"/>
+    <svg x="0" y="0" width="390" height="844" viewBox="0 0 390 844">
+      
+  
+  <defs>
+    <style>
+      .font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .bold { font-weight: 700; }
+      .semibold { font-weight: 600; }
+      .medium { font-weight: 500; }
+      .regular { font-weight: 400; }
+    </style>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="navShadow" x="-10%" y="-20%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="-2" stdDeviation="6" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E21B70"/>
+      <stop offset="100%" stop-color="#FF4791"/>
+    </linearGradient>
+    <linearGradient id="darkCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E3138"/>
+      <stop offset="100%" stop-color="#1A1C20"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="390" height="844" fill="#E21B70"/>
+  
+  <g id="status-bar">
+    <text x="24" y="28" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#FFFFFF">10:16</text>
+    <!-- Signal, Wifi, Battery -->
+    <rect x="315" y="18" width="3" height="10" rx="1" fill="#FFFFFF"/>
+    <rect x="320" y="16" width="3" height="12" rx="1" fill="#FFFFFF"/>
+    <rect x="325" y="14" width="3" height="14" rx="1" fill="#FFFFFF"/>
+    <rect x="330" y="12" width="3" height="16" rx="1" fill="#FFFFFF" opacity="0.35"/>
+    <rect x="342" y="16" width="22" height="11" rx="2.5" fill="none" stroke="#FFFFFF" stroke-width="1.4"/>
+    <rect x="344" y="18" width="16" height="7" rx="1" fill="#FFFFFF"/>
+    <rect x="365" y="19" width="2" height="5" rx="1" fill="#FFFFFF"/>
+  </g>
+
+
+  <!-- Subtle decorative circles -->
+  <circle cx="350" cy="140" r="90" fill="#FFFFFF" opacity="0.06"/>
+  <circle cx="40" cy="700" r="120" fill="#FFFFFF" opacity="0.06"/>
+
+  <!-- Center Brand Lockup -->
+  <g transform="translate(195, 370)">
+    <circle cx="0" cy="-35" r="68" fill="#FFFFFF"/>
+    <circle cx="0" cy="-35" r="61" fill="none" stroke="#E21B70" stroke-width="3"/>
+    <g transform="translate(0, -35) scale(2.1)">
+      
+  <g id="foodcat-mascot">
+    <circle cx="0" cy="0" r="24" fill="#FFFFFF" stroke="#E21B70" stroke-width="2"/>
+    <!-- Ears -->
+    <polygon points="-14,-8 -16,-20 -5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="14,-8 16,-20 5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="1" rx="16" ry="13" fill="#FAD2E1" stroke="#2E3138" stroke-width="1.5"/>
+    <ellipse cx="0" cy="5" rx="11" ry="8" fill="#FFFFFF"/>
+    <!-- Cap -->
+    <path d="M-8,-11 C-8,-17 8,-17 8,-11 Z" fill="#2E3138"/>
+    <rect x="-10" y="-12" width="20" height="3" rx="1.5" fill="#E21B70"/>
+    <!-- Eyes -->
+    <circle cx="-6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="-6.8" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <circle cx="6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="5.2" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <!-- Nose & Smile -->
+    <polygon points="-2,3 2,3 0,5.5" fill="#E21B70"/>
+    <path d="M-4,6.5 Q-2,9 0,6.5 Q2,9 4,6.5" fill="none" stroke="#2E3138" stroke-width="1.4" stroke-linecap="round"/>
+    <!-- Cheeks -->
+    <ellipse cx="-10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+    <ellipse cx="10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+  </g>
+
+    </g>
+    <text x="0" y="72" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="44" fill="#FFFFFF" letter-spacing="-1">foodcat</text>
+    <text x="0" y="98" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="13" fill="#FFE3EE" letter-spacing="2">FOOD &amp; GROCERY DELIVERY</text>
+  </g>
+
+  <!-- Loading indicator -->
+  <g transform="translate(171, 750)">
+    <circle cx="0" cy="0" r="4.5" fill="#FFFFFF"/>
+    <circle cx="24" cy="0" r="4.5" fill="#FFFFFF" opacity="0.6"/>
+    <circle cx="48" cy="0" r="4.5" fill="#FFFFFF" opacity="0.3"/>
+  </g>
+  <rect x="128" y="828" width="134" height="5" rx="2.5" fill="#FFFFFF" opacity="0.85"/>
+
+    </svg>
+  </g>
+
+  <g transform="translate(500, 180)">
+    <text x="0" y="-16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="18" fill="#E4E4E7">02 • Location Onboarding</text>
+    <rect x="-2" y="-2" width="394" height="848" rx="18" fill="none" stroke="#3F3F46" stroke-width="2"/>
+    <svg x="0" y="0" width="390" height="844" viewBox="0 0 390 844">
+      
+  
+  <defs>
+    <style>
+      .font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .bold { font-weight: 700; }
+      .semibold { font-weight: 600; }
+      .medium { font-weight: 500; }
+      .regular { font-weight: 400; }
+    </style>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="navShadow" x="-10%" y="-20%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="-2" stdDeviation="6" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E21B70"/>
+      <stop offset="100%" stop-color="#FF4791"/>
+    </linearGradient>
+    <linearGradient id="darkCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E3138"/>
+      <stop offset="100%" stop-color="#1A1C20"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="390" height="844" fill="#FFFFFF"/>
+  
+  <g id="status-bar">
+    <text x="24" y="28" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">10:16</text>
+    <!-- Signal, Wifi, Battery -->
+    <rect x="315" y="18" width="3" height="10" rx="1" fill="#1A1C20"/>
+    <rect x="320" y="16" width="3" height="12" rx="1" fill="#1A1C20"/>
+    <rect x="325" y="14" width="3" height="14" rx="1" fill="#1A1C20"/>
+    <rect x="330" y="12" width="3" height="16" rx="1" fill="#1A1C20" opacity="0.35"/>
+    <rect x="342" y="16" width="22" height="11" rx="2.5" fill="none" stroke="#1A1C20" stroke-width="1.4"/>
+    <rect x="344" y="18" width="16" height="7" rx="1" fill="#1A1C20"/>
+    <rect x="365" y="19" width="2" height="5" rx="1" fill="#1A1C20"/>
+  </g>
+
+
+  <!-- Map Illustration Hero -->
+  <g transform="translate(0, 44)">
+    <rect x="0" y="0" width="390" height="380" fill="#FFF0F6"/>
+    <!-- Stylized Map Roads -->
+    <path d="M-20,110 Q140,80 220,170 T410,220" fill="none" stroke="#FFFFFF" stroke-width="18"/>
+    <path d="M90,-10 L150,390" fill="none" stroke="#FFFFFF" stroke-width="14"/>
+    <path d="M270,-10 L210,390" fill="none" stroke="#FFFFFF" stroke-width="12"/>
+    <rect x="40" y="160" width="75" height="55" rx="8" fill="#FAD2E1" opacity="0.6"/>
+    <rect x="255" y="70" width="85" height="60" rx="8" fill="#FAD2E1" opacity="0.6"/>
+
+    <!-- Center Pin with Foodcat Mascot -->
+    <g transform="translate(195, 195)">
+      <ellipse cx="0" cy="54" rx="28" ry="8" fill="#E21B70" opacity="0.2"/>
+      <path d="M0,52 C-28,22 -46,-2 -46,-28 A46,46 0 1,1 46,-28 C46,-2 28,22 0,52 Z" fill="#E21B70"/>
+      <g transform="translate(0, -28) scale(1.45)">
+        
+  <g id="foodcat-mascot">
+    <circle cx="0" cy="0" r="24" fill="#FFFFFF" stroke="#E21B70" stroke-width="2"/>
+    <!-- Ears -->
+    <polygon points="-14,-8 -16,-20 -5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="14,-8 16,-20 5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="1" rx="16" ry="13" fill="#FAD2E1" stroke="#2E3138" stroke-width="1.5"/>
+    <ellipse cx="0" cy="5" rx="11" ry="8" fill="#FFFFFF"/>
+    <!-- Cap -->
+    <path d="M-8,-11 C-8,-17 8,-17 8,-11 Z" fill="#2E3138"/>
+    <rect x="-10" y="-12" width="20" height="3" rx="1.5" fill="#E21B70"/>
+    <!-- Eyes -->
+    <circle cx="-6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="-6.8" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <circle cx="6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="5.2" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <!-- Nose & Smile -->
+    <polygon points="-2,3 2,3 0,5.5" fill="#E21B70"/>
+    <path d="M-4,6.5 Q-2,9 0,6.5 Q2,9 4,6.5" fill="none" stroke="#2E3138" stroke-width="1.4" stroke-linecap="round"/>
+    <!-- Cheeks -->
+    <ellipse cx="-10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+    <ellipse cx="10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+  </g>
+
+      </g>
+    </g>
+  </g>
+
+  <!-- Content Sheet -->
+  <g transform="translate(24, 455)">
+    <text x="0" y="24" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="24" fill="#1A1C20">Allow location access on</text>
+    <text x="0" y="54" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="24" fill="#1A1C20">the next screen for:</text>
+
+    <!-- Bullet 1 -->
+    <g transform="translate(0, 82)">
+      <circle cx="18" cy="18" r="18" fill="#FFF0F6"/>
+      <circle cx="18" cy="18" r="7" fill="#E21B70"/>
+      <text x="48" y="15" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">Finding the best restaurants and</text>
+      <text x="48" y="34" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">shops near you</text>
+    </g>
+
+    <!-- Bullet 2 -->
+    <g transform="translate(0, 142)">
+      <circle cx="18" cy="18" r="18" fill="#FFF0F6"/>
+      <rect x="11" y="12" width="14" height="12" rx="2" fill="#E21B70"/>
+      <text x="48" y="15" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">Faster and more accurate delivery</text>
+      <text x="48" y="34" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">straight to your doorstep</text>
+    </g>
+
+    <!-- Primary CTA Button -->
+    <rect x="0" y="220" width="342" height="50" rx="10" fill="#E21B70"/>
+    <text x="171" y="250" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" fill="#FFFFFF">Share my current location</text>
+
+    <!-- Secondary Link -->
+    <text x="171" y="298" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#E21B70">Enter address manually</text>
+  </g>
+
+    </svg>
+  </g>
+
+  <g transform="translate(940, 180)">
+    <text x="0" y="-16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="18" fill="#E4E4E7">03 • Home Discovery</text>
+    <rect x="-2" y="-2" width="394" height="848" rx="18" fill="none" stroke="#3F3F46" stroke-width="2"/>
+    <svg x="0" y="0" width="390" height="844" viewBox="0 0 390 844">
+      
+  
+  <defs>
+    <style>
+      .font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .bold { font-weight: 700; }
+      .semibold { font-weight: 600; }
+      .medium { font-weight: 500; }
+      .regular { font-weight: 400; }
+    </style>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="navShadow" x="-10%" y="-20%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="-2" stdDeviation="6" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E21B70"/>
+      <stop offset="100%" stop-color="#FF4791"/>
+    </linearGradient>
+    <linearGradient id="darkCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E3138"/>
+      <stop offset="100%" stop-color="#1A1C20"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="390" height="844" fill="#F7F7F7"/>
+
+  <!-- Pink Top Header -->
+  <rect x="0" y="0" width="390" height="145" fill="#E21B70"/>
+  
+  <g id="status-bar">
+    <text x="24" y="28" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#FFFFFF">10:16</text>
+    <!-- Signal, Wifi, Battery -->
+    <rect x="315" y="18" width="3" height="10" rx="1" fill="#FFFFFF"/>
+    <rect x="320" y="16" width="3" height="12" rx="1" fill="#FFFFFF"/>
+    <rect x="325" y="14" width="3" height="14" rx="1" fill="#FFFFFF"/>
+    <rect x="330" y="12" width="3" height="16" rx="1" fill="#FFFFFF" opacity="0.35"/>
+    <rect x="342" y="16" width="22" height="11" rx="2.5" fill="none" stroke="#FFFFFF" stroke-width="1.4"/>
+    <rect x="344" y="18" width="16" height="7" rx="1" fill="#FFFFFF"/>
+    <rect x="365" y="19" width="2" height="5" rx="1" fill="#FFFFFF"/>
+  </g>
+
+
+  <!-- Address Bar -->
+  <g transform="translate(16, 48)">
+    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="#FFFFFF"/>
+    <text x="30" y="13" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" fill="#FFFFFF">Main Boulevard, Gulberg III</text>
+    <text x="30" y="29" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#FFE3EE">Lahore, Pakistan</text>
+
+    <!-- Heart & Cart Icons -->
+    <g transform="translate(296, 4)">
+      <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="none" stroke="#FFFFFF" stroke-width="1.8"/>
+    </g>
+    <g transform="translate(332, 4)">
+      <path d="M18 6h-2c0-2.21-1.79-4-4-4S8 3.79 8 6H6c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-6-2c1.1 0 2 .9 2 2h-4c0-1.1.9-2 2-2z" fill="none" stroke="#FFFFFF" stroke-width="1.8"/>
+      <circle cx="19" cy="6" r="6" fill="#FFFFFF"/>
+      <text x="19" y="9.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="9" fill="#E21B70">2</text>
+    </g>
+  </g>
+
+  <!-- Pill Search Bar -->
+  <g transform="translate(16, 92)">
+    <rect x="0" y="0" width="358" height="40" rx="20" fill="#FFFFFF"/>
+    <circle cx="20" cy="20" r="6" fill="none" stroke="#70757A" stroke-width="1.8"/>
+    <line x1="25" y1="25" x2="29" y2="29" stroke="#70757A" stroke-width="1.8" stroke-linecap="round"/>
+    <text x="40" y="25" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="13" fill="#70757A">Search for shops &amp; restaurants</text>
+  </g>
+
+  <!-- Bento Grid Categories -->
+  <g transform="translate(16, 158)">
+    <!-- Large Left Card: Food delivery -->
+    <rect x="0" y="0" width="173" height="176" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="14" y="26" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#1A1C20">Food delivery</text>
+    <text x="14" y="44" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="11" fill="#70757A">Order food you love</text>
+    <!-- Burger illustration -->
+    <g transform="translate(115, 118)">
+      <ellipse cx="0" cy="24" rx="34" ry="8" fill="#E21B70" opacity="0.12"/>
+      <path d="M-28,6 C-28,-16 28,-16 28,6 Z" fill="#F5A623"/>
+      <rect x="-30" y="6" width="60" height="6" rx="3" fill="#4CD964"/>
+      <rect x="-29" y="12" width="58" height="8" rx="4" fill="#6D3B1E"/>
+      <path d="M-27,20 L27,20 C27,26 -27,26 -27,20 Z" fill="#F5A623"/>
+    </g>
+
+    <!-- Top Right Card: catmart -->
+    <rect x="185" y="0" width="173" height="84" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="199" y="26" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" fill="#1A1C20">catmart</text>
+    <text x="199" y="43" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="11" fill="#70757A">Groceries in 20 mins</text>
+    <rect x="308" y="34" width="38" height="38" rx="8" fill="#FFF0F6"/>
+    <rect x="316" y="42" width="22" height="22" rx="4" fill="#E21B70"/>
+
+    <!-- Bottom Right Card: Pick-up -->
+    <rect x="185" y="92" width="173" height="84" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="199" y="118" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" fill="#1A1C20">Pick-up</text>
+    <text x="199" y="135" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="11" fill="#70757A">Up to 50% off</text>
+    <g transform="translate(326, 144)">
+      
+  <g id="foodcat-mascot">
+    <circle cx="0" cy="0" r="24" fill="#FFFFFF" stroke="#E21B70" stroke-width="2"/>
+    <!-- Ears -->
+    <polygon points="-14,-8 -16,-20 -5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="14,-8 16,-20 5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="1" rx="16" ry="13" fill="#FAD2E1" stroke="#2E3138" stroke-width="1.5"/>
+    <ellipse cx="0" cy="5" rx="11" ry="8" fill="#FFFFFF"/>
+    <!-- Cap -->
+    <path d="M-8,-11 C-8,-17 8,-17 8,-11 Z" fill="#2E3138"/>
+    <rect x="-10" y="-12" width="20" height="3" rx="1.5" fill="#E21B70"/>
+    <!-- Eyes -->
+    <circle cx="-6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="-6.8" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <circle cx="6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="5.2" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <!-- Nose & Smile -->
+    <polygon points="-2,3 2,3 0,5.5" fill="#E21B70"/>
+    <path d="M-4,6.5 Q-2,9 0,6.5 Q2,9 4,6.5" fill="none" stroke="#2E3138" stroke-width="1.4" stroke-linecap="round"/>
+    <!-- Cheeks -->
+    <ellipse cx="-10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+    <ellipse cx="10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+  </g>
+
+    </g>
+  </g>
+
+  <!-- Promo Banner -->
+  <g transform="translate(16, 348)">
+    <rect x="0" y="0" width="358" height="96" rx="14" fill="url(#pinkGrad)"/>
+    <circle cx="315" cy="48" r="56" fill="#FFFFFF" opacity="0.12"/>
+    <text x="18" y="28" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="18" fill="#FFFFFF">50% OFF first order!</text>
+    <text x="18" y="48" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#FFE3EE">Use code: FOODCAT50</text>
+    <rect x="18" y="60" width="92" height="24" rx="12" fill="#FFFFFF"/>
+    <text x="64" y="76" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#E21B70">Order now</text>
+    <g transform="translate(310, 48) scale(1.25)">
+      
+  <g id="foodcat-mascot">
+    <circle cx="0" cy="0" r="24" fill="#FFFFFF" stroke="#E21B70" stroke-width="2"/>
+    <!-- Ears -->
+    <polygon points="-14,-8 -16,-20 -5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="14,-8 16,-20 5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="1" rx="16" ry="13" fill="#FAD2E1" stroke="#2E3138" stroke-width="1.5"/>
+    <ellipse cx="0" cy="5" rx="11" ry="8" fill="#FFFFFF"/>
+    <!-- Cap -->
+    <path d="M-8,-11 C-8,-17 8,-17 8,-11 Z" fill="#2E3138"/>
+    <rect x="-10" y="-12" width="20" height="3" rx="1.5" fill="#E21B70"/>
+    <!-- Eyes -->
+    <circle cx="-6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="-6.8" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <circle cx="6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="5.2" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <!-- Nose & Smile -->
+    <polygon points="-2,3 2,3 0,5.5" fill="#E21B70"/>
+    <path d="M-4,6.5 Q-2,9 0,6.5 Q2,9 4,6.5" fill="none" stroke="#2E3138" stroke-width="1.4" stroke-linecap="round"/>
+    <!-- Cheeks -->
+    <ellipse cx="-10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+    <ellipse cx="10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+  </g>
+
+    </g>
+  </g>
+
+  <!-- Cuisines Row -->
+  <g transform="translate(16, 464)">
+    <text x="0" y="16" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="17" fill="#1A1C20">Cuisines</text>
+    <g transform="translate(0, 28)">
+      <rect x="0" y="0" width="64" height="64" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+      <circle cx="32" cy="32" r="18" fill="#FFE8CC"/>
+      <text x="32" y="80" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#1A1C20">Burgers</text>
+
+      <rect x="74" y="0" width="64" height="64" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+      <polygon points="106,14 90,48 122,48" fill="#FFD166"/>
+      <text x="106" y="80" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#1A1C20">Pizza</text>
+
+      <rect x="148" y="0" width="64" height="64" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+      <circle cx="180" cy="32" r="18" fill="#FAD2E1"/>
+      <text x="180" y="80" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#1A1C20">Biryani</text>
+
+      <rect x="222" y="0" width="64" height="64" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+      <circle cx="254" cy="32" r="18" fill="#D8F3DC"/>
+      <text x="254" y="80" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#1A1C20">Healthy</text>
+
+      <rect x="296" y="0" width="64" height="64" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+      <circle cx="328" cy="32" r="18" fill="#E0AAFF"/>
+      <text x="328" y="80" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#1A1C20">Desserts</text>
+    </g>
+  </g>
+
+  <!-- Featured Restaurants -->
+  <g transform="translate(16, 592)">
+    <text x="0" y="16" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="17" fill="#1A1C20">Popular restaurants</text>
+    <g transform="translate(0, 28)">
+      <rect x="0" y="0" width="250" height="142" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+      <rect x="0" y="0" width="250" height="86" rx="12" fill="#2E3138"/>
+      <rect x="10" y="10" width="84" height="22" rx="4" fill="#E21B70"/>
+      <text x="52" y="25" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="10" fill="#FFFFFF">25% OFF</text>
+      <rect x="182" y="56" width="58" height="22" rx="11" fill="#FFFFFF"/>
+      <text x="211" y="71" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="10" fill="#1A1C20">25 min</text>
+      <text x="12" y="106" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">Meow Burgers &amp; Fries</text>
+      <text x="188" y="106" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#1A1C20">★ 4.8 (1k+)</text>
+      <text x="12" y="126" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="11" fill="#70757A">$$ • Burgers, Fast Food • Rs. 99 delivery</text>
+    </g>
+  </g>
+
+  
+  <g id="bottom-nav" transform="translate(0, 772)" filter="url(#navShadow)">
+    <rect x="0" y="0" width="390" height="72" fill="#FFFFFF"/>
+    <line x1="0" y1="0" x2="390" y2="0" stroke="#EFEFEF" stroke-width="1"/>
+
+    <g transform="translate(48, 14)">
+      <path d="M12 3L4 9v12h16V9l-8-6z" fill="#E21B70" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#E21B70">Food</text>
+    </g>
+
+    <g transform="translate(140, 14)">
+      <path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Grocery</text>
+    </g>
+
+    <g transform="translate(235, 14)">
+      <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Search</text>
+    </g>
+
+    <g transform="translate(330, 14)">
+      <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Account</text>
+    </g>
+  </g>
+
+
+    </svg>
+  </g>
+
+  <g transform="translate(1380, 180)">
+    <text x="0" y="-16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="18" fill="#E4E4E7">04 • Restaurant Listing</text>
+    <rect x="-2" y="-2" width="394" height="848" rx="18" fill="none" stroke="#3F3F46" stroke-width="2"/>
+    <svg x="0" y="0" width="390" height="844" viewBox="0 0 390 844">
+      
+  
+  <defs>
+    <style>
+      .font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .bold { font-weight: 700; }
+      .semibold { font-weight: 600; }
+      .medium { font-weight: 500; }
+      .regular { font-weight: 400; }
+    </style>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="navShadow" x="-10%" y="-20%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="-2" stdDeviation="6" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E21B70"/>
+      <stop offset="100%" stop-color="#FF4791"/>
+    </linearGradient>
+    <linearGradient id="darkCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E3138"/>
+      <stop offset="100%" stop-color="#1A1C20"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="390" height="844" fill="#FFFFFF"/>
+  
+  <g id="status-bar">
+    <text x="24" y="28" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">10:16</text>
+    <!-- Signal, Wifi, Battery -->
+    <rect x="315" y="18" width="3" height="10" rx="1" fill="#1A1C20"/>
+    <rect x="320" y="16" width="3" height="12" rx="1" fill="#1A1C20"/>
+    <rect x="325" y="14" width="3" height="14" rx="1" fill="#1A1C20"/>
+    <rect x="330" y="12" width="3" height="16" rx="1" fill="#1A1C20" opacity="0.35"/>
+    <rect x="342" y="16" width="22" height="11" rx="2.5" fill="none" stroke="#1A1C20" stroke-width="1.4"/>
+    <rect x="344" y="18" width="16" height="7" rx="1" fill="#1A1C20"/>
+    <rect x="365" y="19" width="2" height="5" rx="1" fill="#1A1C20"/>
+  </g>
+
+
+  <!-- Top Navigation Bar -->
+  <g transform="translate(16, 48)">
+    <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" fill="#E21B70"/>
+    <text x="36" y="16" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#1A1C20">Restaurants</text>
+    <text x="36" y="31" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="11" fill="#70757A">Main Boulevard, Gulberg III</text>
+  </g>
+
+  <!-- Filter Chips -->
+  <g transform="translate(16, 94)">
+    <rect x="0" y="0" width="42" height="32" rx="16" fill="#F7F7F7" stroke="#E0E0E0"/>
+    <line x1="13" y1="12" x2="29" y2="12" stroke="#1A1C20" stroke-width="1.6"/>
+    <line x1="16" y1="16" x2="26" y2="16" stroke="#1A1C20" stroke-width="1.6"/>
+    <line x1="19" y1="20" x2="23" y2="20" stroke="#1A1C20" stroke-width="1.6"/>
+
+    <rect x="50" y="0" width="76" height="32" rx="16" fill="#FFF0F6" stroke="#E21B70"/>
+    <text x="88" y="21" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="12" fill="#E21B70">Sort ▾</text>
+
+    <rect x="134" y="0" width="76" height="32" rx="16" fill="#FFFFFF" stroke="#E0E0E0"/>
+    <text x="172" y="21" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="12" fill="#1A1C20">Offers</text>
+
+    <rect x="218" y="0" width="92" height="32" rx="16" fill="#FFFFFF" stroke="#E0E0E0"/>
+    <text x="264" y="21" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="12" fill="#1A1C20">Rating 4.5+</text>
+
+    <rect x="318" y="0" width="60" height="32" rx="16" fill="#FFFFFF" stroke="#E0E0E0"/>
+    <text x="348" y="21" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="12" fill="#1A1C20">catpro</text>
+  </g>
+
+  <text x="16" y="154" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="18" fill="#1A1C20">All restaurants (148)</text>
+
+  <!-- Restaurant Card 1 -->
+  <g transform="translate(16, 170)">
+    <rect x="0" y="0" width="358" height="210" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <rect x="0" y="0" width="358" height="136" rx="14" fill="#3B2C35"/>
+    <!-- Graphic Food Art -->
+    <circle cx="179" cy="68" r="44" fill="#F5A623"/>
+    <circle cx="179" cy="68" r="34" fill="#E21B70"/>
+    <rect x="12" y="12" width="104" height="24" rx="4" fill="#E21B70"/>
+    <text x="64" y="28" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#FFFFFF">Flat 30% OFF</text>
+    <rect x="12" y="42" width="74" height="22" rx="4" fill="#2E3138"/>
+    <text x="49" y="57" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="10" fill="#FFFFFF">catpro</text>
+    <rect x="284" y="104" width="62" height="24" rx="12" fill="#FFFFFF"/>
+    <text x="315" y="120" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#1A1C20">20-30 min</text>
+
+    <text x="12" y="158" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" fill="#1A1C20">The Purrfect Pizza Co.</text>
+    <text x="346" y="158" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#1A1C20">★ 4.9 (2,400+)</text>
+    <text x="12" y="178" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">$$$ • Italian, Woodfired Pizza, Pasta</text>
+    <text x="12" y="196" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="12" fill="#E21B70">Free delivery with catpro</text>
+  </g>
+
+  <!-- Restaurant Card 2 -->
+  <g transform="translate(16, 396)">
+    <rect x="0" y="0" width="358" height="210" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <rect x="0" y="0" width="358" height="136" rx="14" fill="#233D4D"/>
+    <rect x="135" y="34" width="88" height="68" rx="12" fill="#FF9F1C"/>
+    <rect x="12" y="12" width="90" height="24" rx="4" fill="#E21B70"/>
+    <text x="57" y="28" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#FFFFFF">Rs. 250 OFF</text>
+    <rect x="284" y="104" width="62" height="24" rx="12" fill="#FFFFFF"/>
+    <text x="315" y="120" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#1A1C20">30-40 min</text>
+
+    <text x="12" y="158" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" fill="#1A1C20">Whiskers Biryani House</text>
+    <text x="346" y="158" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#1A1C20">★ 4.7 (850+)</text>
+    <text x="12" y="178" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">$$ • Pakistani, Desi, Karahi</text>
+    <text x="12" y="196" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">Rs. 119 delivery fee</text>
+  </g>
+
+  <!-- Restaurant Card 3 Preview -->
+  <g transform="translate(16, 622)">
+    <rect x="0" y="0" width="358" height="140" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <rect x="0" y="0" width="358" height="136" rx="14" fill="#4A2C2A"/>
+    <rect x="12" y="12" width="96" height="24" rx="4" fill="#E21B70"/>
+    <text x="60" y="28" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#FFFFFF">Buy 1 Get 1</text>
+  </g>
+
+  
+  <g id="bottom-nav" transform="translate(0, 772)" filter="url(#navShadow)">
+    <rect x="0" y="0" width="390" height="72" fill="#FFFFFF"/>
+    <line x1="0" y1="0" x2="390" y2="0" stroke="#EFEFEF" stroke-width="1"/>
+
+    <g transform="translate(48, 14)">
+      <path d="M12 3L4 9v12h16V9l-8-6z" fill="#E21B70" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#E21B70">Food</text>
+    </g>
+
+    <g transform="translate(140, 14)">
+      <path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Grocery</text>
+    </g>
+
+    <g transform="translate(235, 14)">
+      <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Search</text>
+    </g>
+
+    <g transform="translate(330, 14)">
+      <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Account</text>
+    </g>
+  </g>
+
+
+    </svg>
+  </g>
+
+  <g transform="translate(1820, 180)">
+    <text x="0" y="-16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="18" fill="#E4E4E7">05 • Restaurant Menu</text>
+    <rect x="-2" y="-2" width="394" height="848" rx="18" fill="none" stroke="#3F3F46" stroke-width="2"/>
+    <svg x="0" y="0" width="390" height="844" viewBox="0 0 390 844">
+      
+  
+  <defs>
+    <style>
+      .font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .bold { font-weight: 700; }
+      .semibold { font-weight: 600; }
+      .medium { font-weight: 500; }
+      .regular { font-weight: 400; }
+    </style>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="navShadow" x="-10%" y="-20%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="-2" stdDeviation="6" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E21B70"/>
+      <stop offset="100%" stop-color="#FF4791"/>
+    </linearGradient>
+    <linearGradient id="darkCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E3138"/>
+      <stop offset="100%" stop-color="#1A1C20"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="390" height="844" fill="#FFFFFF"/>
+
+  <!-- Hero Cover Image -->
+  <rect x="0" y="0" width="390" height="210" fill="#2E3138"/>
+  <circle cx="195" cy="115" r="65" fill="#E21B70" opacity="0.25"/>
+  <circle cx="195" cy="115" r="42" fill="#F5A623"/>
+  
+  <g id="status-bar">
+    <text x="24" y="28" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#FFFFFF">10:16</text>
+    <!-- Signal, Wifi, Battery -->
+    <rect x="315" y="18" width="3" height="10" rx="1" fill="#FFFFFF"/>
+    <rect x="320" y="16" width="3" height="12" rx="1" fill="#FFFFFF"/>
+    <rect x="325" y="14" width="3" height="14" rx="1" fill="#FFFFFF"/>
+    <rect x="330" y="12" width="3" height="16" rx="1" fill="#FFFFFF" opacity="0.35"/>
+    <rect x="342" y="16" width="22" height="11" rx="2.5" fill="none" stroke="#FFFFFF" stroke-width="1.4"/>
+    <rect x="344" y="18" width="16" height="7" rx="1" fill="#FFFFFF"/>
+    <rect x="365" y="19" width="2" height="5" rx="1" fill="#FFFFFF"/>
+  </g>
+
+
+  <!-- Top Floating Action Buttons -->
+  <g transform="translate(16, 48)">
+    <circle cx="18" cy="18" r="18" fill="#FFFFFF"/>
+    <path d="M21 12l-6 6 6 6" fill="none" stroke="#E21B70" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <circle cx="300" cy="18" r="18" fill="#FFFFFF"/>
+    <path d="M300 25l-1.2-1.1C294.8 20.3 292 17.8 292 14.8c0-2.5 2-4.5 4.5-4.5 1.4 0 2.7.7 3.5 1.7.8-1 2.1-1.7 3.5-1.7 2.5 0 4.5 2 4.5 4.5 0 3-2.8 5.5-6.8 9.1L300 25z" fill="#E21B70"/>
+
+    <circle cx="342" cy="18" r="18" fill="#FFFFFF"/>
+    <circle cx="341" cy="17" r="5" fill="none" stroke="#1A1C20" stroke-width="1.8"/>
+    <line x1="345" y1="21" x2="348" y2="24" stroke="#1A1C20" stroke-width="1.8"/>
+  </g>
+
+  <!-- Restaurant Info Header -->
+  <g transform="translate(16, 224)">
+    <text x="0" y="20" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" fill="#1A1C20">Meow Burgers &amp; Fries</text>
+    <text x="0" y="42" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">1.4 km away • Rs. 99 delivery • Min. order Rs. 350</text>
+    <text x="0" y="64" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#1A1C20">★ 4.8 <tspan font-weight="400" fill="#70757A">(1,200+ ratings)</tspan></text>
+    <text x="358" y="64" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#E21B70">See reviews</text>
+
+    <!-- Delivery Time Pill -->
+    <rect x="0" y="78" width="358" height="38" rx="8" fill="#FFF0F6"/>
+    <text x="14" y="102" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="12" fill="#E21B70">⚡ Delivery in 20–30 min</text>
+    <text x="344" y="102" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#E21B70">Change</text>
+  </g>
+
+  <!-- Category Tabs -->
+  <g transform="translate(0, 356)">
+    <line x1="0" y1="36" x2="390" y2="36" stroke="#EFEFEF" stroke-width="1"/>
+    <text x="16" y="22" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#E21B70">Popular</text>
+    <rect x="16" y="33" width="52" height="3" rx="1.5" fill="#E21B70"/>
+    <text x="88" y="22" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#70757A">Smash Burgers</text>
+    <text x="205" y="22" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#70757A">Loaded Fries</text>
+    <text x="305" y="22" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#70757A">Drinks</text>
+  </g>
+
+  <!-- Section Title -->
+  <g transform="translate(16, 412)">
+    <text x="0" y="16" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="18" fill="#1A1C20">🔥 Popular</text>
+    <text x="0" y="34" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">Most ordered right now</text>
+
+    <!-- Menu Item 1 -->
+    <g transform="translate(0, 50)">
+      <text x="0" y="18" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" fill="#1A1C20">Double Whisker Smash Burger</text>
+      <text x="0" y="38" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">Two juicy beef patties, cheddar cheese,</text>
+      <text x="0" y="54" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">caramelized onions &amp; secret cat sauce.</text>
+      <text x="0" y="78" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">Rs. 890 <tspan font-weight="400" font-size="12" fill="#70757A" text-decoration="line-through">Rs. 1,050</tspan></text>
+
+      <rect x="262" y="4" width="96" height="86" rx="12" fill="#FFE8CC"/>
+      <circle cx="310" cy="47" r="24" fill="#F5A623"/>
+      <!-- Quantity Badge -->
+      <rect x="292" y="68" width="60" height="28" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+      <text x="305" y="86" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#E21B70">−</text>
+      <text x="322" y="86" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#1A1C20">2</text>
+      <text x="339" y="86" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#E21B70">+</text>
+    </g>
+
+    <line x1="0" y1="158" x2="358" y2="158" stroke="#EFEFEF" stroke-width="1"/>
+
+    <!-- Menu Item 2 -->
+    <g transform="translate(0, 174)">
+      <text x="0" y="18" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" fill="#1A1C20">Spicy Kitty Crispy Zinger</text>
+      <text x="0" y="38" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">Crunchy golden chicken fillet, jalapenos,</text>
+      <text x="0" y="54" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">iceberg lettuce &amp; smoky chipotle mayo.</text>
+      <text x="0" y="78" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">Rs. 650</text>
+
+      <rect x="262" y="4" width="96" height="86" rx="12" fill="#FAD2E1"/>
+      <circle cx="310" cy="47" r="24" fill="#E21B70"/>
+      <!-- Add Button -->
+      <circle cx="342" cy="80" r="15" fill="#FFFFFF" filter="url(#cardShadow)"/>
+      <text x="342" y="85" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="18" fill="#E21B70">+</text>
+    </g>
+  </g>
+
+  <!-- Sticky Bottom View Cart Bar -->
+  <g transform="translate(16, 768)">
+    <rect x="0" y="0" width="358" height="52" rx="12" fill="#E21B70" filter="url(#cardShadow)"/>
+    <circle cx="28" cy="26" r="12" fill="none" stroke="#FFFFFF" stroke-width="1.8"/>
+    <text x="28" y="30" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#FFFFFF">2</text>
+    <text x="179" y="31" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" fill="#FFFFFF">View your cart</text>
+    <text x="342" y="31" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#FFFFFF">Rs. 1,780</text>
+  </g>
+
+    </svg>
+  </g>
+
+  <g transform="translate(2260, 180)">
+    <text x="0" y="-16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="18" fill="#E4E4E7">06 • Item Customization</text>
+    <rect x="-2" y="-2" width="394" height="848" rx="18" fill="none" stroke="#3F3F46" stroke-width="2"/>
+    <svg x="0" y="0" width="390" height="844" viewBox="0 0 390 844">
+      
+  
+  <defs>
+    <style>
+      .font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .bold { font-weight: 700; }
+      .semibold { font-weight: 600; }
+      .medium { font-weight: 500; }
+      .regular { font-weight: 400; }
+    </style>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="navShadow" x="-10%" y="-20%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="-2" stdDeviation="6" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E21B70"/>
+      <stop offset="100%" stop-color="#FF4791"/>
+    </linearGradient>
+    <linearGradient id="darkCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E3138"/>
+      <stop offset="100%" stop-color="#1A1C20"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dimmed Background -->
+  <rect width="390" height="844" fill="#1A1C20"/>
+  
+  <g id="status-bar">
+    <text x="24" y="28" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#FFFFFF">10:16</text>
+    <!-- Signal, Wifi, Battery -->
+    <rect x="315" y="18" width="3" height="10" rx="1" fill="#FFFFFF"/>
+    <rect x="320" y="16" width="3" height="12" rx="1" fill="#FFFFFF"/>
+    <rect x="325" y="14" width="3" height="14" rx="1" fill="#FFFFFF"/>
+    <rect x="330" y="12" width="3" height="16" rx="1" fill="#FFFFFF" opacity="0.35"/>
+    <rect x="342" y="16" width="22" height="11" rx="2.5" fill="none" stroke="#FFFFFF" stroke-width="1.4"/>
+    <rect x="344" y="18" width="16" height="7" rx="1" fill="#FFFFFF"/>
+    <rect x="365" y="19" width="2" height="5" rx="1" fill="#FFFFFF"/>
+  </g>
+
+
+  <!-- Bottom Sheet Container -->
+  <path d="M0,78 Q0,58 20,58 L370,58 Q390,58 390,78 L390,844 L0,844 Z" fill="#FFFFFF"/>
+  <!-- Close Button -->
+  <circle cx="354" cy="90" r="16" fill="#F7F7F7"/>
+  <text x="354" y="95" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">✕</text>
+
+  <!-- Product Banner -->
+  <rect x="16" y="118" width="358" height="140" rx="14" fill="#FFF0F6"/>
+  <circle cx="195" cy="188" r="46" fill="#F5A623"/>
+  <rect x="145" y="182" width="100" height="14" rx="7" fill="#6D3B1E"/>
+
+  <!-- Item Title & Price -->
+  <g transform="translate(16, 276)">
+    <text x="0" y="20" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="20" fill="#1A1C20">Double Whisker Smash Burger</text>
+    <text x="358" y="20" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#1A1C20">Rs. 890</text>
+    <text x="0" y="42" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="13" fill="#70757A">Two smashed beef patties, double cheddar, pickles &amp; house cat sauce on a toasted brioche bun.</text>
+  </g>
+
+  <line x1="16" y1="348" x2="374" y2="348" stroke="#EFEFEF" stroke-width="1"/>
+
+  <!-- Required Group: Choose Size -->
+  <g transform="translate(16, 366)">
+    <text x="0" y="16" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#1A1C20">Choose your meal option</text>
+    <rect x="282" y="0" width="76" height="24" rx="12" fill="#E21B70"/>
+    <text x="320" y="16" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#FFFFFF">Required</text>
+
+    <!-- Option 1 Selected -->
+    <g transform="translate(0, 38)">
+      <circle cx="11" cy="11" r="10" fill="none" stroke="#E21B70" stroke-width="2"/>
+      <circle cx="11" cy="11" r="5" fill="#E21B70"/>
+      <text x="32" y="16" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">Burger Only</text>
+      <text x="358" y="16" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="13" fill="#70757A">Free</text>
+    </g>
+
+    <!-- Option 2 -->
+    <g transform="translate(0, 76)">
+      <circle cx="11" cy="11" r="10" fill="none" stroke="#CCCCCC" stroke-width="2"/>
+      <text x="32" y="16" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="14" fill="#1A1C20">Make it a Meal (Fries + Drink)</text>
+      <text x="358" y="16" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="13" fill="#1A1C20">+ Rs. 320</text>
+    </g>
+  </g>
+
+  <line x1="16" y1="486" x2="374" y2="486" stroke="#EFEFEF" stroke-width="1"/>
+
+  <!-- Optional Add-ons -->
+  <g transform="translate(16, 504)">
+    <text x="0" y="16" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#1A1C20">Extra Toppings</text>
+    <rect x="286" y="0" width="72" height="24" rx="12" fill="#F2F2F2"/>
+    <text x="322" y="16" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="11" fill="#70757A">Optional</text>
+
+    <g transform="translate(0, 38)">
+      <rect x="1" y="1" width="20" height="20" rx="4" fill="#E21B70"/>
+      <path d="M5,11 L9,15 L17,7" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"/>
+      <text x="32" y="16" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">Extra Cheddar Slice</text>
+      <text x="358" y="16" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="13" fill="#1A1C20">+ Rs. 120</text>
+    </g>
+
+    <g transform="translate(0, 76)">
+      <rect x="1" y="1" width="20" height="20" rx="4" fill="none" stroke="#CCCCCC" stroke-width="2"/>
+      <text x="32" y="16" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="14" fill="#1A1C20">Extra Secret Cat Sauce</text>
+      <text x="358" y="16" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="13" fill="#1A1C20">+ Rs. 80</text>
+    </g>
+
+    <g transform="translate(0, 114)">
+      <rect x="1" y="1" width="20" height="20" rx="4" fill="none" stroke="#CCCCCC" stroke-width="2"/>
+      <text x="32" y="16" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="14" fill="#1A1C20">Jalapenos</text>
+      <text x="358" y="16" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="13" fill="#1A1C20">+ Rs. 60</text>
+    </g>
+  </g>
+
+  <!-- Sticky Bottom Action Bar -->
+  <g transform="translate(0, 756)" filter="url(#navShadow)">
+    <rect x="0" y="0" width="390" height="88" fill="#FFFFFF"/>
+    <!-- Stepper -->
+    <g transform="translate(16, 18)">
+      <circle cx="18" cy="24" r="18" fill="#F7F7F7"/>
+      <text x="18" y="29" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="18" fill="#70757A">−</text>
+      <text x="54" y="29" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#1A1C20">1</text>
+      <circle cx="90" cy="24" r="18" fill="#FFF0F6"/>
+      <text x="90" y="29" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="18" fill="#E21B70">+</text>
+    </g>
+    <!-- Add to cart CTA -->
+    <rect x="132" y="18" width="242" height="48" rx="10" fill="#E21B70"/>
+    <text x="253" y="47" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" fill="#FFFFFF">Add to cart • Rs. 1,010</text>
+  </g>
+
+    </svg>
+  </g>
+
+  <g transform="translate(60, 1114)">
+    <text x="0" y="-16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="18" fill="#E4E4E7">07 • Cart & Checkout</text>
+    <rect x="-2" y="-2" width="394" height="848" rx="18" fill="none" stroke="#3F3F46" stroke-width="2"/>
+    <svg x="0" y="0" width="390" height="844" viewBox="0 0 390 844">
+      
+  
+  <defs>
+    <style>
+      .font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .bold { font-weight: 700; }
+      .semibold { font-weight: 600; }
+      .medium { font-weight: 500; }
+      .regular { font-weight: 400; }
+    </style>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="navShadow" x="-10%" y="-20%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="-2" stdDeviation="6" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E21B70"/>
+      <stop offset="100%" stop-color="#FF4791"/>
+    </linearGradient>
+    <linearGradient id="darkCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E3138"/>
+      <stop offset="100%" stop-color="#1A1C20"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="390" height="844" fill="#F7F7F7"/>
+  <rect x="0" y="0" width="390" height="92" fill="#FFFFFF"/>
+  
+  <g id="status-bar">
+    <text x="24" y="28" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">10:16</text>
+    <!-- Signal, Wifi, Battery -->
+    <rect x="315" y="18" width="3" height="10" rx="1" fill="#1A1C20"/>
+    <rect x="320" y="16" width="3" height="12" rx="1" fill="#1A1C20"/>
+    <rect x="325" y="14" width="3" height="14" rx="1" fill="#1A1C20"/>
+    <rect x="330" y="12" width="3" height="16" rx="1" fill="#1A1C20" opacity="0.35"/>
+    <rect x="342" y="16" width="22" height="11" rx="2.5" fill="none" stroke="#1A1C20" stroke-width="1.4"/>
+    <rect x="344" y="18" width="16" height="7" rx="1" fill="#1A1C20"/>
+    <rect x="365" y="19" width="2" height="5" rx="1" fill="#1A1C20"/>
+  </g>
+
+
+  <!-- Top Bar -->
+  <g transform="translate(16, 52)">
+    <text x="0" y="18" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="18" fill="#E21B70">✕</text>
+    <text x="32" y="18" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="17" fill="#1A1C20">Cart</text>
+    <text x="32" y="33" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="11" fill="#70757A">Meow Burgers &amp; Fries</text>
+  </g>
+
+  <!-- Stepper Progress -->
+  <g transform="translate(16, 106)">
+    <rect x="0" y="0" width="358" height="46" rx="10" fill="#FFFFFF"/>
+    <circle cx="34" cy="23" r="10" fill="#E21B70"/>
+    <text x="34" y="27" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#FFFFFF">✓</text>
+    <line x1="48" y1="23" x2="165" y2="23" stroke="#E21B70" stroke-width="2.5"/>
+    <circle cx="179" cy="23" r="10" fill="#E21B70"/>
+    <text x="179" y="27" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#FFFFFF">2</text>
+    <line x1="193" y1="23" x2="310" y2="23" stroke="#E0E0E0" stroke-width="2.5"/>
+    <circle cx="324" cy="23" r="10" fill="#E0E0E0"/>
+    <text x="324" y="27" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#70757A">3</text>
+  </g>
+
+  <!-- Delivery Estimate Card -->
+  <g transform="translate(16, 164)">
+    <rect x="0" y="0" width="358" height="72" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <g transform="translate(36, 36) scale(0.95)">
+      
+  <g id="foodcat-mascot">
+    <circle cx="0" cy="0" r="24" fill="#FFFFFF" stroke="#E21B70" stroke-width="2"/>
+    <!-- Ears -->
+    <polygon points="-14,-8 -16,-20 -5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="14,-8 16,-20 5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="1" rx="16" ry="13" fill="#FAD2E1" stroke="#2E3138" stroke-width="1.5"/>
+    <ellipse cx="0" cy="5" rx="11" ry="8" fill="#FFFFFF"/>
+    <!-- Cap -->
+    <path d="M-8,-11 C-8,-17 8,-17 8,-11 Z" fill="#2E3138"/>
+    <rect x="-10" y="-12" width="20" height="3" rx="1.5" fill="#E21B70"/>
+    <!-- Eyes -->
+    <circle cx="-6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="-6.8" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <circle cx="6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="5.2" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <!-- Nose & Smile -->
+    <polygon points="-2,3 2,3 0,5.5" fill="#E21B70"/>
+    <path d="M-4,6.5 Q-2,9 0,6.5 Q2,9 4,6.5" fill="none" stroke="#2E3138" stroke-width="1.4" stroke-linecap="round"/>
+    <!-- Cheeks -->
+    <ellipse cx="-10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+    <ellipse cx="10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+  </g>
+
+    </g>
+    <text x="74" y="30" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">Estimated delivery</text>
+    <text x="74" y="50" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#1A1C20">Standard (20 – 30 mins)</text>
+  </g>
+
+  <!-- Order Items Card -->
+  <g transform="translate(16, 248)">
+    <rect x="0" y="0" width="358" height="176" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <!-- Item 1 -->
+    <g transform="translate(14, 18)">
+      <rect x="0" y="0" width="28" height="28" rx="6" fill="#FFF0F6" stroke="#E21B70"/>
+      <text x="14" y="19" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#E21B70">2x</text>
+      <text x="40" y="14" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">Double Whisker Smash Burger</text>
+      <text x="40" y="31" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="11" fill="#70757A">+ Extra Cheddar Slice</text>
+      <text x="330" y="16" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">Rs. 2,020</text>
+    </g>
+
+    <line x1="14" y1="68" x2="344" y2="68" stroke="#EFEFEF" stroke-width="1"/>
+
+    <!-- Add More Items -->
+    <text x="14" y="94" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#E21B70">+ Add more items</text>
+
+    <line x1="14" y1="112" x2="344" y2="112" stroke="#EFEFEF" stroke-width="1"/>
+
+    <!-- Voucher Row -->
+    <g transform="translate(14, 128)">
+      <rect x="0" y="0" width="24" height="24" rx="6" fill="#FFF0F6"/>
+      <text x="12" y="16" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#E21B70">%</text>
+      <text x="34" y="17" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#E21B70">Apply a voucher</text>
+      <text x="330" y="17" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="12" fill="#70757A">FOODCAT50 ›</text>
+    </g>
+  </g>
+
+  <!-- Price Breakdown -->
+  <g transform="translate(16, 436)">
+    <rect x="0" y="0" width="358" height="148" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="14" y="28" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="13" fill="#70757A">Subtotal</text>
+    <text x="344" y="28" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="13" fill="#1A1C20">Rs. 2,020</text>
+
+    <text x="14" y="54" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="13" fill="#70757A">Standard delivery</text>
+    <text x="344" y="54" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="13" fill="#1A1C20">Rs. 99</text>
+
+    <text x="14" y="80" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="13" fill="#70757A">Platform fee</text>
+    <text x="344" y="80" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="13" fill="#1A1C20">Rs. 15</text>
+
+    <text x="14" y="106" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="13" fill="#E21B70">Voucher (FOODCAT50)</text>
+    <text x="344" y="106" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#E21B70">- Rs. 300</text>
+
+    <line x1="14" y1="120" x2="344" y2="120" stroke="#EFEFEF" stroke-width="1"/>
+    <text x="14" y="138" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">Total (incl. GST)</text>
+    <text x="344" y="138" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" fill="#1A1C20">Rs. 1,834</text>
+  </g>
+
+  <!-- Sticky Bottom Place Order -->
+  <g transform="translate(0, 742)" filter="url(#navShadow)">
+    <rect x="0" y="0" width="390" height="102" fill="#FFFFFF"/>
+    <text x="16" y="24" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" fill="#1A1C20">Total <tspan font-weight="400" font-size="11" fill="#70757A">(incl. VAT)</tspan></text>
+    <text x="374" y="24" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#1A1C20">Rs. 1,834</text>
+    <rect x="16" y="38" width="358" height="48" rx="10" fill="#E21B70"/>
+    <text x="195" y="67" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" fill="#FFFFFF">Review payment and address</text>
+  </g>
+
+    </svg>
+  </g>
+
+  <g transform="translate(500, 1114)">
+    <text x="0" y="-16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="18" fill="#E4E4E7">08 • Live Order Tracking</text>
+    <rect x="-2" y="-2" width="394" height="848" rx="18" fill="none" stroke="#3F3F46" stroke-width="2"/>
+    <svg x="0" y="0" width="390" height="844" viewBox="0 0 390 844">
+      
+  
+  <defs>
+    <style>
+      .font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .bold { font-weight: 700; }
+      .semibold { font-weight: 600; }
+      .medium { font-weight: 500; }
+      .regular { font-weight: 400; }
+    </style>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="navShadow" x="-10%" y="-20%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="-2" stdDeviation="6" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E21B70"/>
+      <stop offset="100%" stop-color="#FF4791"/>
+    </linearGradient>
+    <linearGradient id="darkCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E3138"/>
+      <stop offset="100%" stop-color="#1A1C20"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="390" height="844" fill="#FFF0F6"/>
+
+  <!-- Live Map Background -->
+  <path d="M-20,160 Q140,120 220,230 T410,300" fill="none" stroke="#FFFFFF" stroke-width="22"/>
+  <path d="M80,0 L160,520" fill="none" stroke="#FFFFFF" stroke-width="18"/>
+  <path d="M310,0 L230,520" fill="none" stroke="#FFFFFF" stroke-width="16"/>
+
+  <!-- Delivery Route Path -->
+  <path d="M115,185 C150,240 225,255 268,345" fill="none" stroke="#E21B70" stroke-width="5" stroke-dasharray="8,6" stroke-linecap="round"/>
+
+  <!-- Restaurant Pin -->
+  <g transform="translate(115, 185)">
+    <circle cx="0" cy="0" r="16" fill="#2E3138"/>
+    <circle cx="0" cy="0" r="6" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Rider Pin with Foodcat -->
+  <g transform="translate(198, 255)">
+    <circle cx="0" cy="0" r="30" fill="#E21B70" opacity="0.18"/>
+    <g transform="scale(0.95)">
+      
+  <g id="foodcat-mascot">
+    <circle cx="0" cy="0" r="24" fill="#FFFFFF" stroke="#E21B70" stroke-width="2"/>
+    <!-- Ears -->
+    <polygon points="-14,-8 -16,-20 -5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="14,-8 16,-20 5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="1" rx="16" ry="13" fill="#FAD2E1" stroke="#2E3138" stroke-width="1.5"/>
+    <ellipse cx="0" cy="5" rx="11" ry="8" fill="#FFFFFF"/>
+    <!-- Cap -->
+    <path d="M-8,-11 C-8,-17 8,-17 8,-11 Z" fill="#2E3138"/>
+    <rect x="-10" y="-12" width="20" height="3" rx="1.5" fill="#E21B70"/>
+    <!-- Eyes -->
+    <circle cx="-6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="-6.8" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <circle cx="6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="5.2" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <!-- Nose & Smile -->
+    <polygon points="-2,3 2,3 0,5.5" fill="#E21B70"/>
+    <path d="M-4,6.5 Q-2,9 0,6.5 Q2,9 4,6.5" fill="none" stroke="#2E3138" stroke-width="1.4" stroke-linecap="round"/>
+    <!-- Cheeks -->
+    <ellipse cx="-10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+    <ellipse cx="10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+  </g>
+
+    </g>
+  </g>
+
+  <!-- Home Destination Pin -->
+  <g transform="translate(268, 345)">
+    <circle cx="0" cy="0" r="18" fill="#E21B70"/>
+    <polygon points="0,-7 -7,0 -4,0 -4,6 4,6 4,0 7,0" fill="#FFFFFF"/>
+  </g>
+
+  
+  <g id="status-bar">
+    <text x="24" y="28" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">10:16</text>
+    <!-- Signal, Wifi, Battery -->
+    <rect x="315" y="18" width="3" height="10" rx="1" fill="#1A1C20"/>
+    <rect x="320" y="16" width="3" height="12" rx="1" fill="#1A1C20"/>
+    <rect x="325" y="14" width="3" height="14" rx="1" fill="#1A1C20"/>
+    <rect x="330" y="12" width="3" height="16" rx="1" fill="#1A1C20" opacity="0.35"/>
+    <rect x="342" y="16" width="22" height="11" rx="2.5" fill="none" stroke="#1A1C20" stroke-width="1.4"/>
+    <rect x="344" y="18" width="16" height="7" rx="1" fill="#1A1C20"/>
+    <rect x="365" y="19" width="2" height="5" rx="1" fill="#1A1C20"/>
+  </g>
+
+
+  <!-- Top Floating Controls -->
+  <g transform="translate(16, 48)">
+    <circle cx="18" cy="18" r="18" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="18" y="23" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">✕</text>
+
+    <rect x="282" y="2" width="76" height="32" rx="16" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="320" y="22" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#E21B70">Help</text>
+  </g>
+
+  <!-- Bottom Tracking Card -->
+  <path d="M0,450 Q0,428 22,428 L368,428 Q390,428 390,450 L390,844 L0,844 Z" fill="#FFFFFF" filter="url(#navShadow)"/>
+  <rect x="175" y="438" width="40" height="4" rx="2" fill="#E0E0E0"/>
+
+  <g transform="translate(20, 462)">
+    <text x="0" y="14" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">Estimated arrival</text>
+    <text x="0" y="44" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="30" fill="#1A1C20">10:34 AM</text>
+    <rect x="258" y="16" width="92" height="28" rx="14" fill="#FFF0F6"/>
+    <text x="304" y="34" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#E21B70">12 mins left</text>
+
+    <!-- 4-Step Progress Bar -->
+    <g transform="translate(0, 64)">
+      <rect x="0" y="0" width="82" height="5" rx="2.5" fill="#E21B70"/>
+      <rect x="90" y="0" width="82" height="5" rx="2.5" fill="#E21B70"/>
+      <rect x="180" y="0" width="82" height="5" rx="2.5" fill="#E21B70"/>
+      <rect x="270" y="0" width="80" height="5" rx="2.5" fill="#EFEFEF"/>
+    </g>
+
+    <text x="0" y="96" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" fill="#1A1C20">Your rider is on the way!</text>
+    <text x="0" y="116" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">Zack has picked up your order from Meow Burgers.</text>
+
+    <line x1="0" y1="136" x2="350" y2="136" stroke="#EFEFEF" stroke-width="1"/>
+
+    <!-- Rider Profile Row -->
+    <g transform="translate(0, 154)">
+      <g transform="translate(24, 24)">
+        
+  <g id="foodcat-mascot">
+    <circle cx="0" cy="0" r="24" fill="#FFFFFF" stroke="#E21B70" stroke-width="2"/>
+    <!-- Ears -->
+    <polygon points="-14,-8 -16,-20 -5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="14,-8 16,-20 5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="1" rx="16" ry="13" fill="#FAD2E1" stroke="#2E3138" stroke-width="1.5"/>
+    <ellipse cx="0" cy="5" rx="11" ry="8" fill="#FFFFFF"/>
+    <!-- Cap -->
+    <path d="M-8,-11 C-8,-17 8,-17 8,-11 Z" fill="#2E3138"/>
+    <rect x="-10" y="-12" width="20" height="3" rx="1.5" fill="#E21B70"/>
+    <!-- Eyes -->
+    <circle cx="-6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="-6.8" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <circle cx="6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="5.2" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <!-- Nose & Smile -->
+    <polygon points="-2,3 2,3 0,5.5" fill="#E21B70"/>
+    <path d="M-4,6.5 Q-2,9 0,6.5 Q2,9 4,6.5" fill="none" stroke="#2E3138" stroke-width="1.4" stroke-linecap="round"/>
+    <!-- Cheeks -->
+    <ellipse cx="-10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+    <ellipse cx="10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+  </g>
+
+      </g>
+      <text x="60" y="18" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" fill="#1A1C20">Hamza Ali</text>
+      <text x="60" y="37" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">★ 4.95 • Honda CD 70 (LEB-4021)</text>
+
+      <!-- Call & Chat Buttons -->
+      <circle cx="286" cy="24" r="20" fill="#FFF0F6"/>
+      <text x="286" y="29" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#E21B70">💬</text>
+      <circle cx="332" cy="24" r="20" fill="#E21B70"/>
+      <text x="332" y="29" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#FFFFFF">📞</text>
+    </g>
+
+    <line x1="0" y1="220" x2="350" y2="220" stroke="#EFEFEF" stroke-width="1"/>
+
+    <!-- Order Details Summary -->
+    <g transform="translate(0, 238)">
+      <text x="0" y="16" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">Order #FC-89412</text>
+      <text x="350" y="16" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#E21B70">View details</text>
+      <text x="0" y="38" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">2x Double Whisker Smash Burger</text>
+    </g>
+  </g>
+
+    </svg>
+  </g>
+
+  <g transform="translate(940, 1114)">
+    <text x="0" y="-16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="18" fill="#E4E4E7">09 • Catmart Grocery</text>
+    <rect x="-2" y="-2" width="394" height="848" rx="18" fill="none" stroke="#3F3F46" stroke-width="2"/>
+    <svg x="0" y="0" width="390" height="844" viewBox="0 0 390 844">
+      
+  
+  <defs>
+    <style>
+      .font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .bold { font-weight: 700; }
+      .semibold { font-weight: 600; }
+      .medium { font-weight: 500; }
+      .regular { font-weight: 400; }
+    </style>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="navShadow" x="-10%" y="-20%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="-2" stdDeviation="6" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E21B70"/>
+      <stop offset="100%" stop-color="#FF4791"/>
+    </linearGradient>
+    <linearGradient id="darkCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E3138"/>
+      <stop offset="100%" stop-color="#1A1C20"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="390" height="844" fill="#F7F7F7"/>
+
+  <!-- Catmart Header -->
+  <rect x="0" y="0" width="390" height="148" fill="#E21B70"/>
+  
+  <g id="status-bar">
+    <text x="24" y="28" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#FFFFFF">10:16</text>
+    <!-- Signal, Wifi, Battery -->
+    <rect x="315" y="18" width="3" height="10" rx="1" fill="#FFFFFF"/>
+    <rect x="320" y="16" width="3" height="12" rx="1" fill="#FFFFFF"/>
+    <rect x="325" y="14" width="3" height="14" rx="1" fill="#FFFFFF"/>
+    <rect x="330" y="12" width="3" height="16" rx="1" fill="#FFFFFF" opacity="0.35"/>
+    <rect x="342" y="16" width="22" height="11" rx="2.5" fill="none" stroke="#FFFFFF" stroke-width="1.4"/>
+    <rect x="344" y="18" width="16" height="7" rx="1" fill="#FFFFFF"/>
+    <rect x="365" y="19" width="2" height="5" rx="1" fill="#FFFFFF"/>
+  </g>
+
+
+  <g transform="translate(16, 48)">
+    <text x="0" y="18" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" fill="#FFFFFF">catmart</text>
+    <rect x="92" y="3" width="84" height="20" rx="10" fill="#FFFFFF"/>
+    <text x="134" y="17" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="10" fill="#E21B70">⚡ 20 MINS</text>
+    <text x="0" y="36" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="11" fill="#FFE3EE">Delivering to Main Boulevard, Gulberg III</text>
+  </g>
+
+  <!-- Search Input -->
+  <g transform="translate(16, 96)">
+    <rect x="0" y="0" width="358" height="38" rx="19" fill="#FFFFFF"/>
+    <text x="20" y="24" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="13" fill="#70757A">🔍 Search milk, eggs, snacks, fruits...</text>
+  </g>
+
+  <!-- Promo Strip -->
+  <g transform="translate(16, 162)">
+    <rect x="0" y="0" width="358" height="72" rx="12" fill="#FFF0F6" stroke="#FAD2E1"/>
+    <text x="16" y="28" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" fill="#E21B70">Free delivery on orders above Rs. 799</text>
+    <text x="16" y="48" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#1A1C20">Fresh produce &amp; daily essentials at supermarket prices</text>
+  </g>
+
+  <!-- Shop by Aisle Grid -->
+  <g transform="translate(16, 250)">
+    <text x="0" y="16" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="17" fill="#1A1C20">Shop by aisle</text>
+
+    <!-- Row 1 -->
+    <g transform="translate(0, 28)">
+      <rect x="0" y="0" width="112" height="96" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+      <circle cx="56" cy="38" r="22" fill="#D8F3DC"/>
+      <text x="56" y="78" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#1A1C20">Fruits &amp; Veg</text>
+
+      <rect x="123" y="0" width="112" height="96" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+      <circle cx="179" cy="38" r="22" fill="#E0F2FE"/>
+      <text x="179" y="78" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#1A1C20">Dairy &amp; Eggs</text>
+
+      <rect x="246" y="0" width="112" height="96" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+      <circle cx="302" cy="38" r="22" fill="#FEF3C7"/>
+      <text x="302" y="78" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#1A1C20">Bakery</text>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(0, 136)">
+      <rect x="0" y="0" width="112" height="96" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+      <circle cx="56" cy="38" r="22" fill="#FCE7F3"/>
+      <text x="56" y="78" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#1A1C20">Snacks</text>
+
+      <rect x="123" y="0" width="112" height="96" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+      <circle cx="179" cy="38" r="22" fill="#EDE9FE"/>
+      <text x="179" y="78" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#1A1C20">Beverages</text>
+
+      <rect x="246" y="0" width="112" height="96" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+      <circle cx="302" cy="38" r="22" fill="#FFEDD5"/>
+      <text x="302" y="78" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#1A1C20">Pet Care</text>
+    </g>
+  </g>
+
+  <!-- Trending Essentials Carousel -->
+  <g transform="translate(16, 502)">
+    <text x="0" y="16" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="17" fill="#1A1C20">Daily essentials</text>
+    <text x="358" y="16" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#E21B70">See all</text>
+
+    <!-- Product Card 1 -->
+    <g transform="translate(0, 28)">
+      <rect x="0" y="0" width="112" height="176" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+      <rect x="16" y="14" width="80" height="72" rx="8" fill="#E0F2FE"/>
+      <circle cx="94" cy="76" r="14" fill="#E21B70"/>
+      <text x="94" y="81" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">+</text>
+      <text x="10" y="106" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#1A1C20">Rs. 290</text>
+      <text x="10" y="124" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#1A1C20">Fresh Full Cream</text>
+      <text x="10" y="138" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#1A1C20">Milk 1 Liter</text>
+      <text x="10" y="158" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="10" fill="#70757A">1 L</text>
+    </g>
+
+    <!-- Product Card 2 -->
+    <g transform="translate(123, 28)">
+      <rect x="0" y="0" width="112" height="176" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+      <rect x="16" y="14" width="80" height="72" rx="8" fill="#FEF3C7"/>
+      <circle cx="94" cy="76" r="14" fill="#E21B70"/>
+      <text x="94" y="81" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">+</text>
+      <text x="10" y="106" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#1A1C20">Rs. 360</text>
+      <text x="10" y="124" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#1A1C20">Farm Fresh</text>
+      <text x="10" y="138" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#1A1C20">Brown Eggs</text>
+      <text x="10" y="158" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="10" fill="#70757A">12 pcs</text>
+    </g>
+
+    <!-- Product Card 3 -->
+    <g transform="translate(246, 28)">
+      <rect x="0" y="0" width="112" height="176" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+      <rect x="16" y="14" width="80" height="72" rx="8" fill="#D8F3DC"/>
+      <circle cx="94" cy="76" r="14" fill="#E21B70"/>
+      <text x="94" y="81" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">+</text>
+      <text x="10" y="106" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#1A1C20">Rs. 180</text>
+      <text x="10" y="124" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#1A1C20">Organic</text>
+      <text x="10" y="138" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#1A1C20">Bananas</text>
+      <text x="10" y="158" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="10" fill="#70757A">1 Dozen</text>
+    </g>
+  </g>
+
+  
+  <g id="bottom-nav" transform="translate(0, 772)" filter="url(#navShadow)">
+    <rect x="0" y="0" width="390" height="72" fill="#FFFFFF"/>
+    <line x1="0" y1="0" x2="390" y2="0" stroke="#EFEFEF" stroke-width="1"/>
+
+    <g transform="translate(48, 14)">
+      <path d="M12 3L4 9v12h16V9l-8-6z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Food</text>
+    </g>
+
+    <g transform="translate(140, 14)">
+      <path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" fill="#E21B70" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#E21B70">Grocery</text>
+    </g>
+
+    <g transform="translate(235, 14)">
+      <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Search</text>
+    </g>
+
+    <g transform="translate(330, 14)">
+      <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Account</text>
+    </g>
+  </g>
+
+
+    </svg>
+  </g>
+
+  <g transform="translate(1380, 1114)">
+    <text x="0" y="-16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="18" fill="#E4E4E7">10 • Search & Discovery</text>
+    <rect x="-2" y="-2" width="394" height="848" rx="18" fill="none" stroke="#3F3F46" stroke-width="2"/>
+    <svg x="0" y="0" width="390" height="844" viewBox="0 0 390 844">
+      
+  
+  <defs>
+    <style>
+      .font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .bold { font-weight: 700; }
+      .semibold { font-weight: 600; }
+      .medium { font-weight: 500; }
+      .regular { font-weight: 400; }
+    </style>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="navShadow" x="-10%" y="-20%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="-2" stdDeviation="6" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E21B70"/>
+      <stop offset="100%" stop-color="#FF4791"/>
+    </linearGradient>
+    <linearGradient id="darkCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E3138"/>
+      <stop offset="100%" stop-color="#1A1C20"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="390" height="844" fill="#FFFFFF"/>
+  
+  <g id="status-bar">
+    <text x="24" y="28" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">10:16</text>
+    <!-- Signal, Wifi, Battery -->
+    <rect x="315" y="18" width="3" height="10" rx="1" fill="#1A1C20"/>
+    <rect x="320" y="16" width="3" height="12" rx="1" fill="#1A1C20"/>
+    <rect x="325" y="14" width="3" height="14" rx="1" fill="#1A1C20"/>
+    <rect x="330" y="12" width="3" height="16" rx="1" fill="#1A1C20" opacity="0.35"/>
+    <rect x="342" y="16" width="22" height="11" rx="2.5" fill="none" stroke="#1A1C20" stroke-width="1.4"/>
+    <rect x="344" y="18" width="16" height="7" rx="1" fill="#1A1C20"/>
+    <rect x="365" y="19" width="2" height="5" rx="1" fill="#1A1C20"/>
+  </g>
+
+
+  <!-- Search Header -->
+  <g transform="translate(16, 48)">
+    <rect x="0" y="0" width="358" height="42" rx="21" fill="#F7F7F7" stroke="#E21B70" stroke-width="1.5"/>
+    <text x="18" y="26" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="13" fill="#1A1C20">🔍  Burger</text>
+    <circle cx="336" cy="21" r="10" fill="#CCCCCC"/>
+    <text x="336" y="25" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#FFFFFF">✕</text>
+  </g>
+
+  <!-- Recent Searches -->
+  <g transform="translate(16, 114)">
+    <text x="0" y="16" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#1A1C20">Recent searches</text>
+    <text x="358" y="16" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#E21B70">Clear</text>
+
+    <g transform="translate(0, 34)">
+      <text x="0" y="16" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="14" fill="#1A1C20">🕒  Smash Burger</text>
+      <text x="358" y="16" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="14" fill="#70757A">↖</text>
+      <line x1="0" y1="30" x2="358" y2="30" stroke="#F2F2F2"/>
+
+      <text x="0" y="54" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="14" fill="#1A1C20">🕒  Chicken Biryani</text>
+      <text x="358" y="54" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="14" fill="#70757A">↖</text>
+      <line x1="0" y1="68" x2="358" y2="68" stroke="#F2F2F2"/>
+
+      <text x="0" y="92" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="14" fill="#1A1C20">🕒  Catmart Milk &amp; Bread</text>
+      <text x="358" y="92" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="14" fill="#70757A">↖</text>
+    </g>
+  </g>
+
+  <!-- Popular Searches Pills -->
+  <g transform="translate(16, 268)">
+    <text x="0" y="16" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#1A1C20">Popular searches</text>
+
+    <g transform="translate(0, 32)">
+      <rect x="0" y="0" width="84" height="34" rx="17" fill="#FFF0F6" stroke="#FAD2E1"/>
+      <text x="42" y="22" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="12" fill="#E21B70">🔥 Pizza</text>
+
+      <rect x="92" y="0" width="96" height="34" rx="17" fill="#F7F7F7" stroke="#E0E0E0"/>
+      <text x="140" y="22" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="12" fill="#1A1C20">Shawarma</text>
+
+      <rect x="196" y="0" width="88" height="34" rx="17" fill="#F7F7F7" stroke="#E0E0E0"/>
+      <text x="240" y="22" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="12" fill="#1A1C20">Ice Cream</text>
+
+      <rect x="0" y="44" width="102" height="34" rx="17" fill="#F7F7F7" stroke="#E0E0E0"/>
+      <text x="51" y="66" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="12" fill="#1A1C20">Zinger Deal</text>
+
+      <rect x="110" y="44" width="82" height="34" rx="17" fill="#F7F7F7" stroke="#E0E0E0"/>
+      <text x="151" y="66" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="12" fill="#1A1C20">Momos</text>
+
+      <rect x="200" y="44" width="110" height="34" rx="17" fill="#F7F7F7" stroke="#E0E0E0"/>
+      <text x="255" y="66" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="12" fill="#1A1C20">Cold Coffee</text>
+    </g>
+  </g>
+
+  <!-- Quick Cuisine Tiles -->
+  <g transform="translate(16, 412)">
+    <text x="0" y="16" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#1A1C20">Explore categories</text>
+
+    <rect x="0" y="30" width="173" height="74" rx="12" fill="#FFF0F6"/>
+    <text x="16" y="62" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">Deals &amp; Offers</text>
+    <text x="16" y="80" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="11" fill="#E21B70">Up to 50% off</text>
+
+    <rect x="185" y="30" width="173" height="74" rx="12" fill="#FEF3C7"/>
+    <text x="201" y="62" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">Late Night</text>
+    <text x="201" y="80" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="11" fill="#70757A">Open till 3 AM</text>
+  </g>
+
+  
+  <g id="bottom-nav" transform="translate(0, 772)" filter="url(#navShadow)">
+    <rect x="0" y="0" width="390" height="72" fill="#FFFFFF"/>
+    <line x1="0" y1="0" x2="390" y2="0" stroke="#EFEFEF" stroke-width="1"/>
+
+    <g transform="translate(48, 14)">
+      <path d="M12 3L4 9v12h16V9l-8-6z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Food</text>
+    </g>
+
+    <g transform="translate(140, 14)">
+      <path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Grocery</text>
+    </g>
+
+    <g transform="translate(235, 14)">
+      <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" fill="#E21B70" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#E21B70">Search</text>
+    </g>
+
+    <g transform="translate(330, 14)">
+      <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Account</text>
+    </g>
+  </g>
+
+
+    </svg>
+  </g>
+
+  <g transform="translate(1820, 1114)">
+    <text x="0" y="-16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="18" fill="#E4E4E7">11 • Account & CatPro</text>
+    <rect x="-2" y="-2" width="394" height="848" rx="18" fill="none" stroke="#3F3F46" stroke-width="2"/>
+    <svg x="0" y="0" width="390" height="844" viewBox="0 0 390 844">
+      
+  
+  <defs>
+    <style>
+      .font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .bold { font-weight: 700; }
+      .semibold { font-weight: 600; }
+      .medium { font-weight: 500; }
+      .regular { font-weight: 400; }
+    </style>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="navShadow" x="-10%" y="-20%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="-2" stdDeviation="6" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E21B70"/>
+      <stop offset="100%" stop-color="#FF4791"/>
+    </linearGradient>
+    <linearGradient id="darkCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E3138"/>
+      <stop offset="100%" stop-color="#1A1C20"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="390" height="844" fill="#F7F7F7"/>
+  <rect x="0" y="0" width="390" height="130" fill="#FFFFFF"/>
+  
+  <g id="status-bar">
+    <text x="24" y="28" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">10:16</text>
+    <!-- Signal, Wifi, Battery -->
+    <rect x="315" y="18" width="3" height="10" rx="1" fill="#1A1C20"/>
+    <rect x="320" y="16" width="3" height="12" rx="1" fill="#1A1C20"/>
+    <rect x="325" y="14" width="3" height="14" rx="1" fill="#1A1C20"/>
+    <rect x="330" y="12" width="3" height="16" rx="1" fill="#1A1C20" opacity="0.35"/>
+    <rect x="342" y="16" width="22" height="11" rx="2.5" fill="none" stroke="#1A1C20" stroke-width="1.4"/>
+    <rect x="344" y="18" width="16" height="7" rx="1" fill="#1A1C20"/>
+    <rect x="365" y="19" width="2" height="5" rx="1" fill="#1A1C20"/>
+  </g>
+
+
+  <!-- Profile Header -->
+  <g transform="translate(16, 52)">
+    <g transform="translate(26, 26)">
+      
+  <g id="foodcat-mascot">
+    <circle cx="0" cy="0" r="24" fill="#FFFFFF" stroke="#E21B70" stroke-width="2"/>
+    <!-- Ears -->
+    <polygon points="-14,-8 -16,-20 -5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="14,-8 16,-20 5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="1" rx="16" ry="13" fill="#FAD2E1" stroke="#2E3138" stroke-width="1.5"/>
+    <ellipse cx="0" cy="5" rx="11" ry="8" fill="#FFFFFF"/>
+    <!-- Cap -->
+    <path d="M-8,-11 C-8,-17 8,-17 8,-11 Z" fill="#2E3138"/>
+    <rect x="-10" y="-12" width="20" height="3" rx="1.5" fill="#E21B70"/>
+    <!-- Eyes -->
+    <circle cx="-6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="-6.8" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <circle cx="6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="5.2" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <!-- Nose & Smile -->
+    <polygon points="-2,3 2,3 0,5.5" fill="#E21B70"/>
+    <path d="M-4,6.5 Q-2,9 0,6.5 Q2,9 4,6.5" fill="none" stroke="#2E3138" stroke-width="1.4" stroke-linecap="round"/>
+    <!-- Cheeks -->
+    <ellipse cx="-10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+    <ellipse cx="10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+  </g>
+
+    </g>
+    <text x="66" y="22" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="20" fill="#1A1C20">Zack</text>
+    <text x="66" y="42" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">View profile &amp; saved details</text>
+    <text x="358" y="30" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="18" fill="#E21B70">⚙</text>
+  </g>
+
+  <!-- CatPro Membership Banner -->
+  <g transform="translate(16, 146)">
+    <rect x="0" y="0" width="358" height="104" rx="14" fill="url(#darkCard)"/>
+    <rect x="16" y="16" width="66" height="22" rx="6" fill="#E21B70"/>
+    <text x="49" y="31" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#FFFFFF">catpro</text>
+    <text x="16" y="60" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">Unlock FREE delivery &amp; extra 20% off</text>
+    <text x="16" y="82" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#D1D5DB">Try 1 month free, then Rs. 249/mo →</text>
+  </g>
+
+  <!-- Quick Action Tiles -->
+  <g transform="translate(16, 264)">
+    <rect x="0" y="0" width="112" height="78" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="56" y="34" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="18" fill="#E21B70">🧾</text>
+    <text x="56" y="58" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="12" fill="#1A1C20">Orders</text>
+
+    <rect x="123" y="0" width="112" height="78" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="179" y="34" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="18" fill="#E21B70">♥</text>
+    <text x="179" y="58" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="12" fill="#1A1C20">Favourites</text>
+
+    <rect x="246" y="0" width="112" height="78" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="302" y="34" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="18" fill="#E21B70">📍</text>
+    <text x="302" y="58" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="12" fill="#1A1C20">Addresses</text>
+  </g>
+
+  <!-- Perks & Menu List -->
+  <g transform="translate(16, 358)">
+    <rect x="0" y="0" width="358" height="360" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+
+    <text x="18" y="34" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">🎟  Vouchers &amp; Offers</text>
+    <rect x="282" y="18" width="58" height="22" rx="11" fill="#FFF0F6"/>
+    <text x="311" y="33" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#E21B70">3 new</text>
+    <line x1="18" y1="54" x2="340" y2="54" stroke="#F2F2F2"/>
+
+    <text x="18" y="86" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">💳  foodcat Pay &amp; Cards</text>
+    <text x="340" y="86" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#70757A">Rs. 450 ›</text>
+    <line x1="18" y1="106" x2="340" y2="106" stroke="#F2F2F2"/>
+
+    <text x="18" y="138" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">🎁  Invite Friends (Get Rs. 400)</text>
+    <text x="340" y="138" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#70757A">›</text>
+    <line x1="18" y1="158" x2="340" y2="158" stroke="#F2F2F2"/>
+
+    <text x="18" y="190" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">🏆  catrewards Points</text>
+    <text x="340" y="190" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#E21B70">1,250 pts ›</text>
+    <line x1="18" y1="210" x2="340" y2="210" stroke="#F2F2F2"/>
+
+    <text x="18" y="242" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">🎧  Help Center</text>
+    <text x="340" y="242" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#70757A">›</text>
+    <line x1="18" y1="262" x2="340" y2="262" stroke="#F2F2F2"/>
+
+    <text x="18" y="294" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">📄  Terms &amp; Privacy</text>
+    <text x="340" y="294" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#70757A">›</text>
+    <line x1="18" y1="314" x2="340" y2="314" stroke="#F2F2F2"/>
+
+    <text x="18" y="344" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#E21B70">Log out</text>
+  </g>
+
+  
+  <g id="bottom-nav" transform="translate(0, 772)" filter="url(#navShadow)">
+    <rect x="0" y="0" width="390" height="72" fill="#FFFFFF"/>
+    <line x1="0" y1="0" x2="390" y2="0" stroke="#EFEFEF" stroke-width="1"/>
+
+    <g transform="translate(48, 14)">
+      <path d="M12 3L4 9v12h16V9l-8-6z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Food</text>
+    </g>
+
+    <g transform="translate(140, 14)">
+      <path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Grocery</text>
+    </g>
+
+    <g transform="translate(235, 14)">
+      <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Search</text>
+    </g>
+
+    <g transform="translate(330, 14)">
+      <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" fill="#E21B70" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#E21B70">Account</text>
+    </g>
+  </g>
+
+
+    </svg>
+  </g>
+</svg>

@@ -1,0 +1,1949 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="5000" height="3350" viewBox="0 0 5000 3350">
+  <rect width="5000" height="3350" fill="#141417"/>
+  <text x="60" y="90" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="48" fill="#FFFFFF">foodcat — Complete 4-App Ecosystem Figma Vector UI Kit (25 Screens)</text>
+  <text x="60" y="136" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="22" fill="#A1A1AA">1. Customer App (11)  •  2. Restaurant Partner App (5)  •  3. Biker Rider App (5)  •  4. Admin Web Portal (4)  •  Drag into Figma</text>
+<text x="60" y="195" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="26" fill="#E21B70">01 • CUSTOMER APP (390 × 844)</text><text x="60" y="1150" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="26" fill="#E21B70">02 • RESTAURANT PARTNER APP (5 SCREENS)</text>
+  <g transform="translate(60, 1190)">
+    <text x="0" y="-14" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#E4E4E7">R01 • Live Orders</text>
+    <rect x="-2" y="-2" width="394" height="848" rx="16" fill="none" stroke="#3F3F46" stroke-width="2"/>
+    <svg x="0" y="0" width="390" height="844" viewBox="0 0 390 844">
+      
+  
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="navShadow" x="-10%" y="-20%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="-2" stdDeviation="6" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E21B70"/>
+      <stop offset="100%" stop-color="#FF4791"/>
+    </linearGradient>
+    <linearGradient id="darkCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E3138"/>
+      <stop offset="100%" stop-color="#1A1C20"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="390" height="844" fill="#F7F7F7"/>
+  <rect x="0" y="0" width="390" height="112" fill="#FFFFFF"/>
+  
+  <g id="status-bar">
+    <text x="24" y="28" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">10:20</text>
+    <rect x="315" y="18" width="3" height="10" rx="1" fill="#1A1C20"/>
+    <rect x="320" y="16" width="3" height="12" rx="1" fill="#1A1C20"/>
+    <rect x="325" y="14" width="3" height="14" rx="1" fill="#1A1C20"/>
+    <rect x="330" y="12" width="3" height="16" rx="1" fill="#1A1C20" opacity="0.35"/>
+    <rect x="342" y="16" width="22" height="11" rx="2.5" fill="none" stroke="#1A1C20" stroke-width="1.4"/>
+    <rect x="344" y="18" width="16" height="7" rx="1" fill="#1A1C20"/>
+    <rect x="365" y="19" width="2" height="5" rx="1" fill="#1A1C20"/>
+  </g>
+
+
+  <!-- Top Store Header -->
+  <g transform="translate(16, 48)">
+    <g transform="translate(20, 22) scale(0.8)">
+      
+  <g id="foodcat-mascot">
+    <circle cx="0" cy="0" r="24" fill="#FFFFFF" stroke="#E21B70" stroke-width="2"/>
+    <polygon points="-14,-8 -16,-20 -5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="14,-8 16,-20 5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <ellipse cx="0" cy="1" rx="16" ry="13" fill="#FAD2E1" stroke="#2E3138" stroke-width="1.5"/>
+    <ellipse cx="0" cy="5" rx="11" ry="8" fill="#FFFFFF"/>
+    <path d="M-8,-11 C-8,-17 8,-17 8,-11 Z" fill="#2E3138"/>
+    <rect x="-10" y="-12" width="20" height="3" rx="1.5" fill="#E21B70"/>
+    <circle cx="-6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="-6.8" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <circle cx="6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="5.2" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <polygon points="-2,3 2,3 0,5.5" fill="#E21B70"/>
+    <path d="M-4,6.5 Q-2,9 0,6.5 Q2,9 4,6.5" fill="none" stroke="#2E3138" stroke-width="1.4" stroke-linecap="round"/>
+    <ellipse cx="-10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+    <ellipse cx="10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+  </g>
+
+    </g>
+    <text x="50" y="18" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#1A1C20">Meow Burgers &amp; Fries</text>
+    <text x="50" y="35" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#10B981">● Accepting orders • Gulberg III</text>
+    <!-- Online Pill Toggle -->
+    <rect x="278" y="8" width="80" height="30" rx="15" fill="#10B981"/>
+    <circle cx="343" cy="23" r="11" fill="#FFFFFF"/>
+    <text x="308" y="27" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#FFFFFF">OPEN</text>
+  </g>
+
+  <!-- Status Filter Tabs -->
+  <g transform="translate(16, 126)">
+    <rect x="0" y="0" width="114" height="36" rx="18" fill="#E21B70"/>
+    <text x="57" y="23" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#FFFFFF">New (2)</text>
+
+    <rect x="122" y="0" width="114" height="36" rx="18" fill="#FFFFFF" stroke="#E0E0E0"/>
+    <text x="179" y="23" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="12" fill="#1A1C20">Preparing (3)</text>
+
+    <rect x="244" y="0" width="114" height="36" rx="18" fill="#FFFFFF" stroke="#E0E0E0"/>
+    <text x="301" y="23" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="12" fill="#1A1C20">Ready (1)</text>
+  </g>
+
+  <!-- Incoming Order Card 1 (Urgent) -->
+  <g transform="translate(16, 178)">
+    <rect x="0" y="0" width="358" height="276" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <rect x="0" y="0" width="358" height="6" rx="3" fill="#E21B70"/>
+
+    <text x="16" y="34" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="17" fill="#1A1C20">#FC-89415</text>
+    <rect x="116" y="18" width="76" height="22" rx="11" fill="#FFF0F6"/>
+    <text x="154" y="33" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#E21B70">⏱ 01:45</text>
+    <text x="342" y="34" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#1A1C20">Rs. 2,020</text>
+
+    <text x="16" y="56" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">Customer: Sarah K. • Paid Online</text>
+    <line x1="16" y1="70" x2="342" y2="70" stroke="#EFEFEF"/>
+
+    <!-- Items -->
+    <text x="16" y="94" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">2x Double Whisker Smash Burger</text>
+    <text x="34" y="112" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">+ Extra Cheddar Slice, No Onions</text>
+
+    <text x="16" y="138" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">1x Loaded Kitty Fries</text>
+    <text x="34" y="156" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">+ Jalapenos</text>
+
+    <!-- Prep Time Selector -->
+    <g transform="translate(16, 174)">
+      <text x="0" y="14" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="12" fill="#70757A">Prep time:</text>
+      <rect x="74" y="-2" width="66" height="26" rx="8" fill="#FFF0F6" stroke="#E21B70"/>
+      <text x="107" y="15" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#E21B70">15 min</text>
+      <rect x="148" y="-2" width="66" height="26" rx="8" fill="#F7F7F7"/>
+      <text x="181" y="15" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="12" fill="#1A1C20">20 min</text>
+      <rect x="222" y="-2" width="66" height="26" rx="8" fill="#F7F7F7"/>
+      <text x="255" y="15" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="12" fill="#1A1C20">25 min</text>
+    </g>
+
+    <!-- Action Buttons -->
+    <g transform="translate(16, 214)">
+      <rect x="0" y="0" width="104" height="44" rx="10" fill="#F7F7F7" stroke="#E0E0E0"/>
+      <text x="52" y="27" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#70757A">Reject</text>
+
+      <rect x="116" y="0" width="210" height="44" rx="10" fill="#E21B70"/>
+      <text x="221" y="27" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#FFFFFF">Accept Order</text>
+    </g>
+  </g>
+
+  <!-- Incoming Order Card 2 -->
+  <g transform="translate(16, 470)">
+    <rect x="0" y="0" width="358" height="210" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="16" y="30" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="17" fill="#1A1C20">#FC-89416</text>
+    <rect x="116" y="14" width="76" height="22" rx="11" fill="#FFF0F6"/>
+    <text x="154" y="29" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#E21B70">⏱ 02:30</text>
+    <text x="342" y="30" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#1A1C20">Rs. 1,300</text>
+    <text x="16" y="52" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">Customer: Bilal M. • Cash on Delivery</text>
+    <line x1="16" y1="66" x2="342" y2="66" stroke="#EFEFEF"/>
+    <text x="16" y="92" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">2x Spicy Kitty Crispy Zinger</text>
+    <text x="16" y="114" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">Make it a Meal (Regular Fries + Cola)</text>
+    <rect x="16" y="146" width="326" height="44" rx="10" fill="#E21B70"/>
+    <text x="179" y="173" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#FFFFFF">Accept Order (15 min)</text>
+  </g>
+
+  
+  <g id="bottom-nav" transform="translate(0, 772)" filter="url(#navShadow)">
+    <rect x="0" y="0" width="390" height="72" fill="#FFFFFF"/>
+    <line x1="0" y1="0" x2="390" y2="0" stroke="#EFEFEF" stroke-width="1"/>
+
+    <g transform="translate(48, 14)">
+      <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z" fill="#E21B70" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#E21B70">Orders</text>
+    </g>
+
+    <g transform="translate(140, 14)">
+      <path d="M11 9H9V2H7v7H5V2H3v7c0 2.12 1.66 3.84 3.75 3.97V22h2.5v-9.03C11.34 12.84 13 11.12 13 9V2h-2v7zm5-3v8h2.5v8H21V2c-2.76 0-5 2.24-5 4z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Menu</text>
+    </g>
+
+    <g transform="translate(235, 14)">
+      <path d="M5 9.2h3V19H5zM10.6 5h2.8v14h-2.8zm5.6 8H19v6h-2.8z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Analytics</text>
+    </g>
+
+    <g transform="translate(330, 14)">
+      <path d="M20 4H4v2h16V4zm1 10v-2l-1-5H4l-1 5v2h1v6h10v-6h4v6h2v-6h1zm-9 4H6v-4h6v4z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Store</text>
+    </g>
+  </g>
+
+
+    </svg>
+  </g>
+
+  <g transform="translate(500, 1190)">
+    <text x="0" y="-14" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#E4E4E7">R02 • Prep & Handover</text>
+    <rect x="-2" y="-2" width="394" height="848" rx="16" fill="none" stroke="#3F3F46" stroke-width="2"/>
+    <svg x="0" y="0" width="390" height="844" viewBox="0 0 390 844">
+      
+  
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="navShadow" x="-10%" y="-20%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="-2" stdDeviation="6" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E21B70"/>
+      <stop offset="100%" stop-color="#FF4791"/>
+    </linearGradient>
+    <linearGradient id="darkCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E3138"/>
+      <stop offset="100%" stop-color="#1A1C20"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="390" height="844" fill="#F7F7F7"/>
+  <rect x="0" y="0" width="390" height="96" fill="#FFFFFF"/>
+  
+  <g id="status-bar">
+    <text x="24" y="28" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">10:20</text>
+    <rect x="315" y="18" width="3" height="10" rx="1" fill="#1A1C20"/>
+    <rect x="320" y="16" width="3" height="12" rx="1" fill="#1A1C20"/>
+    <rect x="325" y="14" width="3" height="14" rx="1" fill="#1A1C20"/>
+    <rect x="330" y="12" width="3" height="16" rx="1" fill="#1A1C20" opacity="0.35"/>
+    <rect x="342" y="16" width="22" height="11" rx="2.5" fill="none" stroke="#1A1C20" stroke-width="1.4"/>
+    <rect x="344" y="18" width="16" height="7" rx="1" fill="#1A1C20"/>
+    <rect x="365" y="19" width="2" height="5" rx="1" fill="#1A1C20"/>
+  </g>
+
+
+  <g transform="translate(16, 52)">
+    <text x="0" y="18" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="18" fill="#E21B70">←</text>
+    <text x="30" y="18" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="17" fill="#1A1C20">Order #FC-89412</text>
+    <rect x="274" y="0" width="84" height="26" rx="13" fill="#FEF3C7"/>
+    <text x="316" y="17" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#D97706">PREPARING</text>
+  </g>
+
+  <!-- Kitchen Timer Card -->
+  <g transform="translate(16, 112)">
+    <rect x="0" y="0" width="358" height="96" rx="14" fill="#2E3138"/>
+    <text x="18" y="30" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="12" fill="#D1D5DB">Remaining kitchen prep time</text>
+    <text x="18" y="68" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="34" fill="#FFFFFF">06:42</text>
+    <rect x="242" y="34" width="98" height="34" rx="17" fill="#E21B70"/>
+    <text x="291" y="55" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#FFFFFF">+5 mins</text>
+  </g>
+
+  <!-- Assigned Foodcat Rider Card -->
+  <g transform="translate(16, 224)">
+    <rect x="0" y="0" width="358" height="94" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <g transform="translate(36, 47)">
+      
+  <g id="foodcat-mascot">
+    <circle cx="0" cy="0" r="24" fill="#FFFFFF" stroke="#E21B70" stroke-width="2"/>
+    <polygon points="-14,-8 -16,-20 -5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="14,-8 16,-20 5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <ellipse cx="0" cy="1" rx="16" ry="13" fill="#FAD2E1" stroke="#2E3138" stroke-width="1.5"/>
+    <ellipse cx="0" cy="5" rx="11" ry="8" fill="#FFFFFF"/>
+    <path d="M-8,-11 C-8,-17 8,-17 8,-11 Z" fill="#2E3138"/>
+    <rect x="-10" y="-12" width="20" height="3" rx="1.5" fill="#E21B70"/>
+    <circle cx="-6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="-6.8" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <circle cx="6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="5.2" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <polygon points="-2,3 2,3 0,5.5" fill="#E21B70"/>
+    <path d="M-4,6.5 Q-2,9 0,6.5 Q2,9 4,6.5" fill="none" stroke="#2E3138" stroke-width="1.4" stroke-linecap="round"/>
+    <ellipse cx="-10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+    <ellipse cx="10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+  </g>
+
+    </g>
+    <text x="72" y="28" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#E21B70">ASSIGNED RIDER</text>
+    <text x="72" y="48" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" fill="#1A1C20">Hamza Ali • Arriving in 3 min</text>
+    <text x="72" y="68" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">Bike: LEB-4021 • PIN: 4829</text>
+    <circle cx="326" cy="47" r="18" fill="#FFF0F6"/>
+    <text x="326" y="52" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#E21B70">📞</text>
+  </g>
+
+  <!-- Kitchen Ticket Checklist -->
+  <g transform="translate(16, 334)">
+    <rect x="0" y="0" width="358" height="270" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="16" y="30" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#1A1C20">Kitchen Packing Checklist</text>
+
+    <g transform="translate(16, 52)">
+      <rect x="0" y="0" width="22" height="22" rx="6" fill="#10B981"/>
+      <text x="11" y="16" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#FFFFFF">✓</text>
+      <text x="34" y="16" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">2x Double Whisker Smash Burger</text>
+      <text x="34" y="34" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">Extra Cheddar Slice</text>
+    </g>
+
+    <line x1="16" y1="102" x2="342" y2="102" stroke="#EFEFEF"/>
+
+    <g transform="translate(16, 118)">
+      <rect x="0" y="0" width="22" height="22" rx="6" fill="#10B981"/>
+      <text x="11" y="16" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#FFFFFF">✓</text>
+      <text x="34" y="16" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">2x Secret Cat Sauce Dip</text>
+    </g>
+
+    <line x1="16" y1="156" x2="342" y2="156" stroke="#EFEFEF"/>
+
+    <g transform="translate(16, 174)">
+      <rect x="0" y="0" width="22" height="22" rx="6" fill="none" stroke="#CCCCCC" stroke-width="2"/>
+      <text x="34" y="16" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">Cutlery &amp; Napkins Included</text>
+      <text x="34" y="34" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#E21B70">Seal bag with foodcat tamper sticker</text>
+    </g>
+  </g>
+
+  <!-- Primary Bottom Action -->
+  <g transform="translate(16, 690)">
+    <rect x="0" y="0" width="358" height="52" rx="12" fill="#10B981"/>
+    <text x="179" y="31" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" fill="#FFFFFF">Mark Order Ready for Pickup</text>
+  </g>
+
+  
+  <g id="bottom-nav" transform="translate(0, 772)" filter="url(#navShadow)">
+    <rect x="0" y="0" width="390" height="72" fill="#FFFFFF"/>
+    <line x1="0" y1="0" x2="390" y2="0" stroke="#EFEFEF" stroke-width="1"/>
+
+    <g transform="translate(48, 14)">
+      <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z" fill="#E21B70" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#E21B70">Orders</text>
+    </g>
+
+    <g transform="translate(140, 14)">
+      <path d="M11 9H9V2H7v7H5V2H3v7c0 2.12 1.66 3.84 3.75 3.97V22h2.5v-9.03C11.34 12.84 13 11.12 13 9V2h-2v7zm5-3v8h2.5v8H21V2c-2.76 0-5 2.24-5 4z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Menu</text>
+    </g>
+
+    <g transform="translate(235, 14)">
+      <path d="M5 9.2h3V19H5zM10.6 5h2.8v14h-2.8zm5.6 8H19v6h-2.8z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Analytics</text>
+    </g>
+
+    <g transform="translate(330, 14)">
+      <path d="M20 4H4v2h16V4zm1 10v-2l-1-5H4l-1 5v2h1v6h10v-6h4v6h2v-6h1zm-9 4H6v-4h6v4z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Store</text>
+    </g>
+  </g>
+
+
+    </svg>
+  </g>
+
+  <g transform="translate(940, 1190)">
+    <text x="0" y="-14" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#E4E4E7">R03 • Menu & Stock</text>
+    <rect x="-2" y="-2" width="394" height="848" rx="16" fill="none" stroke="#3F3F46" stroke-width="2"/>
+    <svg x="0" y="0" width="390" height="844" viewBox="0 0 390 844">
+      
+  
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="navShadow" x="-10%" y="-20%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="-2" stdDeviation="6" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E21B70"/>
+      <stop offset="100%" stop-color="#FF4791"/>
+    </linearGradient>
+    <linearGradient id="darkCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E3138"/>
+      <stop offset="100%" stop-color="#1A1C20"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="390" height="844" fill="#F7F7F7"/>
+  <rect x="0" y="0" width="390" height="104" fill="#FFFFFF"/>
+  
+  <g id="status-bar">
+    <text x="24" y="28" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">10:20</text>
+    <rect x="315" y="18" width="3" height="10" rx="1" fill="#1A1C20"/>
+    <rect x="320" y="16" width="3" height="12" rx="1" fill="#1A1C20"/>
+    <rect x="325" y="14" width="3" height="14" rx="1" fill="#1A1C20"/>
+    <rect x="330" y="12" width="3" height="16" rx="1" fill="#1A1C20" opacity="0.35"/>
+    <rect x="342" y="16" width="22" height="11" rx="2.5" fill="none" stroke="#1A1C20" stroke-width="1.4"/>
+    <rect x="344" y="18" width="16" height="7" rx="1" fill="#1A1C20"/>
+    <rect x="365" y="19" width="2" height="5" rx="1" fill="#1A1C20"/>
+  </g>
+
+
+  <g transform="translate(16, 52)">
+    <text x="0" y="18" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="20" fill="#1A1C20">Menu Manager</text>
+    <rect x="256" y="-4" width="102" height="32" rx="16" fill="#E21B70"/>
+    <text x="307" y="16" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#FFFFFF">+ Add Item</text>
+  </g>
+
+  <!-- Search Menu -->
+  <g transform="translate(16, 118)">
+    <rect x="0" y="0" width="358" height="40" rx="10" fill="#FFFFFF" stroke="#E0E0E0"/>
+    <text x="16" y="25" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="13" fill="#70757A">🔍 Search 42 menu items...</text>
+  </g>
+
+  <!-- Category Header -->
+  <text x="16" y="186" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#1A1C20">Smash Burgers (8)</text>
+
+  <!-- Item Row 1 (In Stock) -->
+  <g transform="translate(16, 200)">
+    <rect x="0" y="0" width="358" height="88" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <rect x="12" y="14" width="60" height="60" rx="10" fill="#FFE8CC"/>
+    <circle cx="42" cy="44" r="18" fill="#F5A623"/>
+    <text x="84" y="34" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">Double Whisker Smash</text>
+    <text x="84" y="54" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#E21B70">Rs. 890</text>
+    <text x="84" y="72" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#10B981">In Stock</text>
+    <!-- Switch ON -->
+    <rect x="296" y="30" width="46" height="26" rx="13" fill="#10B981"/>
+    <circle cx="329" cy="43" r="10" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Item Row 2 (In Stock) -->
+  <g transform="translate(16, 300)">
+    <rect x="0" y="0" width="358" height="88" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <rect x="12" y="14" width="60" height="60" rx="10" fill="#FAD2E1"/>
+    <circle cx="42" cy="44" r="18" fill="#E21B70"/>
+    <text x="84" y="34" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">Spicy Kitty Zinger</text>
+    <text x="84" y="54" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#E21B70">Rs. 650</text>
+    <text x="84" y="72" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#10B981">In Stock</text>
+    <rect x="296" y="30" width="46" height="26" rx="13" fill="#10B981"/>
+    <circle cx="329" cy="43" r="10" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Item Row 3 (Out of Stock) -->
+  <g transform="translate(16, 400)">
+    <rect x="0" y="0" width="358" height="88" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <rect x="12" y="14" width="60" height="60" rx="10" fill="#EFEFEF"/>
+    <circle cx="42" cy="44" r="18" fill="#CCCCCC"/>
+    <text x="84" y="34" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#70757A">Truffle Mushroom Melt</text>
+    <text x="84" y="54" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#70757A">Rs. 990</text>
+    <text x="84" y="72" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="11" fill="#EF4444">Sold out until tomorrow</text>
+    <!-- Switch OFF -->
+    <rect x="296" y="30" width="46" height="26" rx="13" fill="#D1D5DB"/>
+    <circle cx="309" cy="43" r="10" fill="#FFFFFF"/>
+  </g>
+
+  <text x="16" y="522" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#1A1C20">Loaded Fries &amp; Sides (12)</text>
+
+  <!-- Item Row 4 -->
+  <g transform="translate(16, 536)">
+    <rect x="0" y="0" width="358" height="88" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <rect x="12" y="14" width="60" height="60" rx="10" fill="#FEF3C7"/>
+    <circle cx="42" cy="44" r="18" fill="#F59E0B"/>
+    <text x="84" y="34" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">Loaded Kitty Fries</text>
+    <text x="84" y="54" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#E21B70">Rs. 450</text>
+    <text x="84" y="72" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#10B981">In Stock</text>
+    <rect x="296" y="30" width="46" height="26" rx="13" fill="#10B981"/>
+    <circle cx="329" cy="43" r="10" fill="#FFFFFF"/>
+  </g>
+
+  
+  <g id="bottom-nav" transform="translate(0, 772)" filter="url(#navShadow)">
+    <rect x="0" y="0" width="390" height="72" fill="#FFFFFF"/>
+    <line x1="0" y1="0" x2="390" y2="0" stroke="#EFEFEF" stroke-width="1"/>
+
+    <g transform="translate(48, 14)">
+      <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Orders</text>
+    </g>
+
+    <g transform="translate(140, 14)">
+      <path d="M11 9H9V2H7v7H5V2H3v7c0 2.12 1.66 3.84 3.75 3.97V22h2.5v-9.03C11.34 12.84 13 11.12 13 9V2h-2v7zm5-3v8h2.5v8H21V2c-2.76 0-5 2.24-5 4z" fill="#E21B70" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#E21B70">Menu</text>
+    </g>
+
+    <g transform="translate(235, 14)">
+      <path d="M5 9.2h3V19H5zM10.6 5h2.8v14h-2.8zm5.6 8H19v6h-2.8z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Analytics</text>
+    </g>
+
+    <g transform="translate(330, 14)">
+      <path d="M20 4H4v2h16V4zm1 10v-2l-1-5H4l-1 5v2h1v6h10v-6h4v6h2v-6h1zm-9 4H6v-4h6v4z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Store</text>
+    </g>
+  </g>
+
+
+    </svg>
+  </g>
+
+  <g transform="translate(1380, 1190)">
+    <text x="0" y="-14" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#E4E4E7">R04 • Revenue & Payouts</text>
+    <rect x="-2" y="-2" width="394" height="848" rx="16" fill="none" stroke="#3F3F46" stroke-width="2"/>
+    <svg x="0" y="0" width="390" height="844" viewBox="0 0 390 844">
+      
+  
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="navShadow" x="-10%" y="-20%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="-2" stdDeviation="6" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E21B70"/>
+      <stop offset="100%" stop-color="#FF4791"/>
+    </linearGradient>
+    <linearGradient id="darkCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E3138"/>
+      <stop offset="100%" stop-color="#1A1C20"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="390" height="844" fill="#F7F7F7"/>
+  <rect x="0" y="0" width="390" height="96" fill="#FFFFFF"/>
+  
+  <g id="status-bar">
+    <text x="24" y="28" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">10:20</text>
+    <rect x="315" y="18" width="3" height="10" rx="1" fill="#1A1C20"/>
+    <rect x="320" y="16" width="3" height="12" rx="1" fill="#1A1C20"/>
+    <rect x="325" y="14" width="3" height="14" rx="1" fill="#1A1C20"/>
+    <rect x="330" y="12" width="3" height="16" rx="1" fill="#1A1C20" opacity="0.35"/>
+    <rect x="342" y="16" width="22" height="11" rx="2.5" fill="none" stroke="#1A1C20" stroke-width="1.4"/>
+    <rect x="344" y="18" width="16" height="7" rx="1" fill="#1A1C20"/>
+    <rect x="365" y="19" width="2" height="5" rx="1" fill="#1A1C20"/>
+  </g>
+
+
+  <g transform="translate(16, 52)">
+    <text x="0" y="18" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="20" fill="#1A1C20">Sales &amp; Payouts</text>
+    <rect x="268" y="-4" width="90" height="28" rx="14" fill="#FFF0F6"/>
+    <text x="313" y="14" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#E21B70">This Week ▾</text>
+  </g>
+
+  <!-- Hero Revenue Card -->
+  <g transform="translate(16, 112)">
+    <rect x="0" y="0" width="358" height="122" rx="14" fill="url(#pinkGrad)"/>
+    <text x="18" y="30" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="12" fill="#FFE3EE">Net Revenue (Nov 9 – Nov 15)</text>
+    <text x="18" y="68" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="32" fill="#FFFFFF">Rs. 248,500</text>
+    <rect x="18" y="84" width="142" height="24" rx="12" fill="#FFFFFF" opacity="0.22"/>
+    <text x="89" y="100" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#FFFFFF">↑ +18.4% vs last week</text>
+  </g>
+
+  <!-- 2 KPI Mini Cards -->
+  <g transform="translate(16, 248)">
+    <rect x="0" y="0" width="173" height="84" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="14" y="26" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="12" fill="#70757A">Total Orders</text>
+    <text x="14" y="56" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="24" fill="#1A1C20">312</text>
+    <text x="14" y="74" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="11" fill="#10B981">★ 4.8 Avg Rating</text>
+
+    <rect x="185" y="0" width="173" height="84" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="199" y="26" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="12" fill="#70757A">Avg Prep Time</text>
+    <text x="199" y="56" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="24" fill="#1A1C20">13.5m</text>
+    <text x="199" y="74" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="11" fill="#E21B70">Top 5% in Lahore</text>
+  </g>
+
+  <!-- Daily Bar Chart Card -->
+  <g transform="translate(16, 348)">
+    <rect x="0" y="0" width="358" height="210" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="16" y="28" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" fill="#1A1C20">Daily Sales Breakdown</text>
+
+    <!-- Bars Mon-Sun -->
+    <g transform="translate(26, 170)">
+      <rect x="0" y="-65" width="24" height="65" rx="6" fill="#FAD2E1"/>
+      <text x="12" y="18" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#70757A">Mon</text>
+
+      <rect x="46" y="-82" width="24" height="82" rx="6" fill="#FAD2E1"/>
+      <text x="58" y="18" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#70757A">Tue</text>
+
+      <rect x="92" y="-74" width="24" height="74" rx="6" fill="#FAD2E1"/>
+      <text x="104" y="18" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#70757A">Wed</text>
+
+      <rect x="138" y="-95" width="24" height="95" rx="6" fill="#FAD2E1"/>
+      <text x="150" y="18" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#70757A">Thu</text>
+
+      <rect x="184" y="-118" width="24" height="118" rx="6" fill="#E21B70"/>
+      <text x="196" y="18" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#E21B70">Fri</text>
+
+      <rect x="230" y="-124" width="24" height="124" rx="6" fill="#E21B70"/>
+      <text x="242" y="18" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#E21B70">Sat</text>
+
+      <rect x="276" y="-90" width="24" height="90" rx="6" fill="#FAD2E1"/>
+      <text x="288" y="18" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#70757A">Sun</text>
+    </g>
+  </g>
+
+  <!-- Next Payout Card -->
+  <g transform="translate(16, 574)">
+    <rect x="0" y="0" width="358" height="84" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="16" y="30" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">Next Bank Payout • Tuesday</text>
+    <text x="16" y="52" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">HBL Corporate Account •••• 9184</text>
+    <text x="342" y="44" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#10B981">Rs. 198,800</text>
+  </g>
+
+  
+  <g id="bottom-nav" transform="translate(0, 772)" filter="url(#navShadow)">
+    <rect x="0" y="0" width="390" height="72" fill="#FFFFFF"/>
+    <line x1="0" y1="0" x2="390" y2="0" stroke="#EFEFEF" stroke-width="1"/>
+
+    <g transform="translate(48, 14)">
+      <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Orders</text>
+    </g>
+
+    <g transform="translate(140, 14)">
+      <path d="M11 9H9V2H7v7H5V2H3v7c0 2.12 1.66 3.84 3.75 3.97V22h2.5v-9.03C11.34 12.84 13 11.12 13 9V2h-2v7zm5-3v8h2.5v8H21V2c-2.76 0-5 2.24-5 4z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Menu</text>
+    </g>
+
+    <g transform="translate(235, 14)">
+      <path d="M5 9.2h3V19H5zM10.6 5h2.8v14h-2.8zm5.6 8H19v6h-2.8z" fill="#E21B70" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#E21B70">Analytics</text>
+    </g>
+
+    <g transform="translate(330, 14)">
+      <path d="M20 4H4v2h16V4zm1 10v-2l-1-5H4l-1 5v2h1v6h10v-6h4v6h2v-6h1zm-9 4H6v-4h6v4z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Store</text>
+    </g>
+  </g>
+
+
+    </svg>
+  </g>
+
+  <g transform="translate(1820, 1190)">
+    <text x="0" y="-14" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#E4E4E7">R05 • Store Settings</text>
+    <rect x="-2" y="-2" width="394" height="848" rx="16" fill="none" stroke="#3F3F46" stroke-width="2"/>
+    <svg x="0" y="0" width="390" height="844" viewBox="0 0 390 844">
+      
+  
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="navShadow" x="-10%" y="-20%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="-2" stdDeviation="6" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E21B70"/>
+      <stop offset="100%" stop-color="#FF4791"/>
+    </linearGradient>
+    <linearGradient id="darkCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E3138"/>
+      <stop offset="100%" stop-color="#1A1C20"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="390" height="844" fill="#F7F7F7"/>
+  <rect x="0" y="0" width="390" height="146" fill="#FFFFFF"/>
+  
+  <g id="status-bar">
+    <text x="24" y="28" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">10:20</text>
+    <rect x="315" y="18" width="3" height="10" rx="1" fill="#1A1C20"/>
+    <rect x="320" y="16" width="3" height="12" rx="1" fill="#1A1C20"/>
+    <rect x="325" y="14" width="3" height="14" rx="1" fill="#1A1C20"/>
+    <rect x="330" y="12" width="3" height="16" rx="1" fill="#1A1C20" opacity="0.35"/>
+    <rect x="342" y="16" width="22" height="11" rx="2.5" fill="none" stroke="#1A1C20" stroke-width="1.4"/>
+    <rect x="344" y="18" width="16" height="7" rx="1" fill="#1A1C20"/>
+    <rect x="365" y="19" width="2" height="5" rx="1" fill="#1A1C20"/>
+  </g>
+
+
+  <g transform="translate(16, 52)">
+    <g transform="translate(28, 28) scale(1.1)">
+      
+  <g id="foodcat-mascot">
+    <circle cx="0" cy="0" r="24" fill="#FFFFFF" stroke="#E21B70" stroke-width="2"/>
+    <polygon points="-14,-8 -16,-20 -5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="14,-8 16,-20 5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <ellipse cx="0" cy="1" rx="16" ry="13" fill="#FAD2E1" stroke="#2E3138" stroke-width="1.5"/>
+    <ellipse cx="0" cy="5" rx="11" ry="8" fill="#FFFFFF"/>
+    <path d="M-8,-11 C-8,-17 8,-17 8,-11 Z" fill="#2E3138"/>
+    <rect x="-10" y="-12" width="20" height="3" rx="1.5" fill="#E21B70"/>
+    <circle cx="-6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="-6.8" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <circle cx="6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="5.2" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <polygon points="-2,3 2,3 0,5.5" fill="#E21B70"/>
+    <path d="M-4,6.5 Q-2,9 0,6.5 Q2,9 4,6.5" fill="none" stroke="#2E3138" stroke-width="1.4" stroke-linecap="round"/>
+    <ellipse cx="-10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+    <ellipse cx="10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+  </g>
+
+    </g>
+    <text x="72" y="24" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="19" fill="#1A1C20">Meow Burgers &amp; Fries</text>
+    <text x="72" y="44" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">Partner ID: #FC-PRT-4092</text>
+    <rect x="72" y="54" width="118" height="22" rx="11" fill="#FFF0F6"/>
+    <text x="131" y="69" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#E21B70">catpro Partner</text>
+  </g>
+
+  <!-- Store Operations Card -->
+  <g transform="translate(16, 164)">
+    <rect x="0" y="0" width="358" height="390" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+
+    <text x="18" y="34" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">🕒  Opening Hours (11:00 AM – 2:00 AM)</text>
+    <text x="340" y="34" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#70757A">›</text>
+    <line x1="18" y1="54" x2="340" y2="54" stroke="#F2F2F2"/>
+
+    <text x="18" y="86" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">⚡  Busy Mode (Auto +10m prep)</text>
+    <rect x="296" y="68" width="44" height="24" rx="12" fill="#D1D5DB"/>
+    <circle cx="308" cy="80" r="9" fill="#FFFFFF"/>
+    <line x1="18" y1="106" x2="340" y2="106" stroke="#F2F2F2"/>
+
+    <text x="18" y="138" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">🏷️  Promotions &amp; Discount Campaigns</text>
+    <text x="340" y="138" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#E21B70">2 Active ›</text>
+    <line x1="18" y1="158" x2="340" y2="158" stroke="#F2F2F2"/>
+
+    <text x="18" y="190" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">⭐  Customer Reviews &amp; Ratings</text>
+    <text x="340" y="190" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#1A1C20">4.8 ★ ›</text>
+    <line x1="18" y1="210" x2="340" y2="210" stroke="#F2F2F2"/>
+
+    <text x="18" y="242" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">🖨️  Thermal Receipt Printer</text>
+    <text x="340" y="242" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="12" fill="#10B981">Connected ›</text>
+    <line x1="18" y1="262" x2="340" y2="262" stroke="#F2F2F2"/>
+
+    <text x="18" y="294" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">👥  Staff &amp; Kitchen Logins</text>
+    <text x="340" y="294" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#70757A">›</text>
+    <line x1="18" y1="314" x2="340" y2="314" stroke="#F2F2F2"/>
+
+    <text x="18" y="346" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">🎧  Partner Support Center</text>
+    <text x="340" y="346" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#70757A">›</text>
+  </g>
+
+  
+  <g id="bottom-nav" transform="translate(0, 772)" filter="url(#navShadow)">
+    <rect x="0" y="0" width="390" height="72" fill="#FFFFFF"/>
+    <line x1="0" y1="0" x2="390" y2="0" stroke="#EFEFEF" stroke-width="1"/>
+
+    <g transform="translate(48, 14)">
+      <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Orders</text>
+    </g>
+
+    <g transform="translate(140, 14)">
+      <path d="M11 9H9V2H7v7H5V2H3v7c0 2.12 1.66 3.84 3.75 3.97V22h2.5v-9.03C11.34 12.84 13 11.12 13 9V2h-2v7zm5-3v8h2.5v8H21V2c-2.76 0-5 2.24-5 4z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Menu</text>
+    </g>
+
+    <g transform="translate(235, 14)">
+      <path d="M5 9.2h3V19H5zM10.6 5h2.8v14h-2.8zm5.6 8H19v6h-2.8z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Analytics</text>
+    </g>
+
+    <g transform="translate(330, 14)">
+      <path d="M20 4H4v2h16V4zm1 10v-2l-1-5H4l-1 5v2h1v6h10v-6h4v6h2v-6h1zm-9 4H6v-4h6v4z" fill="#E21B70" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#E21B70">Store</text>
+    </g>
+  </g>
+
+
+    </svg>
+  </g>
+<text x="2360" y="1150" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="26" fill="#10B981">03 • BIKER / RIDER APP (5 SCREENS)</text>
+  <g transform="translate(2360, 1190)">
+    <text x="0" y="-14" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#E4E4E7">B01 • Online Map & Shift</text>
+    <rect x="-2" y="-2" width="394" height="848" rx="16" fill="none" stroke="#3F3F46" stroke-width="2"/>
+    <svg x="0" y="0" width="390" height="844" viewBox="0 0 390 844">
+      
+  
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="navShadow" x="-10%" y="-20%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="-2" stdDeviation="6" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E21B70"/>
+      <stop offset="100%" stop-color="#FF4791"/>
+    </linearGradient>
+    <linearGradient id="darkCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E3138"/>
+      <stop offset="100%" stop-color="#1A1C20"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="390" height="844" fill="#FFF0F6"/>
+
+  <!-- Zone Heatmap & Map Roads -->
+  <circle cx="195" cy="310" r="135" fill="#E21B70" opacity="0.1"/>
+  <circle cx="195" cy="310" r="80" fill="#E21B70" opacity="0.14"/>
+  <path d="M-20,210 Q150,180 230,270 T410,330" fill="none" stroke="#FFFFFF" stroke-width="20"/>
+  <path d="M100,40 L170,560" fill="none" stroke="#FFFFFF" stroke-width="16"/>
+  <path d="M290,40 L220,560" fill="none" stroke="#FFFFFF" stroke-width="16"/>
+
+  <!-- Rider Current Location -->
+  <g transform="translate(195, 310)">
+    <circle cx="0" cy="0" r="34" fill="#E21B70" opacity="0.22"/>
+    <g transform="scale(1.1)">
+      
+  <g id="foodcat-mascot">
+    <circle cx="0" cy="0" r="24" fill="#FFFFFF" stroke="#E21B70" stroke-width="2"/>
+    <polygon points="-14,-8 -16,-20 -5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="14,-8 16,-20 5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <ellipse cx="0" cy="1" rx="16" ry="13" fill="#FAD2E1" stroke="#2E3138" stroke-width="1.5"/>
+    <ellipse cx="0" cy="5" rx="11" ry="8" fill="#FFFFFF"/>
+    <path d="M-8,-11 C-8,-17 8,-17 8,-11 Z" fill="#2E3138"/>
+    <rect x="-10" y="-12" width="20" height="3" rx="1.5" fill="#E21B70"/>
+    <circle cx="-6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="-6.8" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <circle cx="6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="5.2" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <polygon points="-2,3 2,3 0,5.5" fill="#E21B70"/>
+    <path d="M-4,6.5 Q-2,9 0,6.5 Q2,9 4,6.5" fill="none" stroke="#2E3138" stroke-width="1.4" stroke-linecap="round"/>
+    <ellipse cx="-10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+    <ellipse cx="10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+  </g>
+
+    </g>
+  </g>
+
+  <!-- Top Online Status Bar -->
+  <rect x="0" y="0" width="390" height="104" fill="#2E3138"/>
+  
+  <g id="status-bar">
+    <text x="24" y="28" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#FFFFFF">10:20</text>
+    <rect x="315" y="18" width="3" height="10" rx="1" fill="#FFFFFF"/>
+    <rect x="320" y="16" width="3" height="12" rx="1" fill="#FFFFFF"/>
+    <rect x="325" y="14" width="3" height="14" rx="1" fill="#FFFFFF"/>
+    <rect x="330" y="12" width="3" height="16" rx="1" fill="#FFFFFF" opacity="0.35"/>
+    <rect x="342" y="16" width="22" height="11" rx="2.5" fill="none" stroke="#FFFFFF" stroke-width="1.4"/>
+    <rect x="344" y="18" width="16" height="7" rx="1" fill="#FFFFFF"/>
+    <rect x="365" y="19" width="2" height="5" rx="1" fill="#FFFFFF"/>
+  </g>
+
+  <g transform="translate(16, 52)">
+    <circle cx="10" cy="14" r="6" fill="#10B981"/>
+    <text x="24" y="19" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" fill="#FFFFFF">ONLINE • Gulberg Zone</text>
+    <rect x="274" y="0" width="84" height="28" rx="14" fill="#E21B70"/>
+    <text x="316" y="18" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#FFFFFF">End Shift</text>
+  </g>
+
+  <!-- Surge Bonus Pill -->
+  <g transform="translate(75, 120)">
+    <rect x="0" y="0" width="240" height="34" rx="17" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="120" y="22" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#E21B70">🔥 Peak Surge: +Rs. 60 / order</text>
+  </g>
+
+  <!-- Bottom Shift Summary Sheet -->
+  <path d="M0,550 Q0,530 20,530 L370,530 Q390,530 390,550 L390,772 L0,772 Z" fill="#FFFFFF" filter="url(#navShadow)"/>
+  <g transform="translate(20, 556)">
+    <text x="0" y="16" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="17" fill="#1A1C20">Looking for nearby orders...</text>
+    <text x="0" y="36" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">High demand around MM Alam Road &amp; Liberty</text>
+
+    <!-- 3 Shift Stat Boxes -->
+    <g transform="translate(0, 56)">
+      <rect x="0" y="0" width="110" height="76" rx="12" fill="#FFF0F6"/>
+      <text x="55" y="30" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="18" fill="#E21B70">Rs. 2,840</text>
+      <text x="55" y="52" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#1A1C20">Today's Pay</text>
+
+      <rect x="120" y="0" width="110" height="76" rx="12" fill="#F7F7F7"/>
+      <text x="175" y="30" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="18" fill="#1A1C20">11</text>
+      <text x="175" y="52" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Deliveries</text>
+
+      <rect x="240" y="0" width="110" height="76" rx="12" fill="#F7F7F7"/>
+      <text x="295" y="30" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="18" fill="#10B981">98%</text>
+      <text x="295" y="52" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Acceptance</text>
+    </g>
+
+    <text x="0" y="164" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="12" fill="#70757A">Active Shift: 10:00 AM – 04:00 PM (Batch 1)</text>
+  </g>
+
+  
+  <g id="bottom-nav" transform="translate(0, 772)" filter="url(#navShadow)">
+    <rect x="0" y="0" width="390" height="72" fill="#FFFFFF"/>
+    <line x1="0" y1="0" x2="390" y2="0" stroke="#EFEFEF" stroke-width="1"/>
+
+    <g transform="translate(48, 14)">
+      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z" fill="#E21B70" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#E21B70">Shift</text>
+    </g>
+
+    <g transform="translate(140, 14)">
+      <path d="M19 7c0-1.1-.9-2-2-2h-3v2h3v2.65L13.52 14H10V9H6c-2.21 0-4 1.79-4 4v3h2c0 1.66 1.34 3 3 3s3-1.34 3-3h4.48L19 10.35V7zM7 17c-.55 0-1-.45-1-1h2c0 .55-.45 1-1 1z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Deliveries</text>
+    </g>
+
+    <g transform="translate(235, 14)">
+      <path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Earnings</text>
+    </g>
+
+    <g transform="translate(330, 14)">
+      <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Profile</text>
+    </g>
+  </g>
+
+
+    </svg>
+  </g>
+
+  <g transform="translate(2800, 1190)">
+    <text x="0" y="-14" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#E4E4E7">B02 • Delivery Request</text>
+    <rect x="-2" y="-2" width="394" height="848" rx="16" fill="none" stroke="#3F3F46" stroke-width="2"/>
+    <svg x="0" y="0" width="390" height="844" viewBox="0 0 390 844">
+      
+  
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="navShadow" x="-10%" y="-20%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="-2" stdDeviation="6" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E21B70"/>
+      <stop offset="100%" stop-color="#FF4791"/>
+    </linearGradient>
+    <linearGradient id="darkCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E3138"/>
+      <stop offset="100%" stop-color="#1A1C20"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="390" height="844" fill="#1A1C20"/>
+  
+  <g id="status-bar">
+    <text x="24" y="28" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#FFFFFF">10:20</text>
+    <rect x="315" y="18" width="3" height="10" rx="1" fill="#FFFFFF"/>
+    <rect x="320" y="16" width="3" height="12" rx="1" fill="#FFFFFF"/>
+    <rect x="325" y="14" width="3" height="14" rx="1" fill="#FFFFFF"/>
+    <rect x="330" y="12" width="3" height="16" rx="1" fill="#FFFFFF" opacity="0.35"/>
+    <rect x="342" y="16" width="22" height="11" rx="2.5" fill="none" stroke="#FFFFFF" stroke-width="1.4"/>
+    <rect x="344" y="18" width="16" height="7" rx="1" fill="#FFFFFF"/>
+    <rect x="365" y="19" width="2" height="5" rx="1" fill="#FFFFFF"/>
+  </g>
+
+
+  <!-- Top Timer Ring -->
+  <g transform="translate(195, 118)">
+    <circle cx="0" cy="0" r="42" fill="none" stroke="#374151" stroke-width="6"/>
+    <path d="M0,-42 A42,42 0 1,1 -36,21" fill="none" stroke="#E21B70" stroke-width="6" stroke-linecap="round"/>
+    <text x="0" y="7" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" fill="#FFFFFF">24s</text>
+  </g>
+
+  <text x="195" y="188" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="20" fill="#FFFFFF">New Delivery Request!</text>
+
+  <!-- Request Card -->
+  <g transform="translate(16, 214)">
+    <rect x="0" y="0" width="358" height="470" rx="18" fill="#FFFFFF"/>
+
+    <!-- Payout Hero -->
+    <rect x="0" y="0" width="358" height="106" rx="18" fill="#FFF0F6"/>
+    <text x="179" y="32" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="12" fill="#E21B70">ESTIMATED EARNINGS</text>
+    <text x="179" y="70" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="36" fill="#1A1C20">Rs. 260</text>
+    <text x="179" y="92" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="12" fill="#10B981">Includes Rs. 60 Peak Surge + Rs. 50 Tip</text>
+
+    <!-- Distance & Time Badges -->
+    <g transform="translate(24, 126)">
+      <rect x="0" y="0" width="148" height="44" rx="10" fill="#F7F7F7"/>
+      <text x="74" y="27" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">📍 3.2 km total</text>
+
+      <rect x="162" y="0" width="148" height="44" rx="10" fill="#F7F7F7"/>
+      <text x="236" y="27" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">⏱ ~18 mins</text>
+    </g>
+
+    <!-- Route Timeline -->
+    <g transform="translate(24, 198)">
+      <circle cx="10" cy="10" r="8" fill="#2E3138"/>
+      <line x1="10" y1="22" x2="10" y2="74" stroke="#CCCCCC" stroke-width="2" stroke-dasharray="4,4"/>
+      <text x="30" y="14" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#70757A">PICKUP (0.8 km away)</text>
+      <text x="30" y="34" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" fill="#1A1C20">Meow Burgers &amp; Fries</text>
+      <text x="30" y="52" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">Main Boulevard, Gulberg III</text>
+
+      <circle cx="10" cy="86" r="8" fill="#E21B70"/>
+      <text x="30" y="90" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#E21B70">DROP-OFF (2.4 km)</text>
+      <text x="30" y="110" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" fill="#1A1C20">House 42-B, Block E-1</text>
+      <text x="30" y="128" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">Gulberg III, Lahore • Paid Online</text>
+    </g>
+
+    <!-- Accept / Decline Buttons -->
+    <g transform="translate(20, 384)">
+      <rect x="0" y="0" width="96" height="54" rx="12" fill="#F7F7F7"/>
+      <text x="48" y="32" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#70757A">Decline</text>
+
+      <rect x="108" y="0" width="210" height="54" rx="12" fill="#E21B70"/>
+      <text x="213" y="32" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">Accept Delivery</text>
+    </g>
+  </g>
+
+    </svg>
+  </g>
+
+  <g transform="translate(3240, 1190)">
+    <text x="0" y="-14" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#E4E4E7">B03 • Navigation & Pickup</text>
+    <rect x="-2" y="-2" width="394" height="848" rx="16" fill="none" stroke="#3F3F46" stroke-width="2"/>
+    <svg x="0" y="0" width="390" height="844" viewBox="0 0 390 844">
+      
+  
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="navShadow" x="-10%" y="-20%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="-2" stdDeviation="6" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E21B70"/>
+      <stop offset="100%" stop-color="#FF4791"/>
+    </linearGradient>
+    <linearGradient id="darkCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E3138"/>
+      <stop offset="100%" stop-color="#1A1C20"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="390" height="844" fill="#FFF0F6"/>
+
+  <!-- Navigation Map -->
+  <path d="M-20,250 Q160,220 240,310 T410,360" fill="none" stroke="#FFFFFF" stroke-width="22"/>
+  <path d="M120,80 L190,540" fill="none" stroke="#FFFFFF" stroke-width="18"/>
+  <path d="M150,410 L175,260 L265,240" fill="none" stroke="#E21B70" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Destination Restaurant Pin -->
+  <g transform="translate(265, 240)">
+    <circle cx="0" cy="0" r="18" fill="#2E3138"/>
+    <circle cx="0" cy="0" r="7" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Rider Arrow -->
+  <g transform="translate(150, 410)">
+    <circle cx="0" cy="0" r="22" fill="#E21B70"/>
+    <polygon points="0,-10 -8,8 0,4 8,8" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Top Turn-by-Turn Banner -->
+  <rect x="0" y="0" width="390" height="126" fill="#2E3138"/>
+  
+  <g id="status-bar">
+    <text x="24" y="28" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#FFFFFF">10:20</text>
+    <rect x="315" y="18" width="3" height="10" rx="1" fill="#FFFFFF"/>
+    <rect x="320" y="16" width="3" height="12" rx="1" fill="#FFFFFF"/>
+    <rect x="325" y="14" width="3" height="14" rx="1" fill="#FFFFFF"/>
+    <rect x="330" y="12" width="3" height="16" rx="1" fill="#FFFFFF" opacity="0.35"/>
+    <rect x="342" y="16" width="22" height="11" rx="2.5" fill="none" stroke="#FFFFFF" stroke-width="1.4"/>
+    <rect x="344" y="18" width="16" height="7" rx="1" fill="#FFFFFF"/>
+    <rect x="365" y="19" width="2" height="5" rx="1" fill="#FFFFFF"/>
+  </g>
+
+  <g transform="translate(16, 48)">
+    <rect x="0" y="0" width="54" height="54" rx="12" fill="#E21B70"/>
+    <text x="27" y="36" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="26" fill="#FFFFFF">↱</text>
+    <text x="68" y="24" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="20" fill="#FFFFFF">250 m</text>
+    <text x="68" y="46" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="13" fill="#D1D5DB">Turn right onto Main Boulevard</text>
+  </g>
+
+  <!-- Bottom Pickup Action Sheet -->
+  <path d="M0,515 Q0,495 20,495 L370,495 Q390,495 390,515 L390,844 L0,844 Z" fill="#FFFFFF" filter="url(#navShadow)"/>
+  <g transform="translate(20, 522)">
+    <rect x="0" y="0" width="118" height="24" rx="12" fill="#FFF0F6"/>
+    <text x="59" y="16" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#E21B70">STEP 1: PICKUP</text>
+    <text x="350" y="16" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#1A1C20">2 mins away</text>
+
+    <text x="0" y="50" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="19" fill="#1A1C20">Meow Burgers &amp; Fries</text>
+    <text x="0" y="70" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">Order #FC-89412 • 2 Items • Collect with PIN</text>
+
+    <!-- Pickup Verification PIN Box -->
+    <rect x="0" y="88" width="350" height="58" rx="12" fill="#F7F7F7"/>
+    <text x="16" y="114" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="12" fill="#70757A">Show Restaurant Order PIN:</text>
+    <text x="334" y="124" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="24" fill="#E21B70" letter-spacing="3">4829</text>
+
+    <!-- Contact Restaurant -->
+    <g transform="translate(0, 162)">
+      <rect x="0" y="0" width="168" height="42" rx="10" fill="#FFF0F6"/>
+      <text x="84" y="26" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#E21B70">📞 Call Restaurant</text>
+
+      <rect x="182" y="0" width="168" height="42" rx="10" fill="#F7F7F7"/>
+      <text x="266" y="26" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#1A1C20">🧾 Order Items</text>
+    </g>
+
+    <!-- Confirm Pickup Slider Button -->
+    <rect x="0" y="222" width="350" height="54" rx="27" fill="#E21B70"/>
+    <circle cx="29" cy="249" r="22" fill="#FFFFFF"/>
+    <text x="29" y="255" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#E21B70">→</text>
+    <text x="185" y="254" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" fill="#FFFFFF">Swipe to Confirm Pickup</text>
+  </g>
+
+    </svg>
+  </g>
+
+  <g transform="translate(3680, 1190)">
+    <text x="0" y="-14" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#E4E4E7">B04 • Customer Drop-off</text>
+    <rect x="-2" y="-2" width="394" height="848" rx="16" fill="none" stroke="#3F3F46" stroke-width="2"/>
+    <svg x="0" y="0" width="390" height="844" viewBox="0 0 390 844">
+      
+  
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="navShadow" x="-10%" y="-20%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="-2" stdDeviation="6" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E21B70"/>
+      <stop offset="100%" stop-color="#FF4791"/>
+    </linearGradient>
+    <linearGradient id="darkCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E3138"/>
+      <stop offset="100%" stop-color="#1A1C20"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="390" height="844" fill="#F7F7F7"/>
+  <rect x="0" y="0" width="390" height="104" fill="#E21B70"/>
+  
+  <g id="status-bar">
+    <text x="24" y="28" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#FFFFFF">10:20</text>
+    <rect x="315" y="18" width="3" height="10" rx="1" fill="#FFFFFF"/>
+    <rect x="320" y="16" width="3" height="12" rx="1" fill="#FFFFFF"/>
+    <rect x="325" y="14" width="3" height="14" rx="1" fill="#FFFFFF"/>
+    <rect x="330" y="12" width="3" height="16" rx="1" fill="#FFFFFF" opacity="0.35"/>
+    <rect x="342" y="16" width="22" height="11" rx="2.5" fill="none" stroke="#FFFFFF" stroke-width="1.4"/>
+    <rect x="344" y="18" width="16" height="7" rx="1" fill="#FFFFFF"/>
+    <rect x="365" y="19" width="2" height="5" rx="1" fill="#FFFFFF"/>
+  </g>
+
+
+  <g transform="translate(16, 52)">
+    <text x="0" y="18" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="18" fill="#FFFFFF">Drop-off • #FC-89412</text>
+    <text x="0" y="36" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#FFE3EE">Arrived at customer location</text>
+  </g>
+
+  <!-- Customer Card -->
+  <g transform="translate(16, 120)">
+    <rect x="0" y="0" width="358" height="146" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="16" y="30" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="17" fill="#1A1C20">Zack</text>
+    <text x="16" y="50" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="13" fill="#70757A">House 42-B, Block E-1, Gulberg III</text>
+    <rect x="16" y="64" width="326" height="32" rx="8" fill="#FFF0F6"/>
+    <text x="26" y="84" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="12" fill="#E21B70">📝 Note: Ring the second bell at the main gate</text>
+
+    <g transform="translate(16, 108)">
+      <text x="0" y="18" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#E21B70">💬 Chat with Customer</text>
+      <text x="326" y="18" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#E21B70">📞 Call</text>
+    </g>
+  </g>
+
+  <!-- Payment Collection Box -->
+  <g transform="translate(16, 282)">
+    <rect x="0" y="0" width="358" height="118" rx="14" fill="#2E3138"/>
+    <text x="18" y="30" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="12" fill="#D1D5DB">PAYMENT STATUS</text>
+    <text x="18" y="66" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="28" fill="#10B981">PAID ONLINE</text>
+    <text x="18" y="92" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#FFFFFF">Do not collect cash from customer (Rs. 0 due)</text>
+  </g>
+
+  <!-- Proof of Delivery Photo Upload -->
+  <g transform="translate(16, 416)">
+    <rect x="0" y="0" width="358" height="156" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="16" y="30" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" fill="#1A1C20">Proof of Delivery</text>
+    <rect x="16" y="46" width="326" height="90" rx="12" fill="#F7F7F7" stroke="#E21B70" stroke-dasharray="6,4"/>
+    <text x="179" y="88" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#E21B70">📷 Take Handover Photo</text>
+    <text x="179" y="108" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="11" fill="#70757A">Optional for direct handover</text>
+  </g>
+
+  <!-- Complete Delivery CTA -->
+  <g transform="translate(16, 756)">
+    <rect x="0" y="0" width="358" height="54" rx="12" fill="#10B981"/>
+    <text x="179" y="32" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">✓ Complete Delivery (+Rs. 260)</text>
+  </g>
+
+    </svg>
+  </g>
+
+  <g transform="translate(4120, 1190)">
+    <text x="0" y="-14" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#E4E4E7">B05 • Earnings & Wallet</text>
+    <rect x="-2" y="-2" width="394" height="848" rx="16" fill="none" stroke="#3F3F46" stroke-width="2"/>
+    <svg x="0" y="0" width="390" height="844" viewBox="0 0 390 844">
+      
+  
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="navShadow" x="-10%" y="-20%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="-2" stdDeviation="6" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E21B70"/>
+      <stop offset="100%" stop-color="#FF4791"/>
+    </linearGradient>
+    <linearGradient id="darkCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E3138"/>
+      <stop offset="100%" stop-color="#1A1C20"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="390" height="844" fill="#F7F7F7"/>
+  <rect x="0" y="0" width="390" height="96" fill="#FFFFFF"/>
+  
+  <g id="status-bar">
+    <text x="24" y="28" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">10:20</text>
+    <rect x="315" y="18" width="3" height="10" rx="1" fill="#1A1C20"/>
+    <rect x="320" y="16" width="3" height="12" rx="1" fill="#1A1C20"/>
+    <rect x="325" y="14" width="3" height="14" rx="1" fill="#1A1C20"/>
+    <rect x="330" y="12" width="3" height="16" rx="1" fill="#1A1C20" opacity="0.35"/>
+    <rect x="342" y="16" width="22" height="11" rx="2.5" fill="none" stroke="#1A1C20" stroke-width="1.4"/>
+    <rect x="344" y="18" width="16" height="7" rx="1" fill="#1A1C20"/>
+    <rect x="365" y="19" width="2" height="5" rx="1" fill="#1A1C20"/>
+  </g>
+
+
+  <g transform="translate(16, 52)">
+    <text x="0" y="18" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="20" fill="#1A1C20">Rider Wallet &amp; Earnings</text>
+  </g>
+
+  <!-- Wallet Balance Card -->
+  <g transform="translate(16, 112)">
+    <rect x="0" y="0" width="358" height="148" rx="16" fill="url(#darkCard)"/>
+    <text x="20" y="32" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="12" fill="#D1D5DB">Available Balance</text>
+    <text x="20" y="72" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="34" fill="#FFFFFF">Rs. 18,450</text>
+    <rect x="20" y="92" width="146" height="36" rx="18" fill="#E21B70"/>
+    <text x="93" y="115" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#FFFFFF">Instant Cashout</text>
+    <text x="338" y="114" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#10B981">JazzCash / Bank</text>
+  </g>
+
+  <!-- Weekly Quest Progress -->
+  <g transform="translate(16, 276)">
+    <rect x="0" y="0" width="358" height="106" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="16" y="30" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" fill="#1A1C20">🏆 Weekend Quest Bonus</text>
+    <text x="342" y="30" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#E21B70">+Rs. 1,500</text>
+    <text x="16" y="52" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">Complete 40 deliveries before Sunday 11:59 PM</text>
+    <rect x="16" y="68" width="326" height="10" rx="5" fill="#EFEFEF"/>
+    <rect x="16" y="68" width="260" height="10" rx="5" fill="#E21B70"/>
+    <text x="342" y="94" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#1A1C20">32 / 40 completed</text>
+  </g>
+
+  <!-- Recent Trips Breakdown -->
+  <g transform="translate(16, 398)">
+    <text x="0" y="16" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#1A1C20">Recent Deliveries</text>
+    <rect x="0" y="28" width="358" height="240" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+
+    <text x="16" y="58" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">#FC-89412 • Meow Burgers</text>
+    <text x="16" y="76" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="11" fill="#70757A">10:15 AM • 3.2 km • Base + Surge</text>
+    <text x="342" y="66" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#10B981">+Rs. 260</text>
+    <line x1="16" y1="94" x2="342" y2="94" stroke="#F2F2F2"/>
+
+    <text x="16" y="122" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">#FC-89398 • Catmart Gulberg</text>
+    <text x="16" y="140" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="11" fill="#70757A">09:42 AM • 2.1 km • Grocery Express</text>
+    <text x="342" y="130" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#10B981">+Rs. 210</text>
+    <line x1="16" y1="158" x2="342" y2="158" stroke="#F2F2F2"/>
+
+    <text x="16" y="186" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">#FC-89381 • Purrfect Pizza Co.</text>
+    <text x="16" y="204" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="11" fill="#70757A">09:05 AM • 4.5 km • Customer Tip Rs. 100</text>
+    <text x="342" y="194" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#10B981">+Rs. 340</text>
+  </g>
+
+  
+  <g id="bottom-nav" transform="translate(0, 772)" filter="url(#navShadow)">
+    <rect x="0" y="0" width="390" height="72" fill="#FFFFFF"/>
+    <line x1="0" y1="0" x2="390" y2="0" stroke="#EFEFEF" stroke-width="1"/>
+
+    <g transform="translate(48, 14)">
+      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Shift</text>
+    </g>
+
+    <g transform="translate(140, 14)">
+      <path d="M19 7c0-1.1-.9-2-2-2h-3v2h3v2.65L13.52 14H10V9H6c-2.21 0-4 1.79-4 4v3h2c0 1.66 1.34 3 3 3s3-1.34 3-3h4.48L19 10.35V7zM7 17c-.55 0-1-.45-1-1h2c0 .55-.45 1-1 1z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Deliveries</text>
+    </g>
+
+    <g transform="translate(235, 14)">
+      <path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z" fill="#E21B70" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#E21B70">Earnings</text>
+    </g>
+
+    <g transform="translate(330, 14)">
+      <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Profile</text>
+    </g>
+  </g>
+
+
+    </svg>
+  </g>
+<text x="60" y="2110" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="26" fill="#60A5FA">04 • ADMIN WEB PORTAL (1440 × 900 DESKTOP)</text>
+  <g transform="translate(60, 2150)">
+    <text x="0" y="-14" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#E4E4E7">A01 • Executive Dashboard (1440×900)</text>
+    <rect x="-2" y="-2" width="1444" height="904" rx="16" fill="none" stroke="#3F3F46" stroke-width="2"/>
+    <svg x="0" y="0" width="1440" height="900" viewBox="0 0 1440 900">
+      
+  
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="navShadow" x="-10%" y="-20%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="-2" stdDeviation="6" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E21B70"/>
+      <stop offset="100%" stop-color="#FF4791"/>
+    </linearGradient>
+    <linearGradient id="darkCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E3138"/>
+      <stop offset="100%" stop-color="#1A1C20"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1440" height="900" fill="#F7F7F7"/>
+  
+  <g id="admin-sidebar">
+    <rect x="0" y="0" width="250" height="900" fill="#1A1C20"/>
+    <g transform="translate(42, 46) scale(0.85)">
+      
+  <g id="foodcat-mascot">
+    <circle cx="0" cy="0" r="24" fill="#FFFFFF" stroke="#E21B70" stroke-width="2"/>
+    <polygon points="-14,-8 -16,-20 -5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="14,-8 16,-20 5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <ellipse cx="0" cy="1" rx="16" ry="13" fill="#FAD2E1" stroke="#2E3138" stroke-width="1.5"/>
+    <ellipse cx="0" cy="5" rx="11" ry="8" fill="#FFFFFF"/>
+    <path d="M-8,-11 C-8,-17 8,-17 8,-11 Z" fill="#2E3138"/>
+    <rect x="-10" y="-12" width="20" height="3" rx="1.5" fill="#E21B70"/>
+    <circle cx="-6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="-6.8" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <circle cx="6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="5.2" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <polygon points="-2,3 2,3 0,5.5" fill="#E21B70"/>
+    <path d="M-4,6.5 Q-2,9 0,6.5 Q2,9 4,6.5" fill="none" stroke="#2E3138" stroke-width="1.4" stroke-linecap="round"/>
+    <ellipse cx="-10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+    <ellipse cx="10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+  </g>
+
+    </g>
+    <text x="72" y="46" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" fill="#FFFFFF">foodcat</text>
+    <text x="72" y="64" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="11" fill="#E21B70">ADMIN PORTAL</text>
+    <line x1="20" y1="96" x2="230" y2="96" stroke="#2E3138"/>
+
+    <rect x="16" y="118" width="218" height="40" rx="10" fill="#E21B70"/>
+    <text x="34" y="143" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#FFFFFF">Dashboard</text>
+
+    <text x="34" y="193" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Live Dispatch Map</text>
+
+    <text x="34" y="243" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Orders Management</text>
+
+    <text x="34" y="293" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Restaurants & Catmart</text>
+
+    <text x="34" y="343" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Riders & Fleet</text>
+
+    <text x="34" y="393" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Vouchers & CatPro</text>
+
+    <text x="34" y="443" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Payouts & Finance</text>
+
+    <text x="34" y="493" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">System Settings</text>
+
+    <rect x="16" y="810" width="218" height="64" rx="12" fill="#2E3138"/>
+    <text x="32" y="838" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#FFFFFF">Zack (Super Admin)</text>
+    <text x="32" y="856" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="11" fill="#9CA3AF">Lahore HQ • Ops Lead</text>
+  </g>
+
+  
+  <g id="admin-topbar" transform="translate(250, 0)">
+    <rect x="0" y="0" width="1190" height="76" fill="#FFFFFF"/>
+    <line x1="0" y1="76" x2="1190" y2="76" stroke="#EFEFEF"/>
+    <text x="32" y="36" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="20" fill="#1A1C20">Executive Operations Overview</text>
+    <text x="32" y="56" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">Real-time platform performance • Sunday, Nov 15, 2026</text>
+
+    <rect x="780" y="18" width="240" height="40" rx="20" fill="#F7F7F7"/>
+    <text x="800" y="43" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="13" fill="#70757A">🔍 Search order ID, rider, store...</text>
+
+    <rect x="1036" y="20" width="122" height="36" rx="18" fill="#FFF0F6"/>
+    <text x="1097" y="42" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#E21B70">● System Healthy</text>
+  </g>
+
+
+  <!-- 4 KPI Cards -->
+  <g transform="translate(282, 104)">
+    <rect x="0" y="0" width="265" height="122" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="20" y="32" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="13" fill="#70757A">Total GMV (Today)</text>
+    <text x="20" y="72" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="30" fill="#1A1C20">Rs. 4.82M</text>
+    <text x="20" y="100" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#10B981">↑ +22.4% vs yesterday</text>
+
+    <rect x="287" y="0" width="265" height="122" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="307" y="32" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="13" fill="#70757A">Active Orders Now</text>
+    <text x="307" y="72" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="30" fill="#E21B70">1,428</text>
+    <text x="307" y="100" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="12" fill="#70757A">Avg delivery time: 24.2 mins</text>
+
+    <rect x="574" y="0" width="265" height="122" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="594" y="32" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="13" fill="#70757A">Online Riders</text>
+    <text x="594" y="72" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="30" fill="#1A1C20">842 / 910</text>
+    <text x="594" y="100" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#10B981">92.5% Fleet Utilization</text>
+
+    <rect x="861" y="0" width="265" height="122" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="881" y="32" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="13" fill="#70757A">Active Partners</text>
+    <text x="881" y="72" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="30" fill="#1A1C20">2,190</text>
+    <text x="881" y="100" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#E21B70">14 pending KYC approvals</text>
+  </g>
+
+  <!-- Revenue Chart + Live City Breakdown -->
+  <g transform="translate(282, 248)">
+    <!-- Left Chart Card -->
+    <rect x="0" y="0" width="740" height="310" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="24" y="36" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="17" fill="#1A1C20">Hourly Order Volume (Food vs Catmart Grocery)</text>
+    <rect x="530" y="18" width="12" height="12" rx="3" fill="#E21B70"/>
+    <text x="548" y="29" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1A1C20">Food</text>
+    <rect x="605" y="18" width="12" height="12" rx="3" fill="#2E3138"/>
+    <text x="623" y="29" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1A1C20">Catmart</text>
+
+    <!-- Chart Curves -->
+    <path d="M40,240 Q150,210 240,140 T440,110 T690,70" fill="none" stroke="#E21B70" stroke-width="4"/>
+    <path d="M40,255 Q150,245 240,200 T440,175 T690,145" fill="none" stroke="#2E3138" stroke-width="4"/>
+    <line x1="40" y1="265" x2="700" y2="265" stroke="#EFEFEF"/>
+
+    <!-- Right Top Zones Card -->
+    <rect x="762" y="0" width="364" height="310" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="786" y="36" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="17" fill="#1A1C20">Top Performing Zones</text>
+
+    <text x="786" y="76" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">Gulberg III &amp; MM Alam</text>
+    <text x="1102" y="76" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#E21B70">482 orders</text>
+    <rect x="786" y="86" width="316" height="8" rx="4" fill="#EFEFEF"/>
+    <rect x="786" y="86" width="275" height="8" rx="4" fill="#E21B70"/>
+
+    <text x="786" y="132" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">DHA Phase 5 &amp; 6</text>
+    <text x="1102" y="132" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#E21B70">395 orders</text>
+    <rect x="786" y="142" width="316" height="8" rx="4" fill="#EFEFEF"/>
+    <rect x="786" y="142" width="225" height="8" rx="4" fill="#E21B70"/>
+
+    <text x="786" y="188" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">Johar Town &amp; UET Zone</text>
+    <text x="1102" y="188" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#E21B70">310 orders</text>
+    <rect x="786" y="198" width="316" height="8" rx="4" fill="#EFEFEF"/>
+    <rect x="786" y="198" width="180" height="8" rx="4" fill="#E21B70"/>
+
+    <text x="786" y="244" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">Model Town &amp; Garden Town</text>
+    <text x="1102" y="244" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#E21B70">241 orders</text>
+    <rect x="786" y="254" width="316" height="8" rx="4" fill="#EFEFEF"/>
+    <rect x="786" y="254" width="142" height="8" rx="4" fill="#E21B70"/>
+  </g>
+
+  <!-- Live Orders Data Table -->
+  <g transform="translate(282, 580)">
+    <rect x="0" y="0" width="1126" height="292" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="24" y="36" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="17" fill="#1A1C20">Live Order Feed</text>
+    <rect x="980" y="16" width="122" height="32" rx="8" fill="#FFF0F6"/>
+    <text x="1041" y="37" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#E21B70">Export CSV</text>
+
+    <!-- Table Header -->
+    <rect x="24" y="56" width="1078" height="36" rx="8" fill="#F7F7F7"/>
+    <text x="40" y="79" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#70757A">ORDER ID</text>
+    <text x="180" y="79" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#70757A">CUSTOMER</text>
+    <text x="360" y="79" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#70757A">RESTAURANT / STORE</text>
+    <text x="600" y="79" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#70757A">ASSIGNED RIDER</text>
+    <text x="800" y="79" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#70757A">AMOUNT</text>
+    <text x="950" y="79" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#70757A">STATUS</text>
+
+    <!-- Row 1 -->
+    <text x="40" y="124" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#1A1C20">#FC-89412</text>
+    <text x="180" y="124" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1A1C20">Zack</text>
+    <text x="360" y="124" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1A1C20">Meow Burgers &amp; Fries</text>
+    <text x="600" y="124" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1A1C20">Hamza Ali (LEB-4021)</text>
+    <text x="800" y="124" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#1A1C20">Rs. 1,834</text>
+    <rect x="950" y="108" width="110" height="24" rx="12" fill="#FFF0F6"/>
+    <text x="1005" y="124" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#E21B70">On the way</text>
+    <line x1="24" y1="144" x2="1102" y2="144" stroke="#F2F2F2"/>
+
+    <!-- Row 2 -->
+    <text x="40" y="176" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#1A1C20">#FC-89415</text>
+    <text x="180" y="176" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1A1C20">Sarah Khan</text>
+    <text x="360" y="176" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1A1C20">The Purrfect Pizza Co.</text>
+    <text x="600" y="176" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1A1C20">Usman Tariq (LEA-8812)</text>
+    <text x="800" y="176" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#1A1C20">Rs. 2,450</text>
+    <rect x="950" y="160" width="110" height="24" rx="12" fill="#FEF3C7"/>
+    <text x="1005" y="176" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#D97706">Preparing</text>
+    <line x1="24" y1="196" x2="1102" y2="196" stroke="#F2F2F2"/>
+
+    <!-- Row 3 -->
+    <text x="40" y="228" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#1A1C20">#FC-89416</text>
+    <text x="180" y="228" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1A1C20">Bilal Mahmood</text>
+    <text x="360" y="228" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1A1C20">catmart Gulberg Darkstore</text>
+    <text x="600" y="228" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1A1C20">Adeel Raza (LEH-1104)</text>
+    <text x="800" y="228" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#1A1C20">Rs. 1,120</text>
+    <rect x="950" y="212" width="110" height="24" rx="12" fill="#D1FAE5"/>
+    <text x="1005" y="228" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#059669">Delivered</text>
+  </g>
+
+    </svg>
+  </g>
+
+  <g transform="translate(1280, 2150)">
+    <text x="0" y="-14" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#E4E4E7">A02 • Live Fleet Dispatch (1440×900)</text>
+    <rect x="-2" y="-2" width="1444" height="904" rx="16" fill="none" stroke="#3F3F46" stroke-width="2"/>
+    <svg x="0" y="0" width="1440" height="900" viewBox="0 0 1440 900">
+      
+  
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="navShadow" x="-10%" y="-20%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="-2" stdDeviation="6" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E21B70"/>
+      <stop offset="100%" stop-color="#FF4791"/>
+    </linearGradient>
+    <linearGradient id="darkCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E3138"/>
+      <stop offset="100%" stop-color="#1A1C20"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1440" height="900" fill="#F7F7F7"/>
+  
+  <g id="admin-sidebar">
+    <rect x="0" y="0" width="250" height="900" fill="#1A1C20"/>
+    <g transform="translate(42, 46) scale(0.85)">
+      
+  <g id="foodcat-mascot">
+    <circle cx="0" cy="0" r="24" fill="#FFFFFF" stroke="#E21B70" stroke-width="2"/>
+    <polygon points="-14,-8 -16,-20 -5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="14,-8 16,-20 5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <ellipse cx="0" cy="1" rx="16" ry="13" fill="#FAD2E1" stroke="#2E3138" stroke-width="1.5"/>
+    <ellipse cx="0" cy="5" rx="11" ry="8" fill="#FFFFFF"/>
+    <path d="M-8,-11 C-8,-17 8,-17 8,-11 Z" fill="#2E3138"/>
+    <rect x="-10" y="-12" width="20" height="3" rx="1.5" fill="#E21B70"/>
+    <circle cx="-6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="-6.8" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <circle cx="6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="5.2" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <polygon points="-2,3 2,3 0,5.5" fill="#E21B70"/>
+    <path d="M-4,6.5 Q-2,9 0,6.5 Q2,9 4,6.5" fill="none" stroke="#2E3138" stroke-width="1.4" stroke-linecap="round"/>
+    <ellipse cx="-10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+    <ellipse cx="10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+  </g>
+
+    </g>
+    <text x="72" y="46" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" fill="#FFFFFF">foodcat</text>
+    <text x="72" y="64" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="11" fill="#E21B70">ADMIN PORTAL</text>
+    <line x1="20" y1="96" x2="230" y2="96" stroke="#2E3138"/>
+
+    <text x="34" y="143" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Dashboard</text>
+
+    <rect x="16" y="168" width="218" height="40" rx="10" fill="#E21B70"/>
+    <text x="34" y="193" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#FFFFFF">Live Dispatch Map</text>
+
+    <text x="34" y="243" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Orders Management</text>
+
+    <text x="34" y="293" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Restaurants & Catmart</text>
+
+    <text x="34" y="343" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Riders & Fleet</text>
+
+    <text x="34" y="393" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Vouchers & CatPro</text>
+
+    <text x="34" y="443" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Payouts & Finance</text>
+
+    <text x="34" y="493" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">System Settings</text>
+
+    <rect x="16" y="810" width="218" height="64" rx="12" fill="#2E3138"/>
+    <text x="32" y="838" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#FFFFFF">Zack (Super Admin)</text>
+    <text x="32" y="856" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="11" fill="#9CA3AF">Lahore HQ • Ops Lead</text>
+  </g>
+
+  
+  <g id="admin-topbar" transform="translate(250, 0)">
+    <rect x="0" y="0" width="1190" height="76" fill="#FFFFFF"/>
+    <line x1="0" y1="76" x2="1190" y2="76" stroke="#EFEFEF"/>
+    <text x="32" y="36" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="20" fill="#1A1C20">Live Fleet Dispatch & Zone Heatmap</text>
+    <text x="32" y="56" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">Auto-dispatch engine active • 842 riders online across Lahore</text>
+
+    <rect x="780" y="18" width="240" height="40" rx="20" fill="#F7F7F7"/>
+    <text x="800" y="43" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="13" fill="#70757A">🔍 Search order ID, rider, store...</text>
+
+    <rect x="1036" y="20" width="122" height="36" rx="18" fill="#FFF0F6"/>
+    <text x="1097" y="42" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#E21B70">● System Healthy</text>
+  </g>
+
+
+  <!-- Left Active Unassigned Queue -->
+  <g transform="translate(282, 100)">
+    <rect x="0" y="0" width="340" height="772" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="20" y="34" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#1A1C20">Dispatch Queue (18)</text>
+
+    <!-- Card 1 -->
+    <g transform="translate(16, 54)">
+      <rect x="0" y="0" width="308" height="128" rx="12" fill="#FFF0F6" stroke="#E21B70"/>
+      <text x="14" y="26" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">#FC-89419 • Meow Burgers</text>
+      <text x="14" y="46" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#70757A">Drop: Model Town Block C (4.1 km)</text>
+      <text x="14" y="66" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#E21B70">⚡ High Priority • Ready in 3m</text>
+      <rect x="14" y="80" width="280" height="34" rx="8" fill="#E21B70"/>
+      <text x="154" y="102" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#FFFFFF">Manual Assign Nearest Rider</text>
+    </g>
+
+    <!-- Card 2 -->
+    <g transform="translate(16, 198)">
+      <rect x="0" y="0" width="308" height="114" rx="12" fill="#F7F7F7"/>
+      <text x="14" y="26" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">#FC-89420 • Catmart DHA</text>
+      <text x="14" y="46" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#70757A">Drop: DHA Phase 5 (1.9 km)</text>
+      <text x="14" y="68" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="11" fill="#10B981">● Auto-matching rider (85%)</text>
+    </g>
+
+    <!-- Card 3 -->
+    <g transform="translate(16, 328)">
+      <rect x="0" y="0" width="308" height="114" rx="12" fill="#F7F7F7"/>
+      <text x="14" y="26" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">#FC-89421 • Whiskers Biryani</text>
+      <text x="14" y="46" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#70757A">Drop: Garden Town (2.8 km)</text>
+      <text x="14" y="68" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="11" fill="#10B981">● Rider Hamza Ali assigned</text>
+    </g>
+  </g>
+
+  <!-- Right Live City Map Canvas -->
+  <g transform="translate(642, 100)">
+    <rect x="0" y="0" width="766" height="772" rx="14" fill="#FFF0F6" filter="url(#cardShadow)"/>
+    <!-- Stylized City Roads -->
+    <path d="M0,220 Q280,180 460,340 T766,420" fill="none" stroke="#FFFFFF" stroke-width="26"/>
+    <path d="M180,0 L280,772" fill="none" stroke="#FFFFFF" stroke-width="22"/>
+    <path d="M560,0 L450,772" fill="none" stroke="#FFFFFF" stroke-width="20"/>
+
+    <!-- Demand Surge Rings -->
+    <circle cx="380" cy="360" r="160" fill="#E21B70" opacity="0.1"/>
+    <circle cx="380" cy="360" r="95" fill="#E21B70" opacity="0.15"/>
+
+    <!-- Multiple Live Rider Mascot Pins -->
+    <g transform="translate(380, 360) scale(1.1)">
+      
+  <g id="foodcat-mascot">
+    <circle cx="0" cy="0" r="24" fill="#FFFFFF" stroke="#E21B70" stroke-width="2"/>
+    <polygon points="-14,-8 -16,-20 -5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="14,-8 16,-20 5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <ellipse cx="0" cy="1" rx="16" ry="13" fill="#FAD2E1" stroke="#2E3138" stroke-width="1.5"/>
+    <ellipse cx="0" cy="5" rx="11" ry="8" fill="#FFFFFF"/>
+    <path d="M-8,-11 C-8,-17 8,-17 8,-11 Z" fill="#2E3138"/>
+    <rect x="-10" y="-12" width="20" height="3" rx="1.5" fill="#E21B70"/>
+    <circle cx="-6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="-6.8" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <circle cx="6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="5.2" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <polygon points="-2,3 2,3 0,5.5" fill="#E21B70"/>
+    <path d="M-4,6.5 Q-2,9 0,6.5 Q2,9 4,6.5" fill="none" stroke="#2E3138" stroke-width="1.4" stroke-linecap="round"/>
+    <ellipse cx="-10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+    <ellipse cx="10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+  </g>
+
+    </g>
+    <g transform="translate(230, 260) scale(0.9)">
+      
+  <g id="foodcat-mascot">
+    <circle cx="0" cy="0" r="24" fill="#FFFFFF" stroke="#E21B70" stroke-width="2"/>
+    <polygon points="-14,-8 -16,-20 -5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="14,-8 16,-20 5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <ellipse cx="0" cy="1" rx="16" ry="13" fill="#FAD2E1" stroke="#2E3138" stroke-width="1.5"/>
+    <ellipse cx="0" cy="5" rx="11" ry="8" fill="#FFFFFF"/>
+    <path d="M-8,-11 C-8,-17 8,-17 8,-11 Z" fill="#2E3138"/>
+    <rect x="-10" y="-12" width="20" height="3" rx="1.5" fill="#E21B70"/>
+    <circle cx="-6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="-6.8" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <circle cx="6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="5.2" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <polygon points="-2,3 2,3 0,5.5" fill="#E21B70"/>
+    <path d="M-4,6.5 Q-2,9 0,6.5 Q2,9 4,6.5" fill="none" stroke="#2E3138" stroke-width="1.4" stroke-linecap="round"/>
+    <ellipse cx="-10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+    <ellipse cx="10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+  </g>
+
+    </g>
+    <g transform="translate(510, 440) scale(0.9)">
+      
+  <g id="foodcat-mascot">
+    <circle cx="0" cy="0" r="24" fill="#FFFFFF" stroke="#E21B70" stroke-width="2"/>
+    <polygon points="-14,-8 -16,-20 -5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="14,-8 16,-20 5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <ellipse cx="0" cy="1" rx="16" ry="13" fill="#FAD2E1" stroke="#2E3138" stroke-width="1.5"/>
+    <ellipse cx="0" cy="5" rx="11" ry="8" fill="#FFFFFF"/>
+    <path d="M-8,-11 C-8,-17 8,-17 8,-11 Z" fill="#2E3138"/>
+    <rect x="-10" y="-12" width="20" height="3" rx="1.5" fill="#E21B70"/>
+    <circle cx="-6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="-6.8" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <circle cx="6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="5.2" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <polygon points="-2,3 2,3 0,5.5" fill="#E21B70"/>
+    <path d="M-4,6.5 Q-2,9 0,6.5 Q2,9 4,6.5" fill="none" stroke="#2E3138" stroke-width="1.4" stroke-linecap="round"/>
+    <ellipse cx="-10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+    <ellipse cx="10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+  </g>
+
+    </g>
+    <g transform="translate(460, 210) scale(0.9)">
+      
+  <g id="foodcat-mascot">
+    <circle cx="0" cy="0" r="24" fill="#FFFFFF" stroke="#E21B70" stroke-width="2"/>
+    <polygon points="-14,-8 -16,-20 -5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="14,-8 16,-20 5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <ellipse cx="0" cy="1" rx="16" ry="13" fill="#FAD2E1" stroke="#2E3138" stroke-width="1.5"/>
+    <ellipse cx="0" cy="5" rx="11" ry="8" fill="#FFFFFF"/>
+    <path d="M-8,-11 C-8,-17 8,-17 8,-11 Z" fill="#2E3138"/>
+    <rect x="-10" y="-12" width="20" height="3" rx="1.5" fill="#E21B70"/>
+    <circle cx="-6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="-6.8" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <circle cx="6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="5.2" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <polygon points="-2,3 2,3 0,5.5" fill="#E21B70"/>
+    <path d="M-4,6.5 Q-2,9 0,6.5 Q2,9 4,6.5" fill="none" stroke="#2E3138" stroke-width="1.4" stroke-linecap="round"/>
+    <ellipse cx="-10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+    <ellipse cx="10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+  </g>
+
+    </g>
+
+    <!-- Map Legend Overlay -->
+    <rect x="24" y="24" width="320" height="52" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <circle cx="48" cy="50" r="8" fill="#E21B70"/>
+    <text x="64" y="54" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#1A1C20">Active Rider</text>
+    <circle cx="176" cy="50" r="8" fill="#2E3138"/>
+    <text x="192" y="54" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#1A1C20">Restaurant / Darkstore</text>
+  </g>
+
+    </svg>
+  </g>
+
+  <g transform="translate(2500, 2150)">
+    <text x="0" y="-14" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#E4E4E7">A03 • Merchant Portal (1440×900)</text>
+    <rect x="-2" y="-2" width="1444" height="904" rx="16" fill="none" stroke="#3F3F46" stroke-width="2"/>
+    <svg x="0" y="0" width="1440" height="900" viewBox="0 0 1440 900">
+      
+  
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="navShadow" x="-10%" y="-20%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="-2" stdDeviation="6" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E21B70"/>
+      <stop offset="100%" stop-color="#FF4791"/>
+    </linearGradient>
+    <linearGradient id="darkCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E3138"/>
+      <stop offset="100%" stop-color="#1A1C20"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1440" height="900" fill="#F7F7F7"/>
+  
+  <g id="admin-sidebar">
+    <rect x="0" y="0" width="250" height="900" fill="#1A1C20"/>
+    <g transform="translate(42, 46) scale(0.85)">
+      
+  <g id="foodcat-mascot">
+    <circle cx="0" cy="0" r="24" fill="#FFFFFF" stroke="#E21B70" stroke-width="2"/>
+    <polygon points="-14,-8 -16,-20 -5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="14,-8 16,-20 5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <ellipse cx="0" cy="1" rx="16" ry="13" fill="#FAD2E1" stroke="#2E3138" stroke-width="1.5"/>
+    <ellipse cx="0" cy="5" rx="11" ry="8" fill="#FFFFFF"/>
+    <path d="M-8,-11 C-8,-17 8,-17 8,-11 Z" fill="#2E3138"/>
+    <rect x="-10" y="-12" width="20" height="3" rx="1.5" fill="#E21B70"/>
+    <circle cx="-6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="-6.8" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <circle cx="6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="5.2" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <polygon points="-2,3 2,3 0,5.5" fill="#E21B70"/>
+    <path d="M-4,6.5 Q-2,9 0,6.5 Q2,9 4,6.5" fill="none" stroke="#2E3138" stroke-width="1.4" stroke-linecap="round"/>
+    <ellipse cx="-10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+    <ellipse cx="10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+  </g>
+
+    </g>
+    <text x="72" y="46" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" fill="#FFFFFF">foodcat</text>
+    <text x="72" y="64" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="11" fill="#E21B70">ADMIN PORTAL</text>
+    <line x1="20" y1="96" x2="230" y2="96" stroke="#2E3138"/>
+
+    <text x="34" y="143" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Dashboard</text>
+
+    <text x="34" y="193" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Live Dispatch Map</text>
+
+    <text x="34" y="243" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Orders Management</text>
+
+    <rect x="16" y="268" width="218" height="40" rx="10" fill="#E21B70"/>
+    <text x="34" y="293" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#FFFFFF">Restaurants & Catmart</text>
+
+    <text x="34" y="343" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Riders & Fleet</text>
+
+    <text x="34" y="393" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Vouchers & CatPro</text>
+
+    <text x="34" y="443" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Payouts & Finance</text>
+
+    <text x="34" y="493" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">System Settings</text>
+
+    <rect x="16" y="810" width="218" height="64" rx="12" fill="#2E3138"/>
+    <text x="32" y="838" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#FFFFFF">Zack (Super Admin)</text>
+    <text x="32" y="856" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="11" fill="#9CA3AF">Lahore HQ • Ops Lead</text>
+  </g>
+
+  
+  <g id="admin-topbar" transform="translate(250, 0)">
+    <rect x="0" y="0" width="1190" height="76" fill="#FFFFFF"/>
+    <line x1="0" y1="76" x2="1190" y2="76" stroke="#EFEFEF"/>
+    <text x="32" y="36" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="20" fill="#1A1C20">Restaurants & Catmart Partners</text>
+    <text x="32" y="56" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">Manage merchant onboarding, commission tiers, and store status</text>
+
+    <rect x="780" y="18" width="240" height="40" rx="20" fill="#F7F7F7"/>
+    <text x="800" y="43" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="13" fill="#70757A">🔍 Search order ID, rider, store...</text>
+
+    <rect x="1036" y="20" width="122" height="36" rx="18" fill="#FFF0F6"/>
+    <text x="1097" y="42" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#E21B70">● System Healthy</text>
+  </g>
+
+
+  <g transform="translate(282, 104)">
+    <rect x="0" y="0" width="1126" height="768" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+
+    <!-- Filter Tabs -->
+    <rect x="24" y="24" width="160" height="38" rx="19" fill="#E21B70"/>
+    <text x="104" y="48" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#FFFFFF">All Partners (2,190)</text>
+
+    <rect x="196" y="24" width="180" height="38" rx="19" fill="#FFF0F6"/>
+    <text x="286" y="48" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#E21B70">Pending Review (14)</text>
+
+    <rect x="388" y="24" width="160" height="38" rx="19" fill="#F7F7F7"/>
+    <text x="468" y="48" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="13" fill="#1A1C20">Catmart Stores (28)</text>
+
+    <rect x="920" y="24" width="182" height="38" rx="10" fill="#2E3138"/>
+    <text x="1011" y="48" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#FFFFFF">+ Onboard Merchant</text>
+
+    <!-- Table Header -->
+    <rect x="24" y="84" width="1078" height="40" rx="8" fill="#F7F7F7"/>
+    <text x="44" y="109" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#70757A">PARTNER NAME</text>
+    <text x="310" y="109" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#70757A">ZONE</text>
+    <text x="480" y="109" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#70757A">COMMISSION</text>
+    <text x="630" y="109" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#70757A">RATING</text>
+    <text x="770" y="109" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#70757A">STATUS</text>
+    <text x="950" y="109" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#70757A">ACTIONS</text>
+
+    <!-- Merchant 1 -->
+    <text x="44" y="158" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">Meow Burgers &amp; Fries</text>
+    <text x="310" y="158" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#70757A">Gulberg III</text>
+    <text x="480" y="158" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#1A1C20">22% (catpro)</text>
+    <text x="630" y="158" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#1A1C20">★ 4.8</text>
+    <rect x="770" y="141" width="84" height="24" rx="12" fill="#D1FAE5"/>
+    <text x="812" y="157" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#059669">Active</text>
+    <text x="950" y="158" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#E21B70">Manage Menu</text>
+    <line x1="24" y1="182" x2="1102" y2="182" stroke="#F2F2F2"/>
+
+    <!-- Merchant 2 (Pending) -->
+    <text x="44" y="218" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">Kitten Karahi &amp; BBQ</text>
+    <text x="310" y="218" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#70757A">Johar Town</text>
+    <text x="480" y="218" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#1A1C20">25% Standard</text>
+    <text x="630" y="218" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#70757A">New Store</text>
+    <rect x="770" y="201" width="96" height="24" rx="12" fill="#FEF3C7"/>
+    <text x="818" y="217" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#D97706">KYC Pending</text>
+    <rect x="950" y="199" width="84" height="28" rx="8" fill="#10B981"/>
+    <text x="992" y="217" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#FFFFFF">Approve</text>
+    <line x1="24" y1="242" x2="1102" y2="242" stroke="#F2F2F2"/>
+
+    <!-- Merchant 3 -->
+    <text x="44" y="278" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">The Purrfect Pizza Co.</text>
+    <text x="310" y="278" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#70757A">DHA Phase 5</text>
+    <text x="480" y="278" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#1A1C20">20% Enterprise</text>
+    <text x="630" y="278" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#1A1C20">★ 4.9</text>
+    <rect x="770" y="261" width="84" height="24" rx="12" fill="#D1FAE5"/>
+    <text x="812" y="277" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#059669">Active</text>
+    <text x="950" y="278" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#E21B70">Manage Menu</text>
+  </g>
+
+    </svg>
+  </g>
+
+  <g transform="translate(3720, 2150)">
+    <text x="0" y="-14" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#E4E4E7">A04 • Vouchers & CatPro (1440×900)</text>
+    <rect x="-2" y="-2" width="1444" height="904" rx="16" fill="none" stroke="#3F3F46" stroke-width="2"/>
+    <svg x="0" y="0" width="1440" height="900" viewBox="0 0 1440 900">
+      
+  
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="navShadow" x="-10%" y="-20%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="-2" stdDeviation="6" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E21B70"/>
+      <stop offset="100%" stop-color="#FF4791"/>
+    </linearGradient>
+    <linearGradient id="darkCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E3138"/>
+      <stop offset="100%" stop-color="#1A1C20"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1440" height="900" fill="#F7F7F7"/>
+  
+  <g id="admin-sidebar">
+    <rect x="0" y="0" width="250" height="900" fill="#1A1C20"/>
+    <g transform="translate(42, 46) scale(0.85)">
+      
+  <g id="foodcat-mascot">
+    <circle cx="0" cy="0" r="24" fill="#FFFFFF" stroke="#E21B70" stroke-width="2"/>
+    <polygon points="-14,-8 -16,-20 -5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="14,-8 16,-20 5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <ellipse cx="0" cy="1" rx="16" ry="13" fill="#FAD2E1" stroke="#2E3138" stroke-width="1.5"/>
+    <ellipse cx="0" cy="5" rx="11" ry="8" fill="#FFFFFF"/>
+    <path d="M-8,-11 C-8,-17 8,-17 8,-11 Z" fill="#2E3138"/>
+    <rect x="-10" y="-12" width="20" height="3" rx="1.5" fill="#E21B70"/>
+    <circle cx="-6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="-6.8" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <circle cx="6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="5.2" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <polygon points="-2,3 2,3 0,5.5" fill="#E21B70"/>
+    <path d="M-4,6.5 Q-2,9 0,6.5 Q2,9 4,6.5" fill="none" stroke="#2E3138" stroke-width="1.4" stroke-linecap="round"/>
+    <ellipse cx="-10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+    <ellipse cx="10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+  </g>
+
+    </g>
+    <text x="72" y="46" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" fill="#FFFFFF">foodcat</text>
+    <text x="72" y="64" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="11" fill="#E21B70">ADMIN PORTAL</text>
+    <line x1="20" y1="96" x2="230" y2="96" stroke="#2E3138"/>
+
+    <text x="34" y="143" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Dashboard</text>
+
+    <text x="34" y="193" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Live Dispatch Map</text>
+
+    <text x="34" y="243" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Orders Management</text>
+
+    <text x="34" y="293" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Restaurants & Catmart</text>
+
+    <text x="34" y="343" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Riders & Fleet</text>
+
+    <rect x="16" y="368" width="218" height="40" rx="10" fill="#E21B70"/>
+    <text x="34" y="393" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#FFFFFF">Vouchers & CatPro</text>
+
+    <text x="34" y="443" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Payouts & Finance</text>
+
+    <text x="34" y="493" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">System Settings</text>
+
+    <rect x="16" y="810" width="218" height="64" rx="12" fill="#2E3138"/>
+    <text x="32" y="838" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#FFFFFF">Zack (Super Admin)</text>
+    <text x="32" y="856" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="11" fill="#9CA3AF">Lahore HQ • Ops Lead</text>
+  </g>
+
+  
+  <g id="admin-topbar" transform="translate(250, 0)">
+    <rect x="0" y="0" width="1190" height="76" fill="#FFFFFF"/>
+    <line x1="0" y1="76" x2="1190" y2="76" stroke="#EFEFEF"/>
+    <text x="32" y="36" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="20" fill="#1A1C20">Promotions, Vouchers & CatPro Subscriptions</text>
+    <text x="32" y="56" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">Configure discount codes, surge multipliers, and catpro perks</text>
+
+    <rect x="780" y="18" width="240" height="40" rx="20" fill="#F7F7F7"/>
+    <text x="800" y="43" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="13" fill="#70757A">🔍 Search order ID, rider, store...</text>
+
+    <rect x="1036" y="20" width="122" height="36" rx="18" fill="#FFF0F6"/>
+    <text x="1097" y="42" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#E21B70">● System Healthy</text>
+  </g>
+
+
+  <g transform="translate(282, 104)">
+    <!-- Top 2 Campaign Cards -->
+    <rect x="0" y="0" width="550" height="176" rx="16" fill="url(#pinkGrad)"/>
+    <text x="28" y="42" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" fill="#FFFFFF">Voucher: FOODCAT50</text>
+    <text x="28" y="70" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#FFE3EE">50% OFF up to Rs. 300 • First-time customer acquisition</text>
+    <text x="28" y="136" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">14,820 Redemptions • Active</text>
+
+    <rect x="576" y="0" width="550" height="176" rx="16" fill="url(#darkCard)"/>
+    <rect x="604" y="24" width="76" height="24" rx="6" fill="#E21B70"/>
+    <text x="642" y="40" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#FFFFFF">catpro</text>
+    <text x="604" y="78" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" fill="#FFFFFF">48,920 Active Subscribers</text>
+    <text x="604" y="106" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#D1D5DB">Free delivery threshold: Rs. 599 • Rs. 249/month</text>
+    <text x="604" y="142" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#10B981">MRR: Rs. 12.18M</text>
+
+    <!-- Bottom Voucher Builder Form -->
+    <rect x="0" y="204" width="1126" height="564" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="28" y="246" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="18" fill="#1A1C20">Create New Promo Campaign</text>
+
+    <text x="28" y="294" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="13" fill="#70757A">PROMO CODE</text>
+    <rect x="28" y="306" width="340" height="46" rx="10" fill="#F7F7F7" stroke="#E0E0E0"/>
+    <text x="44" y="334" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">MEOWWEEKEND</text>
+
+    <text x="396" y="294" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="13" fill="#70757A">DISCOUNT TYPE</text>
+    <rect x="396" y="306" width="340" height="46" rx="10" fill="#F7F7F7" stroke="#E0E0E0"/>
+    <text x="412" y="334" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">Percentage (25% OFF)</text>
+
+    <text x="764" y="294" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="13" fill="#70757A">MAX CAP (PKR)</text>
+    <rect x="764" y="306" width="334" height="46" rx="10" fill="#F7F7F7" stroke="#E0E0E0"/>
+    <text x="780" y="334" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">Rs. 400</text>
+
+    <rect x="28" y="394" width="220" height="48" rx="10" fill="#E21B70"/>
+    <text x="138" y="423" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#FFFFFF">Launch Campaign</text>
+  </g>
+
+    </svg>
+  </g>
+</svg>

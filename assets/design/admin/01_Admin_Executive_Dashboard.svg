@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="navShadow" x="-10%" y="-20%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="-2" stdDeviation="6" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E21B70"/>
+      <stop offset="100%" stop-color="#FF4791"/>
+    </linearGradient>
+    <linearGradient id="darkCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E3138"/>
+      <stop offset="100%" stop-color="#1A1C20"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1440" height="900" fill="#F7F7F7"/>
+  
+  <g id="admin-sidebar">
+    <rect x="0" y="0" width="250" height="900" fill="#1A1C20"/>
+    <g transform="translate(42, 46) scale(0.85)">
+      
+  <g id="foodcat-mascot">
+    <circle cx="0" cy="0" r="24" fill="#FFFFFF" stroke="#E21B70" stroke-width="2"/>
+    <polygon points="-14,-8 -16,-20 -5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="14,-8 16,-20 5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <ellipse cx="0" cy="1" rx="16" ry="13" fill="#FAD2E1" stroke="#2E3138" stroke-width="1.5"/>
+    <ellipse cx="0" cy="5" rx="11" ry="8" fill="#FFFFFF"/>
+    <path d="M-8,-11 C-8,-17 8,-17 8,-11 Z" fill="#2E3138"/>
+    <rect x="-10" y="-12" width="20" height="3" rx="1.5" fill="#E21B70"/>
+    <circle cx="-6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="-6.8" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <circle cx="6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="5.2" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <polygon points="-2,3 2,3 0,5.5" fill="#E21B70"/>
+    <path d="M-4,6.5 Q-2,9 0,6.5 Q2,9 4,6.5" fill="none" stroke="#2E3138" stroke-width="1.4" stroke-linecap="round"/>
+    <ellipse cx="-10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+    <ellipse cx="10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+  </g>
+
+    </g>
+    <text x="72" y="46" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" fill="#FFFFFF">foodcat</text>
+    <text x="72" y="64" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="11" fill="#E21B70">ADMIN PORTAL</text>
+    <line x1="20" y1="96" x2="230" y2="96" stroke="#2E3138"/>
+
+    <rect x="16" y="118" width="218" height="40" rx="10" fill="#E21B70"/>
+    <text x="34" y="143" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#FFFFFF">Dashboard</text>
+
+    <text x="34" y="193" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Live Dispatch Map</text>
+
+    <text x="34" y="243" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Orders Management</text>
+
+    <text x="34" y="293" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Restaurants & Catmart</text>
+
+    <text x="34" y="343" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Riders & Fleet</text>
+
+    <text x="34" y="393" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Vouchers & CatPro</text>
+
+    <text x="34" y="443" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Payouts & Finance</text>
+
+    <text x="34" y="493" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">System Settings</text>
+
+    <rect x="16" y="810" width="218" height="64" rx="12" fill="#2E3138"/>
+    <text x="32" y="838" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#FFFFFF">Zack (Super Admin)</text>
+    <text x="32" y="856" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="11" fill="#9CA3AF">Lahore HQ • Ops Lead</text>
+  </g>
+
+  
+  <g id="admin-topbar" transform="translate(250, 0)">
+    <rect x="0" y="0" width="1190" height="76" fill="#FFFFFF"/>
+    <line x1="0" y1="76" x2="1190" y2="76" stroke="#EFEFEF"/>
+    <text x="32" y="36" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="20" fill="#1A1C20">Executive Operations Overview</text>
+    <text x="32" y="56" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">Real-time platform performance • Sunday, Nov 15, 2026</text>
+
+    <rect x="780" y="18" width="240" height="40" rx="20" fill="#F7F7F7"/>
+    <text x="800" y="43" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="13" fill="#70757A">🔍 Search order ID, rider, store...</text>
+
+    <rect x="1036" y="20" width="122" height="36" rx="18" fill="#FFF0F6"/>
+    <text x="1097" y="42" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#E21B70">● System Healthy</text>
+  </g>
+
+
+  <!-- 4 KPI Cards -->
+  <g transform="translate(282, 104)">
+    <rect x="0" y="0" width="265" height="122" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="20" y="32" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="13" fill="#70757A">Total GMV (Today)</text>
+    <text x="20" y="72" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="30" fill="#1A1C20">Rs. 4.82M</text>
+    <text x="20" y="100" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#10B981">↑ +22.4% vs yesterday</text>
+
+    <rect x="287" y="0" width="265" height="122" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="307" y="32" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="13" fill="#70757A">Active Orders Now</text>
+    <text x="307" y="72" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="30" fill="#E21B70">1,428</text>
+    <text x="307" y="100" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="12" fill="#70757A">Avg delivery time: 24.2 mins</text>
+
+    <rect x="574" y="0" width="265" height="122" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="594" y="32" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="13" fill="#70757A">Online Riders</text>
+    <text x="594" y="72" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="30" fill="#1A1C20">842 / 910</text>
+    <text x="594" y="100" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#10B981">92.5% Fleet Utilization</text>
+
+    <rect x="861" y="0" width="265" height="122" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="881" y="32" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="13" fill="#70757A">Active Partners</text>
+    <text x="881" y="72" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="30" fill="#1A1C20">2,190</text>
+    <text x="881" y="100" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#E21B70">14 pending KYC approvals</text>
+  </g>
+
+  <!-- Revenue Chart + Live City Breakdown -->
+  <g transform="translate(282, 248)">
+    <!-- Left Chart Card -->
+    <rect x="0" y="0" width="740" height="310" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="24" y="36" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="17" fill="#1A1C20">Hourly Order Volume (Food vs Catmart Grocery)</text>
+    <rect x="530" y="18" width="12" height="12" rx="3" fill="#E21B70"/>
+    <text x="548" y="29" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1A1C20">Food</text>
+    <rect x="605" y="18" width="12" height="12" rx="3" fill="#2E3138"/>
+    <text x="623" y="29" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1A1C20">Catmart</text>
+
+    <!-- Chart Curves -->
+    <path d="M40,240 Q150,210 240,140 T440,110 T690,70" fill="none" stroke="#E21B70" stroke-width="4"/>
+    <path d="M40,255 Q150,245 240,200 T440,175 T690,145" fill="none" stroke="#2E3138" stroke-width="4"/>
+    <line x1="40" y1="265" x2="700" y2="265" stroke="#EFEFEF"/>
+
+    <!-- Right Top Zones Card -->
+    <rect x="762" y="0" width="364" height="310" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="786" y="36" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="17" fill="#1A1C20">Top Performing Zones</text>
+
+    <text x="786" y="76" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">Gulberg III &amp; MM Alam</text>
+    <text x="1102" y="76" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#E21B70">482 orders</text>
+    <rect x="786" y="86" width="316" height="8" rx="4" fill="#EFEFEF"/>
+    <rect x="786" y="86" width="275" height="8" rx="4" fill="#E21B70"/>
+
+    <text x="786" y="132" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">DHA Phase 5 &amp; 6</text>
+    <text x="1102" y="132" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#E21B70">395 orders</text>
+    <rect x="786" y="142" width="316" height="8" rx="4" fill="#EFEFEF"/>
+    <rect x="786" y="142" width="225" height="8" rx="4" fill="#E21B70"/>
+
+    <text x="786" y="188" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">Johar Town &amp; UET Zone</text>
+    <text x="1102" y="188" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#E21B70">310 orders</text>
+    <rect x="786" y="198" width="316" height="8" rx="4" fill="#EFEFEF"/>
+    <rect x="786" y="198" width="180" height="8" rx="4" fill="#E21B70"/>
+
+    <text x="786" y="244" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">Model Town &amp; Garden Town</text>
+    <text x="1102" y="244" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#E21B70">241 orders</text>
+    <rect x="786" y="254" width="316" height="8" rx="4" fill="#EFEFEF"/>
+    <rect x="786" y="254" width="142" height="8" rx="4" fill="#E21B70"/>
+  </g>
+
+  <!-- Live Orders Data Table -->
+  <g transform="translate(282, 580)">
+    <rect x="0" y="0" width="1126" height="292" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="24" y="36" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="17" fill="#1A1C20">Live Order Feed</text>
+    <rect x="980" y="16" width="122" height="32" rx="8" fill="#FFF0F6"/>
+    <text x="1041" y="37" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#E21B70">Export CSV</text>
+
+    <!-- Table Header -->
+    <rect x="24" y="56" width="1078" height="36" rx="8" fill="#F7F7F7"/>
+    <text x="40" y="79" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#70757A">ORDER ID</text>
+    <text x="180" y="79" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#70757A">CUSTOMER</text>
+    <text x="360" y="79" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#70757A">RESTAURANT / STORE</text>
+    <text x="600" y="79" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#70757A">ASSIGNED RIDER</text>
+    <text x="800" y="79" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#70757A">AMOUNT</text>
+    <text x="950" y="79" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#70757A">STATUS</text>
+
+    <!-- Row 1 -->
+    <text x="40" y="124" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#1A1C20">#FC-89412</text>
+    <text x="180" y="124" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1A1C20">Zack</text>
+    <text x="360" y="124" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1A1C20">Meow Burgers &amp; Fries</text>
+    <text x="600" y="124" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1A1C20">Hamza Ali (LEB-4021)</text>
+    <text x="800" y="124" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#1A1C20">Rs. 1,834</text>
+    <rect x="950" y="108" width="110" height="24" rx="12" fill="#FFF0F6"/>
+    <text x="1005" y="124" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#E21B70">On the way</text>
+    <line x1="24" y1="144" x2="1102" y2="144" stroke="#F2F2F2"/>
+
+    <!-- Row 2 -->
+    <text x="40" y="176" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#1A1C20">#FC-89415</text>
+    <text x="180" y="176" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1A1C20">Sarah Khan</text>
+    <text x="360" y="176" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1A1C20">The Purrfect Pizza Co.</text>
+    <text x="600" y="176" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1A1C20">Usman Tariq (LEA-8812)</text>
+    <text x="800" y="176" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#1A1C20">Rs. 2,450</text>
+    <rect x="950" y="160" width="110" height="24" rx="12" fill="#FEF3C7"/>
+    <text x="1005" y="176" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#D97706">Preparing</text>
+    <line x1="24" y1="196" x2="1102" y2="196" stroke="#F2F2F2"/>
+
+    <!-- Row 3 -->
+    <text x="40" y="228" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#1A1C20">#FC-89416</text>
+    <text x="180" y="228" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1A1C20">Bilal Mahmood</text>
+    <text x="360" y="228" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1A1C20">catmart Gulberg Darkstore</text>
+    <text x="600" y="228" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1A1C20">Adeel Raza (LEH-1104)</text>
+    <text x="800" y="228" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#1A1C20">Rs. 1,120</text>
+    <rect x="950" y="212" width="110" height="24" rx="12" fill="#D1FAE5"/>
+    <text x="1005" y="228" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#059669">Delivered</text>
+  </g>
+</svg>

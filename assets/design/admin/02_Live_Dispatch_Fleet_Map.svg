@@ -1,0 +1,223 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="navShadow" x="-10%" y="-20%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="-2" stdDeviation="6" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E21B70"/>
+      <stop offset="100%" stop-color="#FF4791"/>
+    </linearGradient>
+    <linearGradient id="darkCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E3138"/>
+      <stop offset="100%" stop-color="#1A1C20"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1440" height="900" fill="#F7F7F7"/>
+  
+  <g id="admin-sidebar">
+    <rect x="0" y="0" width="250" height="900" fill="#1A1C20"/>
+    <g transform="translate(42, 46) scale(0.85)">
+      
+  <g id="foodcat-mascot">
+    <circle cx="0" cy="0" r="24" fill="#FFFFFF" stroke="#E21B70" stroke-width="2"/>
+    <polygon points="-14,-8 -16,-20 -5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="14,-8 16,-20 5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <ellipse cx="0" cy="1" rx="16" ry="13" fill="#FAD2E1" stroke="#2E3138" stroke-width="1.5"/>
+    <ellipse cx="0" cy="5" rx="11" ry="8" fill="#FFFFFF"/>
+    <path d="M-8,-11 C-8,-17 8,-17 8,-11 Z" fill="#2E3138"/>
+    <rect x="-10" y="-12" width="20" height="3" rx="1.5" fill="#E21B70"/>
+    <circle cx="-6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="-6.8" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <circle cx="6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="5.2" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <polygon points="-2,3 2,3 0,5.5" fill="#E21B70"/>
+    <path d="M-4,6.5 Q-2,9 0,6.5 Q2,9 4,6.5" fill="none" stroke="#2E3138" stroke-width="1.4" stroke-linecap="round"/>
+    <ellipse cx="-10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+    <ellipse cx="10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+  </g>
+
+    </g>
+    <text x="72" y="46" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" fill="#FFFFFF">foodcat</text>
+    <text x="72" y="64" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="11" fill="#E21B70">ADMIN PORTAL</text>
+    <line x1="20" y1="96" x2="230" y2="96" stroke="#2E3138"/>
+
+    <text x="34" y="143" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Dashboard</text>
+
+    <rect x="16" y="168" width="218" height="40" rx="10" fill="#E21B70"/>
+    <text x="34" y="193" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#FFFFFF">Live Dispatch Map</text>
+
+    <text x="34" y="243" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Orders Management</text>
+
+    <text x="34" y="293" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Restaurants & Catmart</text>
+
+    <text x="34" y="343" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Riders & Fleet</text>
+
+    <text x="34" y="393" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Vouchers & CatPro</text>
+
+    <text x="34" y="443" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">Payouts & Finance</text>
+
+    <text x="34" y="493" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#9CA3AF">System Settings</text>
+
+    <rect x="16" y="810" width="218" height="64" rx="12" fill="#2E3138"/>
+    <text x="32" y="838" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#FFFFFF">Zack (Super Admin)</text>
+    <text x="32" y="856" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="11" fill="#9CA3AF">Lahore HQ • Ops Lead</text>
+  </g>
+
+  
+  <g id="admin-topbar" transform="translate(250, 0)">
+    <rect x="0" y="0" width="1190" height="76" fill="#FFFFFF"/>
+    <line x1="0" y1="76" x2="1190" y2="76" stroke="#EFEFEF"/>
+    <text x="32" y="36" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="20" fill="#1A1C20">Live Fleet Dispatch & Zone Heatmap</text>
+    <text x="32" y="56" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">Auto-dispatch engine active • 842 riders online across Lahore</text>
+
+    <rect x="780" y="18" width="240" height="40" rx="20" fill="#F7F7F7"/>
+    <text x="800" y="43" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="13" fill="#70757A">🔍 Search order ID, rider, store...</text>
+
+    <rect x="1036" y="20" width="122" height="36" rx="18" fill="#FFF0F6"/>
+    <text x="1097" y="42" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#E21B70">● System Healthy</text>
+  </g>
+
+
+  <!-- Left Active Unassigned Queue -->
+  <g transform="translate(282, 100)">
+    <rect x="0" y="0" width="340" height="772" rx="14" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="20" y="34" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#1A1C20">Dispatch Queue (18)</text>
+
+    <!-- Card 1 -->
+    <g transform="translate(16, 54)">
+      <rect x="0" y="0" width="308" height="128" rx="12" fill="#FFF0F6" stroke="#E21B70"/>
+      <text x="14" y="26" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">#FC-89419 • Meow Burgers</text>
+      <text x="14" y="46" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#70757A">Drop: Model Town Block C (4.1 km)</text>
+      <text x="14" y="66" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#E21B70">⚡ High Priority • Ready in 3m</text>
+      <rect x="14" y="80" width="280" height="34" rx="8" fill="#E21B70"/>
+      <text x="154" y="102" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#FFFFFF">Manual Assign Nearest Rider</text>
+    </g>
+
+    <!-- Card 2 -->
+    <g transform="translate(16, 198)">
+      <rect x="0" y="0" width="308" height="114" rx="12" fill="#F7F7F7"/>
+      <text x="14" y="26" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">#FC-89420 • Catmart DHA</text>
+      <text x="14" y="46" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#70757A">Drop: DHA Phase 5 (1.9 km)</text>
+      <text x="14" y="68" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="11" fill="#10B981">● Auto-matching rider (85%)</text>
+    </g>
+
+    <!-- Card 3 -->
+    <g transform="translate(16, 328)">
+      <rect x="0" y="0" width="308" height="114" rx="12" fill="#F7F7F7"/>
+      <text x="14" y="26" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">#FC-89421 • Whiskers Biryani</text>
+      <text x="14" y="46" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#70757A">Drop: Garden Town (2.8 km)</text>
+      <text x="14" y="68" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="11" fill="#10B981">● Rider Hamza Ali assigned</text>
+    </g>
+  </g>
+
+  <!-- Right Live City Map Canvas -->
+  <g transform="translate(642, 100)">
+    <rect x="0" y="0" width="766" height="772" rx="14" fill="#FFF0F6" filter="url(#cardShadow)"/>
+    <!-- Stylized City Roads -->
+    <path d="M0,220 Q280,180 460,340 T766,420" fill="none" stroke="#FFFFFF" stroke-width="26"/>
+    <path d="M180,0 L280,772" fill="none" stroke="#FFFFFF" stroke-width="22"/>
+    <path d="M560,0 L450,772" fill="none" stroke="#FFFFFF" stroke-width="20"/>
+
+    <!-- Demand Surge Rings -->
+    <circle cx="380" cy="360" r="160" fill="#E21B70" opacity="0.1"/>
+    <circle cx="380" cy="360" r="95" fill="#E21B70" opacity="0.15"/>
+
+    <!-- Multiple Live Rider Mascot Pins -->
+    <g transform="translate(380, 360) scale(1.1)">
+      
+  <g id="foodcat-mascot">
+    <circle cx="0" cy="0" r="24" fill="#FFFFFF" stroke="#E21B70" stroke-width="2"/>
+    <polygon points="-14,-8 -16,-20 -5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="14,-8 16,-20 5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <ellipse cx="0" cy="1" rx="16" ry="13" fill="#FAD2E1" stroke="#2E3138" stroke-width="1.5"/>
+    <ellipse cx="0" cy="5" rx="11" ry="8" fill="#FFFFFF"/>
+    <path d="M-8,-11 C-8,-17 8,-17 8,-11 Z" fill="#2E3138"/>
+    <rect x="-10" y="-12" width="20" height="3" rx="1.5" fill="#E21B70"/>
+    <circle cx="-6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="-6.8" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <circle cx="6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="5.2" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <polygon points="-2,3 2,3 0,5.5" fill="#E21B70"/>
+    <path d="M-4,6.5 Q-2,9 0,6.5 Q2,9 4,6.5" fill="none" stroke="#2E3138" stroke-width="1.4" stroke-linecap="round"/>
+    <ellipse cx="-10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+    <ellipse cx="10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+  </g>
+
+    </g>
+    <g transform="translate(230, 260) scale(0.9)">
+      
+  <g id="foodcat-mascot">
+    <circle cx="0" cy="0" r="24" fill="#FFFFFF" stroke="#E21B70" stroke-width="2"/>
+    <polygon points="-14,-8 -16,-20 -5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="14,-8 16,-20 5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <ellipse cx="0" cy="1" rx="16" ry="13" fill="#FAD2E1" stroke="#2E3138" stroke-width="1.5"/>
+    <ellipse cx="0" cy="5" rx="11" ry="8" fill="#FFFFFF"/>
+    <path d="M-8,-11 C-8,-17 8,-17 8,-11 Z" fill="#2E3138"/>
+    <rect x="-10" y="-12" width="20" height="3" rx="1.5" fill="#E21B70"/>
+    <circle cx="-6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="-6.8" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <circle cx="6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="5.2" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <polygon points="-2,3 2,3 0,5.5" fill="#E21B70"/>
+    <path d="M-4,6.5 Q-2,9 0,6.5 Q2,9 4,6.5" fill="none" stroke="#2E3138" stroke-width="1.4" stroke-linecap="round"/>
+    <ellipse cx="-10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+    <ellipse cx="10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+  </g>
+
+    </g>
+    <g transform="translate(510, 440) scale(0.9)">
+      
+  <g id="foodcat-mascot">
+    <circle cx="0" cy="0" r="24" fill="#FFFFFF" stroke="#E21B70" stroke-width="2"/>
+    <polygon points="-14,-8 -16,-20 -5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="14,-8 16,-20 5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <ellipse cx="0" cy="1" rx="16" ry="13" fill="#FAD2E1" stroke="#2E3138" stroke-width="1.5"/>
+    <ellipse cx="0" cy="5" rx="11" ry="8" fill="#FFFFFF"/>
+    <path d="M-8,-11 C-8,-17 8,-17 8,-11 Z" fill="#2E3138"/>
+    <rect x="-10" y="-12" width="20" height="3" rx="1.5" fill="#E21B70"/>
+    <circle cx="-6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="-6.8" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <circle cx="6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="5.2" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <polygon points="-2,3 2,3 0,5.5" fill="#E21B70"/>
+    <path d="M-4,6.5 Q-2,9 0,6.5 Q2,9 4,6.5" fill="none" stroke="#2E3138" stroke-width="1.4" stroke-linecap="round"/>
+    <ellipse cx="-10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+    <ellipse cx="10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+  </g>
+
+    </g>
+    <g transform="translate(460, 210) scale(0.9)">
+      
+  <g id="foodcat-mascot">
+    <circle cx="0" cy="0" r="24" fill="#FFFFFF" stroke="#E21B70" stroke-width="2"/>
+    <polygon points="-14,-8 -16,-20 -5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="14,-8 16,-20 5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <ellipse cx="0" cy="1" rx="16" ry="13" fill="#FAD2E1" stroke="#2E3138" stroke-width="1.5"/>
+    <ellipse cx="0" cy="5" rx="11" ry="8" fill="#FFFFFF"/>
+    <path d="M-8,-11 C-8,-17 8,-17 8,-11 Z" fill="#2E3138"/>
+    <rect x="-10" y="-12" width="20" height="3" rx="1.5" fill="#E21B70"/>
+    <circle cx="-6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="-6.8" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <circle cx="6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="5.2" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <polygon points="-2,3 2,3 0,5.5" fill="#E21B70"/>
+    <path d="M-4,6.5 Q-2,9 0,6.5 Q2,9 4,6.5" fill="none" stroke="#2E3138" stroke-width="1.4" stroke-linecap="round"/>
+    <ellipse cx="-10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+    <ellipse cx="10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+  </g>
+
+    </g>
+
+    <!-- Map Legend Overlay -->
+    <rect x="24" y="24" width="320" height="52" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <circle cx="48" cy="50" r="8" fill="#E21B70"/>
+    <text x="64" y="54" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#1A1C20">Active Rider</text>
+    <circle cx="176" cy="50" r="8" fill="#2E3138"/>
+    <text x="192" y="54" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#1A1C20">Restaurant / Darkstore</text>
+  </g>
+</svg>

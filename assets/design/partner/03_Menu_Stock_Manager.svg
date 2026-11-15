@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844">
+  
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="navShadow" x="-10%" y="-20%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="-2" stdDeviation="6" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E21B70"/>
+      <stop offset="100%" stop-color="#FF4791"/>
+    </linearGradient>
+    <linearGradient id="darkCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E3138"/>
+      <stop offset="100%" stop-color="#1A1C20"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="390" height="844" fill="#F7F7F7"/>
+  <rect x="0" y="0" width="390" height="104" fill="#FFFFFF"/>
+  
+  <g id="status-bar">
+    <text x="24" y="28" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#1A1C20">10:20</text>
+    <rect x="315" y="18" width="3" height="10" rx="1" fill="#1A1C20"/>
+    <rect x="320" y="16" width="3" height="12" rx="1" fill="#1A1C20"/>
+    <rect x="325" y="14" width="3" height="14" rx="1" fill="#1A1C20"/>
+    <rect x="330" y="12" width="3" height="16" rx="1" fill="#1A1C20" opacity="0.35"/>
+    <rect x="342" y="16" width="22" height="11" rx="2.5" fill="none" stroke="#1A1C20" stroke-width="1.4"/>
+    <rect x="344" y="18" width="16" height="7" rx="1" fill="#1A1C20"/>
+    <rect x="365" y="19" width="2" height="5" rx="1" fill="#1A1C20"/>
+  </g>
+
+
+  <g transform="translate(16, 52)">
+    <text x="0" y="18" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="20" fill="#1A1C20">Menu Manager</text>
+    <rect x="256" y="-4" width="102" height="32" rx="16" fill="#E21B70"/>
+    <text x="307" y="16" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#FFFFFF">+ Add Item</text>
+  </g>
+
+  <!-- Search Menu -->
+  <g transform="translate(16, 118)">
+    <rect x="0" y="0" width="358" height="40" rx="10" fill="#FFFFFF" stroke="#E0E0E0"/>
+    <text x="16" y="25" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="13" fill="#70757A">🔍 Search 42 menu items...</text>
+  </g>
+
+  <!-- Category Header -->
+  <text x="16" y="186" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#1A1C20">Smash Burgers (8)</text>
+
+  <!-- Item Row 1 (In Stock) -->
+  <g transform="translate(16, 200)">
+    <rect x="0" y="0" width="358" height="88" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <rect x="12" y="14" width="60" height="60" rx="10" fill="#FFE8CC"/>
+    <circle cx="42" cy="44" r="18" fill="#F5A623"/>
+    <text x="84" y="34" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">Double Whisker Smash</text>
+    <text x="84" y="54" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#E21B70">Rs. 890</text>
+    <text x="84" y="72" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#10B981">In Stock</text>
+    <!-- Switch ON -->
+    <rect x="296" y="30" width="46" height="26" rx="13" fill="#10B981"/>
+    <circle cx="329" cy="43" r="10" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Item Row 2 (In Stock) -->
+  <g transform="translate(16, 300)">
+    <rect x="0" y="0" width="358" height="88" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <rect x="12" y="14" width="60" height="60" rx="10" fill="#FAD2E1"/>
+    <circle cx="42" cy="44" r="18" fill="#E21B70"/>
+    <text x="84" y="34" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">Spicy Kitty Zinger</text>
+    <text x="84" y="54" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#E21B70">Rs. 650</text>
+    <text x="84" y="72" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#10B981">In Stock</text>
+    <rect x="296" y="30" width="46" height="26" rx="13" fill="#10B981"/>
+    <circle cx="329" cy="43" r="10" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Item Row 3 (Out of Stock) -->
+  <g transform="translate(16, 400)">
+    <rect x="0" y="0" width="358" height="88" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <rect x="12" y="14" width="60" height="60" rx="10" fill="#EFEFEF"/>
+    <circle cx="42" cy="44" r="18" fill="#CCCCCC"/>
+    <text x="84" y="34" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#70757A">Truffle Mushroom Melt</text>
+    <text x="84" y="54" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#70757A">Rs. 990</text>
+    <text x="84" y="72" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="11" fill="#EF4444">Sold out until tomorrow</text>
+    <!-- Switch OFF -->
+    <rect x="296" y="30" width="46" height="26" rx="13" fill="#D1D5DB"/>
+    <circle cx="309" cy="43" r="10" fill="#FFFFFF"/>
+  </g>
+
+  <text x="16" y="522" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#1A1C20">Loaded Fries &amp; Sides (12)</text>
+
+  <!-- Item Row 4 -->
+  <g transform="translate(16, 536)">
+    <rect x="0" y="0" width="358" height="88" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <rect x="12" y="14" width="60" height="60" rx="10" fill="#FEF3C7"/>
+    <circle cx="42" cy="44" r="18" fill="#F59E0B"/>
+    <text x="84" y="34" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#1A1C20">Loaded Kitty Fries</text>
+    <text x="84" y="54" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="13" fill="#E21B70">Rs. 450</text>
+    <text x="84" y="72" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#10B981">In Stock</text>
+    <rect x="296" y="30" width="46" height="26" rx="13" fill="#10B981"/>
+    <circle cx="329" cy="43" r="10" fill="#FFFFFF"/>
+  </g>
+
+  
+  <g id="bottom-nav" transform="translate(0, 772)" filter="url(#navShadow)">
+    <rect x="0" y="0" width="390" height="72" fill="#FFFFFF"/>
+    <line x1="0" y1="0" x2="390" y2="0" stroke="#EFEFEF" stroke-width="1"/>
+
+    <g transform="translate(48, 14)">
+      <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Orders</text>
+    </g>
+
+    <g transform="translate(140, 14)">
+      <path d="M11 9H9V2H7v7H5V2H3v7c0 2.12 1.66 3.84 3.75 3.97V22h2.5v-9.03C11.34 12.84 13 11.12 13 9V2h-2v7zm5-3v8h2.5v8H21V2c-2.76 0-5 2.24-5 4z" fill="#E21B70" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#E21B70">Menu</text>
+    </g>
+
+    <g transform="translate(235, 14)">
+      <path d="M5 9.2h3V19H5zM10.6 5h2.8v14h-2.8zm5.6 8H19v6h-2.8z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Analytics</text>
+    </g>
+
+    <g transform="translate(330, 14)">
+      <path d="M20 4H4v2h16V4zm1 10v-2l-1-5H4l-1 5v2h1v6h10v-6h4v6h2v-6h1zm-9 4H6v-4h6v4z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Store</text>
+    </g>
+  </g>
+
+</svg>

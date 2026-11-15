@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844">
+  
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="navShadow" x="-10%" y="-20%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="-2" stdDeviation="6" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E21B70"/>
+      <stop offset="100%" stop-color="#FF4791"/>
+    </linearGradient>
+    <linearGradient id="darkCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E3138"/>
+      <stop offset="100%" stop-color="#1A1C20"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="390" height="844" fill="#FFF0F6"/>
+
+  <!-- Zone Heatmap & Map Roads -->
+  <circle cx="195" cy="310" r="135" fill="#E21B70" opacity="0.1"/>
+  <circle cx="195" cy="310" r="80" fill="#E21B70" opacity="0.14"/>
+  <path d="M-20,210 Q150,180 230,270 T410,330" fill="none" stroke="#FFFFFF" stroke-width="20"/>
+  <path d="M100,40 L170,560" fill="none" stroke="#FFFFFF" stroke-width="16"/>
+  <path d="M290,40 L220,560" fill="none" stroke="#FFFFFF" stroke-width="16"/>
+
+  <!-- Rider Current Location -->
+  <g transform="translate(195, 310)">
+    <circle cx="0" cy="0" r="34" fill="#E21B70" opacity="0.22"/>
+    <g transform="scale(1.1)">
+      
+  <g id="foodcat-mascot">
+    <circle cx="0" cy="0" r="24" fill="#FFFFFF" stroke="#E21B70" stroke-width="2"/>
+    <polygon points="-14,-8 -16,-20 -5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="14,-8 16,-20 5,-14" fill="#F8A5C2" stroke="#2E3138" stroke-width="1.5" stroke-linejoin="round"/>
+    <ellipse cx="0" cy="1" rx="16" ry="13" fill="#FAD2E1" stroke="#2E3138" stroke-width="1.5"/>
+    <ellipse cx="0" cy="5" rx="11" ry="8" fill="#FFFFFF"/>
+    <path d="M-8,-11 C-8,-17 8,-17 8,-11 Z" fill="#2E3138"/>
+    <rect x="-10" y="-12" width="20" height="3" rx="1.5" fill="#E21B70"/>
+    <circle cx="-6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="-6.8" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <circle cx="6" cy="0" r="2.8" fill="#2E3138"/>
+    <circle cx="5.2" cy="-0.8" r="1" fill="#FFFFFF"/>
+    <polygon points="-2,3 2,3 0,5.5" fill="#E21B70"/>
+    <path d="M-4,6.5 Q-2,9 0,6.5 Q2,9 4,6.5" fill="none" stroke="#2E3138" stroke-width="1.4" stroke-linecap="round"/>
+    <ellipse cx="-10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+    <ellipse cx="10" cy="4" rx="2.5" ry="1.3" fill="#F78FB3" opacity="0.7"/>
+  </g>
+
+    </g>
+  </g>
+
+  <!-- Top Online Status Bar -->
+  <rect x="0" y="0" width="390" height="104" fill="#2E3138"/>
+  
+  <g id="status-bar">
+    <text x="24" y="28" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="14" fill="#FFFFFF">10:20</text>
+    <rect x="315" y="18" width="3" height="10" rx="1" fill="#FFFFFF"/>
+    <rect x="320" y="16" width="3" height="12" rx="1" fill="#FFFFFF"/>
+    <rect x="325" y="14" width="3" height="14" rx="1" fill="#FFFFFF"/>
+    <rect x="330" y="12" width="3" height="16" rx="1" fill="#FFFFFF" opacity="0.35"/>
+    <rect x="342" y="16" width="22" height="11" rx="2.5" fill="none" stroke="#FFFFFF" stroke-width="1.4"/>
+    <rect x="344" y="18" width="16" height="7" rx="1" fill="#FFFFFF"/>
+    <rect x="365" y="19" width="2" height="5" rx="1" fill="#FFFFFF"/>
+  </g>
+
+  <g transform="translate(16, 52)">
+    <circle cx="10" cy="14" r="6" fill="#10B981"/>
+    <text x="24" y="19" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="15" fill="#FFFFFF">ONLINE • Gulberg Zone</text>
+    <rect x="274" y="0" width="84" height="28" rx="14" fill="#E21B70"/>
+    <text x="316" y="18" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#FFFFFF">End Shift</text>
+  </g>
+
+  <!-- Surge Bonus Pill -->
+  <g transform="translate(75, 120)">
+    <rect x="0" y="0" width="240" height="34" rx="17" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <text x="120" y="22" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#E21B70">🔥 Peak Surge: +Rs. 60 / order</text>
+  </g>
+
+  <!-- Bottom Shift Summary Sheet -->
+  <path d="M0,550 Q0,530 20,530 L370,530 Q390,530 390,550 L390,772 L0,772 Z" fill="#FFFFFF" filter="url(#navShadow)"/>
+  <g transform="translate(20, 556)">
+    <text x="0" y="16" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="17" fill="#1A1C20">Looking for nearby orders...</text>
+    <text x="0" y="36" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="12" fill="#70757A">High demand around MM Alam Road &amp; Liberty</text>
+
+    <!-- 3 Shift Stat Boxes -->
+    <g transform="translate(0, 56)">
+      <rect x="0" y="0" width="110" height="76" rx="12" fill="#FFF0F6"/>
+      <text x="55" y="30" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="18" fill="#E21B70">Rs. 2,840</text>
+      <text x="55" y="52" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#1A1C20">Today's Pay</text>
+
+      <rect x="120" y="0" width="110" height="76" rx="12" fill="#F7F7F7"/>
+      <text x="175" y="30" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="18" fill="#1A1C20">11</text>
+      <text x="175" y="52" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Deliveries</text>
+
+      <rect x="240" y="0" width="110" height="76" rx="12" fill="#F7F7F7"/>
+      <text x="295" y="30" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="18" fill="#10B981">98%</text>
+      <text x="295" y="52" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Acceptance</text>
+    </g>
+
+    <text x="0" y="164" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="12" fill="#70757A">Active Shift: 10:00 AM – 04:00 PM (Batch 1)</text>
+  </g>
+
+  
+  <g id="bottom-nav" transform="translate(0, 772)" filter="url(#navShadow)">
+    <rect x="0" y="0" width="390" height="72" fill="#FFFFFF"/>
+    <line x1="0" y1="0" x2="390" y2="0" stroke="#EFEFEF" stroke-width="1"/>
+
+    <g transform="translate(48, 14)">
+      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z" fill="#E21B70" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="11" fill="#E21B70">Shift</text>
+    </g>
+
+    <g transform="translate(140, 14)">
+      <path d="M19 7c0-1.1-.9-2-2-2h-3v2h3v2.65L13.52 14H10V9H6c-2.21 0-4 1.79-4 4v3h2c0 1.66 1.34 3 3 3s3-1.34 3-3h4.48L19 10.35V7zM7 17c-.55 0-1-.45-1-1h2c0 .55-.45 1-1 1z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Deliveries</text>
+    </g>
+
+    <g transform="translate(235, 14)">
+      <path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Earnings</text>
+    </g>
+
+    <g transform="translate(330, 14)">
+      <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" fill="#70757A" transform="scale(0.95)"/>
+      <text x="11" y="38" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="11" fill="#70757A">Profile</text>
+    </g>
+  </g>
+
+</svg>
