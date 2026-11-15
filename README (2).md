@@ -29,12 +29,13 @@ assets/
   branding/
     foodcat_icon.png
     foodcat_splash.png
-  pictures/
+ 
+```
+ pictures/
     customer_home.png
     restaurant_list.png
     restaurant_menu.png
     product_details.png
-```
 
 If you add images under `assets/pictures/`, make sure the folder is declared in `pubspec.yaml`:
 
@@ -111,11 +112,8 @@ foodcat_flutter/
 └── README.md
 ```
 
-Some platform folders may be omitted if the project is not intended to support those platforms.
 
-## Images and Third-Party Assets
 
-Use images that you created, generated, or have permission to use. Keep product and restaurant images in `assets/pictures/` and reference them through Flutter's asset system. Do not commit private credentials, signing keys, or personal configuration files.
 
 ## GitHub Upload Notes
 
