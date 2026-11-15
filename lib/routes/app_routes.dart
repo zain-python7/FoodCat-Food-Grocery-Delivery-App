@@ -1,0 +1,95 @@
+import 'package:flutter/material.dart';
+import '../screens/auth/welcome_page.dart';
+import '../screens/customer/home_page.dart';
+import '../screens/customer/explore_page.dart';
+import '../screens/customer/search_page.dart';
+import '../screens/customer/restaurant_listing_page.dart';
+import '../screens/customer/restaurant_details_page.dart';
+import '../screens/customer/food_details_page.dart';
+import '../screens/customer/cart_page.dart';
+import '../screens/customer/checkout_page.dart';
+import '../screens/customer/order_success_page.dart';
+import '../screens/customer/live_tracking_page.dart';
+import '../screens/customer/my_orders_page.dart';
+import '../screens/customer/favorites_page.dart';
+import '../screens/customer/notifications_page.dart';
+import '../screens/customer/profile_page.dart';
+import '../screens/customer/help_support_page.dart';
+import '../screens/restaurant/dashboard_page.dart';
+import '../screens/restaurant/orders_page.dart';
+import '../screens/restaurant/order_details_page.dart';
+import '../screens/restaurant/menu_page.dart';
+import '../screens/restaurant/add_edit_food_page.dart';
+import '../screens/restaurant/categories_page.dart';
+import '../screens/restaurant/restaurant_profile_page.dart';
+import '../screens/restaurant/analytics_page.dart';
+import '../screens/restaurant/reviews_page.dart';
+import '../screens/restaurant/settings_page.dart';
+import '../screens/rider/dashboard_page.dart';
+import '../screens/rider/delivery_request_page.dart';
+import '../screens/rider/job_details_page.dart';
+import '../screens/rider/pickup_page.dart';
+import '../screens/rider/navigation_page.dart';
+import '../screens/rider/delivery_confirmation_page.dart';
+import '../screens/rider/earnings_page.dart';
+import '../screens/rider/history_page.dart';
+import '../screens/rider/profile_page.dart';
+import '../screens/rider/registration_page.dart';
+import '../screens/rider/vehicle_documents_page.dart';
+import '../screens/admin/login_page.dart';
+import '../screens/admin/overview_page.dart';
+import '../screens/admin/restaurants_page.dart';
+import '../screens/admin/riders_page.dart';
+import '../screens/admin/orders_page.dart';
+import '../screens/admin/finance_analytics_page.dart';
+import '../screens/admin/customers_settings_page.dart';
+
+class AppRoutes {
+ static const initial='/welcome';
+ static Map<String,WidgetBuilder> get map=> {
+  '/welcome':(_)=>const WelcomePage(),
+  '/customer/home':(_)=>const CustomerHomePage(),
+  '/customer/explore':(_)=>const ExplorePage(),
+  '/customer/search':(_)=>const SearchPage(),
+  '/customer/restaurants':(_)=>const RestaurantListingPage(),
+  '/customer/restaurant-details':(_)=>const RestaurantDetailsPage(),
+  '/customer/food-details':(_)=>const FoodDetailsPage(),
+  '/customer/cart':(_)=>const CartPage(),
+  '/customer/checkout':(_)=>const CheckoutPage(),
+  '/customer/order-success':(_)=>const OrderSuccessPage(),
+  '/customer/live-tracking':(_)=>const LiveTrackingPage(),
+  '/customer/orders':(_)=>const MyOrdersPage(),
+  '/customer/favorites':(_)=>const FavoritesPage(),
+  '/customer/notifications':(_)=>const NotificationsPage(),
+  '/customer/profile':(_)=>const ProfilePage(),
+  '/customer/help':(_)=>const HelpSupportPage(),
+  '/restaurant/dashboard':(_)=>const RestaurantDashboardPage(),
+  '/restaurant/orders':(_)=>const RestaurantOrdersPage(),
+  '/restaurant/order-details':(_)=>const RestaurantOrderDetailsPage(),
+  '/restaurant/menu':(_)=>const RestaurantMenuPage(),
+  '/restaurant/add-edit-food':(_)=>const AddEditFoodPage(),
+  '/restaurant/categories':(_)=>const RestaurantCategoriesPage(),
+  '/restaurant/profile':(_)=>const RestaurantProfilePage(),
+  '/restaurant/analytics':(_)=>const RestaurantAnalyticsPage(),
+  '/restaurant/reviews':(_)=>const RestaurantReviewsPage(),
+  '/restaurant/settings':(_)=>const RestaurantSettingsPage(),
+  '/rider/dashboard':(_)=>const RiderDashboardPage(),
+  '/rider/request':(_)=>const DeliveryRequestPage(),
+  '/rider/job-details':(_)=>const RiderJobDetailsPage(),
+  '/rider/pickup':(_)=>const RiderPickupPage(),
+  '/rider/navigation':(_)=>const RiderNavigationPage(),
+  '/rider/confirmation':(_)=>const DeliveryConfirmationPage(),
+  '/rider/earnings':(_)=>const RiderEarningsPage(),
+  '/rider/history':(_)=>const RiderHistoryPage(),
+  '/rider/profile':(_)=>const RiderProfilePage(),
+  '/rider/registration':(_)=>const RiderRegistrationPage(),
+  '/rider/vehicle-documents':(_)=>const VehicleDocumentsPage(),
+  '/admin/login':(_)=>const AdminLoginPage(),
+  '/admin/overview':(_)=>const AdminOverviewPage(),
+  '/admin/restaurants':(_)=>const AdminRestaurantsPage(),
+  '/admin/riders':(_)=>const AdminRidersPage(),
+  '/admin/orders':(_)=>const AdminOrdersPage(),
+  '/admin/finance-analytics':(_)=>const AdminFinanceAnalyticsPage(),
+  '/admin/customers-settings':(_)=>const AdminCustomersSettingsPage(),
+ };
+}
